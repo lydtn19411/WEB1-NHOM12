@@ -1,0 +1,38 @@
+﻿body {
+    font-family:Roboto;
+ 
+}
+
+header{
+    background-color:#CD8B95;
+    font-family:Roboto;
+    font-size: 20px;
+}
+nav a{
+    color:#000000;
+    font-family:Roboto;
+    display:block;
+   
+}
+a:hover {
+  color: #8B3A62; 
+  padding-top:10px;
+}
+a:active{
+    color: #CD8C95; 
+}
+
+footer {
+    background-color: #CD8B95;
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
