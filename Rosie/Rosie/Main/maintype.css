@@ -15,9 +15,9 @@ header a {
     header a:hover {
         color: #8B3A62;
     }
-header a:active {
-  color: #FFE4E1;
-}
+    header a:active {
+        color: #FFE4E1;
+    }
 
 header i{
     float:right;
@@ -32,37 +32,48 @@ header i{
             display: inline-block;
     }
 .wrapper {
+   
     display: flex;
-    padding:20px 20px;
+    padding: 20px 0px 20px 80px;
+    
 }
     .wrapper img {
-        width: 10%;
-        height: 5%;
+        width: 12%;
+        height: 7%;
         margin-left: 38px;
     }
+
+    .wrapper a{
+        padding: 10px 10px;
+        margin-right: 20px;
+    }
+
     .wrapper a img {
-        width: 50%;
+        width: 80%;
         height: 50%;
-        margin-top:15px;
+        margin-top: 15px;
         background-color: white;
         text-decoration: none;
         border-radius: 5px;
-        
     }
+
     .wrapper a:hover img {
         background-color: #8B3A62;
     }
+
     .wrapper a:active img {
         background-color: #FFE4E1
     }
-    
 
 .search {
     max-width: 700px;
+    max-height: 80px;
+    height:100%;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 120px;
+    margin-right:50px;
     background: #FFE4E1;
-    border-radius: 3px;
+    border-radius: 5px;
     display: flex;
     padding: 15px;
     justify-content: space-between;
@@ -93,33 +104,39 @@ header i{
         transform: translate(-50%, -50%);
         font-size: 18px;
     }
-
-.menu ul{
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    background-color:white;
+.menu{
+    margin-left: 85px;
 }
-    .menu ul li {
-        float: left;
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
     }
 
-        .menu ul li a {
-            display: block;
-            color: black;
-            text-align: left;
-            padding: 14px 50px;
-            text-decoration: none;
+        .menu ul li {
+            float: left;
         }
 
-.menu ul li a:hover {
-    background-color: #8B3A62;
-}
+            .menu ul li a {
+                display: block;
+                color: black;
+                text-align: left;
+                padding: 14px 50px;
+                text-decoration: none;
+            }
 
-.menu ul li a:active {
-    background-color: #FFE4E1;
-}
+                .menu ul li a:hover {
+                    background-color: #8B3A62;
+                }
+
+                .menu ul li a:active {
+                    background-color: #FFE4E1;
+                }
+
+
+
 
 li.dropdown_dd {
     display: inline-block;
@@ -194,7 +211,7 @@ footer {
     width: 100%;
     height: auto;
     bottom: 0;
-    padding: 50px 100px;
+    padding: 50px 30px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -202,6 +219,7 @@ footer {
 
     footer .container {
         display: flex;
+        margin-left:100px;
         justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: row;
@@ -209,8 +227,8 @@ footer {
         footer .container .noi-dung.about {
             width: 15%;
             text-align: justify;
+            margin-right:115px;
         }
-
             footer .container .noi-dung.about p {
                 color: white;
                 font-size: 15px;
@@ -303,7 +321,6 @@ footer {
             .chinhsach ul li a:active {
                 color: #FFE4E1;
             }
-
 .contact h2 {
     position: relative;
     color: white;
@@ -376,11 +393,11 @@ footer {
         }
 
             .social-icon li a:hover {
-                color: #8B3A62;
+                background-color: #8B3A62;
             }
 
             .social-icon li a:active {
-                color: #FFE4E1;
+               background-color: #FFE4E1;
             }
 
 
