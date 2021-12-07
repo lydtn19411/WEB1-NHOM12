@@ -2,9 +2,220 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Giỏ hàng của bạn</title>
+    <link rel="stylesheet" type="text/css" href="maintype.css" />
 </head>
 <body>
+    <!--header giỏ hàng-->
+    <div class="cartheader">
+        <div>
+            <ul>
+                <li><img src="image/Logo/Logo.png" width="150px" /></li>
+                <li style="padding-left: 710px"><b>1. GIỎ HÀNG</b></li>
+                <li>2. THANH TOÁN</li>
+                <li>3. HOÀN TẤT</li>
+            </ul>
+        </div>
+    </div>
+    <br />
 
+    <!--Giỏ hàng-->
+    <table>
+        <tr>
+            <th colspan="7" style="background-color: #ffffff;">
+                <div class="carttitle">
+                    <b>Giỏ hàng của bạn</b>
+                    <i>(2 sản phẩm)</i>
+                </div>
+            </th>
+
+        </tr>
+        <tr>
+            <!--Item 1-->
+            <th colspan="6">
+                <img src="image/Sản phẩm/ImgCocoon/combo hh.png" width="150px" />
+                Gel rửa mặt hoa hồng CoCoon <br />
+                <b>280.000 VNĐ</b> <br />
+                <img src="image/Icon/minus.png" width="20px" />
+
+                <img src="image/Icon/plus.png" width="20px" />
+            </th>
+            <!--2 Button-->
+            <th style="background-color: #ffffff; text-align: center">
+                <button>MUA THÊM</button>
+            </th>
+            <th style="background-color: #ffffff; text-align: center;">
+                <button style="background-color: #8B3A62; color: #ffffff; border: solid #8B3A62;">ĐẶT HÀNG</button>
+            </th>
+        </tr>
+        <tr>
+            <!--Item 2-->
+            <td colspan="6" style=" text-align: left;">
+                <img src="image/Sản phẩm/ImgCocoon/combo body.png" width="150px" />
+                Combo body CoCoon <br />
+                <b>198.000 VNĐ</b> <br />
+                <img src="image/Icon/minus.png" width="20px" />
+
+                <img src="image/Icon/plus.png" width="20px" />
+            </td>
+
+            <!--Mã giảm giá-->
+            <td colspan="3">
+                <div style="vertical-align:top; text-align:start">
+                    <img src="image/Icon/discount.png" style="float:left; padding-right: 10px" ; width="30px" />
+                    <h4 style="text-align: left"><i>Mã giảm giá</i></h4>
+                </div>
+                <br />
+                <h5><input style="border-radius: 4px; padding: 10px" type="text" value="Mã giảm giá" /></h5>
+                <br />
+                <i style="padding-top: 10px; font-size: 15px">Mua thêm <b>222.000 VNĐ</b> để được nhận quà bí mật từ shop bạn nhé!</i>
+                <br />
+                <div>
+                    <img src="image/Icon/line.png" width="350px" />
+                    <img src="image/Icon/gift.png" style="float:right; padding-inline: 10px" />
+                </div>
+            </td>
+        </tr>
+
+
+        <tr>
+            <!--Ưu đãi-->
+
+            <td colspan="6">
+                <ul>ƯU ĐÃI CHO BẠN</ul> <br />
+                <ul style="list-style: none; float: left; display: inline;">
+                    <li style="position: relative; float: left;">
+                        <img src="image/Icon/previous.png" width="30px" />
+                    </li>
+                    <li style="position: relative; float: left;">
+                        <div>
+                            <img src="image/Sản phẩm/ImgCocoon/combo cafe.png" width="120px" /> <br />
+                            Combo cà phê <br />
+                            <b>158.000 VNĐ</b>
+                        </div>
+
+                    </li>
+                    <li style="position: relative; float: left;">
+                        <div>
+                            <img src="image/Sản phẩm/ImgInnisfree/mask spot.png" width="120px" /> <br />
+                            Miếng dán trị mụn... <br />
+                            <b>158.000 VNĐ</b>
+                        </div>
+
+                    </li>
+                    <li style="position: relative; float: left;">
+                        <div>
+                            <img src="image/Sản phẩm/ImgInnisfree/serum trà xanh.png" width="120px" /> <br />
+                            Tinh chất dưỡng... <br />
+                            <b>158.000 VNĐ</b>
+                        </div>
+
+                    </li>
+                    <li style="position: relative; float: left;">
+                        <div>
+                            <img src="image/Sản phẩm/ImgInnisfree/mask trà đen.png" width="120px" /> <br />
+                            Mặt nạ phục hồi da... <br />
+                            <b>158.000 VNĐ</b>
+                        </div>
+
+                    </li>
+                    <li style="position: relative; float: right;">
+                        <img src="image/Icon/next.png" width="30px" />
+                    </li>
+                </ul>
+            </td>
+
+
+            <!--Hóa đơn-->
+            <td colspan="2" style=" text-align: left;">
+                <div style="font-size: 20px; ">
+                    Tiền hàng:
+                    <b style="float: right;">478.000 VNĐ</b>
+                    <br />
+                    Giảm giá:
+                    <b style="float: right;">0 VNĐ</b>
+                    <br />
+                </div>
+                <hr />
+                <div style="font-size: 25px;">
+                    Tạm tính:
+                    <b style="float: right; font-size: 25px">478.000 VNĐ</b>
+                    <br />
+                </div>
+            </td>
+
+        </tr>
+
+    </table>
+    <br />
+    <footer>
+        <div class="container">
+            <!--Bắt Đầu Nội Dung Giới Thiệu-->
+            <div class="noi-dung about">
+                <img width="140" height="70" src="Image/Logo/Logo.png" />
+                <p>
+                    Rosie là kênh mua sắm mỹ phẩm, làm đẹp hàng đầu Việt Nam được các beauty blogger lựa chọn để giới
+                    thiệu sản phẩm họ yêu thích tới khách hàng, người hâm mộ.
+                </p>
+            </div>
+            <!--Kết Thúc Nội Dung Giới Thiệu-->
+            <!--Bắt Đầu Nội Dung Đường Dẫn-->
+            <div class="noi-dung links">
+                <h2>DANH MỤC SẢN PHẨM</h2>
+                <ul>
+                    <li><a href="Thuonghieu/Avene.html">Thương hiệu</a></li>
+                    <li><a href="Duongda/suaduongthe.html">Dưỡng da</a></li>
+                    <li><a href="book.html">Sách</a></li>
+                    <li><a href="consultation.html">Tư vấn</a></li>
+                    <li><a href="Beauty blog/blog.html">Beauty blog</a></li>
+                </ul>
+            </div>
+            <div class="noi-dung chinhsach">
+                <h2>THÔNG TIN VÀ HƯỚNG DẪN</h2>
+                <ul>
+                    <li><a href="gioithieu-chinhsach/verosie.html">Về Rosie</a></li>
+                    <li><a href="consultation.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a></li>
+                    <li><a href="gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a></li>
+                    <li><a href="gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a></li>
+                    <li><a href="gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a></li>
+                    <li><a href="gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Đường Dẫn-->
+            <!--Bắt Đâu Nội Dung Liên Hệ-->
+            <div class="noi-dung contact">
+                <h2>THÔNG TIN LIÊN HỆ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>
+                            <a href="#">+84 231 677 789</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>
+                            Đường Số 1 Quận 1 <br /> TP. Hồ Chí Minh
+                            Việt Nam
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="#">Rosie@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <ul class="social-icon">
+                            <li><a href=""><img class="fa fa-facebook" src="Image/Icon/icon-facebook.png" /></a></li>
+                            <li><a href=""><img class="fa fa-instagram" src="Image/Icon/iconinstagram.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Liên Hệ-->
+        </div>
+    </footer>
 </body>
 </html>

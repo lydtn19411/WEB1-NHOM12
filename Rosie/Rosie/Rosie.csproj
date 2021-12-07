@@ -77,6 +77,8 @@
     <Content Include="Main\Image\Flyer\flyergiamgiason.png" />
     <Content Include="Main\Image\Flyer\flyersach.png" />
     <Content Include="Main\Image\Flyer\flyersanphammoi.png" />
+    <Content Include="Main\Image\Icon\discount.png" />
+    <Content Include="Main\Image\Icon\gift.png" />
     <Content Include="Main\Image\Icon\icon-facebook.png" />
     <Content Include="Main\Image\Icon\iconinstagram.png" />
     <Content Include="Main\Image\Icon\iconmail.png" />
@@ -87,6 +89,11 @@
     <Content Include="Main\Image\Icon\icon_thongbao.png" />
     <Content Include="Main\Image\Icon\ic_giỏ hàng.png" />
     <Content Include="Main\Image\Icon\ic_taikhoan 2.png" />
+    <Content Include="Main\Image\Icon\line.png" />
+    <Content Include="Main\Image\Icon\minus.png" />
+    <Content Include="Main\Image\Icon\next.png" />
+    <Content Include="Main\Image\Icon\plus.png" />
+    <Content Include="Main\Image\Icon\previous.png" />
     <Content Include="Main\Image\Logo\Logo.png" />
     <Content Include="Main\Image\Sản phẩm\ImgAvene\dưỡng ẩm 1.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgAvene\dưỡng ẩm 2.jpg" />
