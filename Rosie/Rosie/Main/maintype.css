@@ -430,18 +430,18 @@ footer {
     }
 
 
-table {
+.cart_table {
     width: 100%;
     border-spacing: 20px;
     padding: 30px;
     border-radius: 10%;
 }
 
-    table tr {
+    .cart_table tr {
         background-color: #FFF1F0;
     }
 
-        table tr th {
+        .cart_table tr th {
             background-color: #FFF1F0;
             vertical-align: middle;
             padding: 15px;
@@ -449,12 +449,12 @@ table {
             border-radius: 20px;
         }
 
-            table tr th img {
+            .cart_table tr th img {
                 float: left;
                 padding-right: 20px;
             }
 
-            table tr th button {
+            .cart_table tr th button {
                 border: initial;
                 padding: 15px 32px;
                 text-align: center;
@@ -464,7 +464,7 @@ table {
                 border-radius: 8px;
             }
 
-        table tr td {
+        .cart_table tr td {
             background-color: #FFF1F0;
             vertical-align: middle;
             padding: 10px;
@@ -472,14 +472,18 @@ table {
             text-align: center;
         }
 
-            table tr td img {
+            .cart_table tr td img {
                 float: left;
                 padding-right: 20px;
             }
 
-            table tr td div {
+            .cart_table tr td div {
                 padding: 20px;
             }    
+
+body{
+    position: relative;
+}
 
 
 
