@@ -92,10 +92,14 @@
     <Content Include="Main\Image\Icon\ic_giỏ hàng.png" />
     <Content Include="Main\Image\Icon\ic_taikhoan 2.png" />
     <Content Include="Main\Image\Icon\line.png" />
+    <Content Include="Main\Image\Icon\location.png" />
     <Content Include="Main\Image\Icon\minus.png" />
     <Content Include="Main\Image\Icon\next.png" />
+    <Content Include="Main\Image\Icon\note.png" />
+    <Content Include="Main\Image\Icon\payment.png" />
     <Content Include="Main\Image\Icon\plus.png" />
     <Content Include="Main\Image\Icon\previous.png" />
+    <Content Include="Main\Image\Icon\ship.png" />
     <Content Include="Main\Image\Logo\Logo.png" />
     <Content Include="Main\Image\Sản phẩm\ImgAvene\dưỡng ẩm 1.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgAvene\dưỡng ẩm 2.jpg" />
@@ -339,6 +343,7 @@
     <Content Include="Main\Chuongtrinhnoibat\chuongtrinhson.html" />
     <Content Include="Main\Image\Sản phẩm\ImgSach\Để yên cho da khỏe đẹp.jpg" />
     <Content Include="Main\mainstyle.js" />
+    <Content Include="Main\Order.html" />
     <Content Include="Main\register.html" />
     <Content Include="Main\login.html" />
     <Content Include="Main\Duongda\kemchongnang.html" />

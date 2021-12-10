@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Đặt hàng</title>
+    <link rel="stylesheet" type="text/css" href="maintype.css" />
+</head>
+<body>
+    <!--header giỏ hàng-->
+    <div class="cartheader">
+        <div>
+            <ul>
+                <li><img src="Image/Logo/Logo.png" width="150px" /></li>
+                <li style="padding-left: 710px">1. GIỎ HÀNG</li>
+                <li><b>2. THANH TOÁN</b></li>
+                <li>3. HOÀN TẤT</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--Đặt hàng-->
+    <table class="cart_table" style="float: left;">
+        <tr>
+            <!--Thông tin ng nhận-->
+            <td style="float: left; border-radius: 20px">
+
+                <h4>
+                    <img src="Image/Icon/location.png" width="50px" />
+                    Thông tin người nhận
+                </h4>
+                <div style="padding-left: 30px;">
+                    <i id="nameCus">Minh Anh</i> <br />
+                    <i id="phoneCus">03xxxxxxxx</i><br />
+                    <i id="addressCus">Thôn 1, xã A, huyện B, tỉnh C</i>
+                </div>
+
+            </td>
+            <!--2 Button-->
+            <td style="background-color: #ffffff; text-align: center">
+                <button>MUA THÊM</button>
+                <button style="background-color: #8B3A62; color: #ffffff; ">ĐẶT HÀNG</button>
+            </td>
+
+        </tr>
+        <tr>
+            <!--Phương thức giao hàng-->
+            <td style=" text-align: left;">
+                <h4>
+                    <img src="Image/Icon/ship.png" width="50px" />
+                    Phương thức giao hàng
+                </h4>
+                <div style="padding-left: 30px">
+                    <i id="shipMethod">Giao hàng tiêu chuẩn</i> <br />
+                    <i>Thời gian dự kiến: <b id="deliveryTime">17/11 - 19/11</b></i>
+                </div>
+
+            </td>
+
+            <!--Thông tin đơn hàng-->
+            <td colspan="2" rowspan="2">
+                <div style="vertical-align:top; text-align:left">
+                    <img src="image/Icon/ic_giỏ hàng.png" style="float:left; padding-right: 10px" ; width="30px" />
+                    <h4 style="text-align: left"><i>Thông tin đơn hàng</i></h4>
+                </div>
+                <br />
+                <ul style="list-style: none; float: left; text-align: left;">
+                    <li>
+                        <img src="Image/Sản phẩm/ImgCocoon/serum hh.png" width="100px" />
+                        <h4 id="pName">Gel rửa mặt hoa hồng CoCoon</h4> <br />
+                        <b id="orderQuantity">2x</b><i>198.000 VNĐ</i>
+
+                    </li>
+                    <li>
+                        <img style="text-align: left" src="Image/Sản phẩm/ImgCocoon/combo body.png" width="100px" />
+                        <h4>Gel rửa mặt hoa hồng CoCoon</h4> <br />
+                        <b>1x</b><i>280.000 VNĐ</i>
+                    </li>
+                </ul>
+            </td>
+
+        </tr>
+        <tr>
+            <!--Phương thức thanh toán-->
+            <td style=" text-align: left;">
+                <h4>
+                    <img src="Image/Icon/payment.png" width="50px" />
+                    Phương thức thanh toán
+                </h4>
+                <div style="padding-left: 30px">
+                    <i id="payMethod">Thanh toán bằng Momo</i> <br />
+                </div>
+            </td>
+
+
+
+        </tr>
+
+        <tr>
+            <!--Ghi chú-->
+            <td style=" text-align: left;">
+                <h4>
+                    <img src="Image/Icon/note.png" width="50px" />
+                    Ghi chú
+                </h4> <br />
+                <p style="padding: 30px">
+                    <input id="note" style="border-radius: 4px; padding: 10px;" type="text" class="input" placeholder="Nhập nội dung ghi chú" size="50" />
+                </p>
+            </td>
+
+            <!--Hóa đơn-->
+            <td style=" text-align: left;">
+                <div style="font-size: 20px; ">
+                    Tiền hàng:
+                    <b id="tienHang" style="float: right;">478.000 VNĐ</b>
+                    <br />
+                    Phí giao hàng:
+                    <b id="deliCharge" style="float: right;">15.000 VNĐ</b>
+                    <br />
+                    Giảm giá:
+                    <b id="discount" style="float: right;">0 VNĐ</b>
+                    <br />
+                </div>
+                <hr />
+                <div style="font-size: 25px;">
+                    Tạm tính:
+                    <b id="totalBill" style="float: right; font-size: 25px">483.000 VNĐ</b>
+                    <br />
+                </div>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <div class="container">
+            <!--Bắt Đầu Nội Dung Giới Thiệu-->
+            <div class="noi-dung about">
+                <img width="140" height="70" src="Image/Logo/Logo.png" />
+                <p>
+                    Rosie là kênh mua sắm mỹ phẩm, làm đẹp hàng đầu Việt Nam được các beauty blogger lựa chọn để giới
+                    thiệu sản phẩm họ yêu thích tới khách hàng, người hâm mộ.
+                </p>
+            </div>
+            <!--Kết Thúc Nội Dung Giới Thiệu-->
+            <!--Bắt Đầu Nội Dung Đường Dẫn-->
+            <div class="noi-dung links">
+                <h2>DANH MỤC SẢN PHẨM</h2>
+                <ul>
+                    <li><a href="Thuonghieu/Avene.html">Thương hiệu</a></li>
+                    <li><a href="Duongda/suaduongthe.html">Dưỡng da</a></li>
+                    <li><a href="book.html">Sách</a></li>
+                    <li><a href="consultation.html">Tư vấn</a></li>
+                    <li><a href="Beauty blog/blog.html">Beauty blog</a></li>
+                </ul>
+            </div>
+            <div class="noi-dung chinhsach">
+                <h2>THÔNG TIN VÀ HƯỚNG DẪN</h2>
+                <ul>
+                    <li><a href="gioithieu-chinhsach/verosie.html">Về Rosie</a></li>
+                    <li><a href="consultation.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a></li>
+                    <li><a href="gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a></li>
+                    <li><a href="gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a></li>
+                    <li><a href="gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a></li>
+                    <li><a href="gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Đường Dẫn-->
+            <!--Bắt Đâu Nội Dung Liên Hệ-->
+            <div class="noi-dung contact">
+                <h2>THÔNG TIN LIÊN HỆ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>
+                            <a href="#">+84 231 677 789</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>
+                            Đường Số 1 Quận 1 <br /> TP. Hồ Chí Minh
+                            Việt Nam
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="#">Rosie@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <ul class="social-icon">
+                            <li><a href=""><img class="fa fa-facebook" src="Image/Icon/icon-facebook.png" /></a></li>
+                            <li><a href=""><img class="fa fa-instagram" src="Image/Icon/iconinstagram.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Liên Hệ-->
+        </div>
+    </footer>
+</body>
+</html>
