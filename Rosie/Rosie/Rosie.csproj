@@ -230,6 +230,8 @@
     <Content Include="Main\Image\Sản phẩm\ImgKiehl%27s\taytrang1.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgKiehl%27s\taytrang2.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgKiehl%27s\toner 1.jpg" />
+    <Content Include="Main\Image\Sản phẩm\ImgLareposay\kcnLRP1.png" />
+    <Content Include="Main\Image\Sản phẩm\ImgLareposay\kcnLRP2.png" />
     <Content Include="Main\Image\Sản phẩm\ImgLareposay\La Roche Posay Soothing Lotion Sensitive Skin.jpeg" />
     <Content Include="Main\Image\Sản phẩm\ImgLareposay\La Roche-Posay Anthelios Anti-Imperfections Corrective SPF50PLUS UVB+ UVA.png" />
     <Content Include="Main\Image\Sản phẩm\ImgLareposay\La Roche-Posay Anthelios Xl SPF50+ Dry Touch Gel-Cream Anti-Shine.png" />
@@ -300,6 +302,7 @@
     <Content Include="Main\Image\Sản phẩm\ImgMaybeline\taytrang1.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgMaybeline\taytrang2.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgMaybeline\taytrang3.jpg" />
+    <Content Include="Main\Image\Sản phẩm\ImgOhui\kcnOHUI.png" />
     <Content Include="Main\Image\Sản phẩm\ImgOhui\O Hui Miracle Moisture Cleansing Oil.png" />
     <Content Include="Main\Image\Sản phẩm\ImgOhui\O Hui Prime Advancer Ampoule Mask 3 Step.png" />
     <Content Include="Main\Image\Sản phẩm\ImgOhui\OHui Clinic Science Deep Medi Cleansing Foam.jpg" />
@@ -344,6 +347,7 @@
     <Content Include="Main\Chuongtrinhnoibat\chuongtrinhson.html" />
     <Content Include="Main\Image\Sản phẩm\ImgSach\Để yên cho da khỏe đẹp.jpg" />
     <Content Include="Main\mainstyle.js" />
+    <Content Include="Main\maintype_dd.css" />
     <Content Include="Main\Order.html" />
     <Content Include="Main\register.html" />
     <Content Include="Main\login.html" />
