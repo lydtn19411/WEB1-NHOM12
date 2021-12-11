@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Main\Beauty blog\blog.html" />
     <Content Include="Main\Beauty blog\chitietblog.html" />
+    <Content Include="Main\ChitietSach\book_biquyetduongdahanquoc.html" />
     <Content Include="Main\Image\Banner\Banner12-12.png" />
     <Content Include="Main\Image\Banner\bannersale.png" />
     <Content Include="Main\Image\Banner\Bannersanphammoii.png" />
@@ -392,15 +393,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Main\Chitietsanpham\ChitietAvene\" />
-    <Folder Include="Main\Chitietsanpham\ChitietCocoon\" />
-    <Folder Include="Main\Chitietsanpham\ChitietEssteelauder\" />
-    <Folder Include="Main\Chitietsanpham\ChitietInnisfree\" />
-    <Folder Include="Main\Chitietsanpham\ChitietKiehl%27s\" />
-    <Folder Include="Main\Chitietsanpham\ChitietLareposay\" />
-    <Folder Include="Main\Chitietsanpham\ChitietMaybeline\" />
-    <Folder Include="Main\Chitietsanpham\ChitietOhui\" />
-    <Folder Include="Main\Chitietsanpham\ChitietSach\" />
+    <Folder Include="Main\ChitietAvene\" />
+    <Folder Include="Main\ChitietCocoon\" />
+    <Folder Include="Main\ChitietEssteelauder\" />
+    <Folder Include="Main\ChitietInnisfree\" />
+    <Folder Include="Main\ChitietKiehl%27s\" />
+    <Folder Include="Main\ChitietLareposay\" />
+    <Folder Include="Main\ChitietMaybeline\" />
+    <Folder Include="Main\Chitiet_Ohui\" />
     <Folder Include="Main\Taikhoan\" />
     <Folder Include="Main\Thongbao\" />
     <Folder Include="Main\Tinnhan\" />
