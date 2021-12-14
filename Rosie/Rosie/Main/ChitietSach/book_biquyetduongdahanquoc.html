@@ -2,9 +2,423 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mỹ phẩm Rosie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
+    <script type="text/javascript" src="../java/mainstyle.js"></script>
 </head>
 <body>
+    <header>
+        <a><marquee style="font-size:15px" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
+        <i><a href="../register.html">Đăng ký</a> &nbsp; <a href="../login.html">Đăng nhập</a></i>
+    </header>
 
+    <div class="wrapper">
+        <img src="../Image/Logo/Logo.png" />
+        <div class="search">
+            <input type="text" class="input" placeholder="Search...">
+            <a class="searchbtn" href=""><i class="fa fa-search"></i></a>
+        </div>
+        <a href=""><img src="../Image/Icon/icon_thongbao.png" /></a>
+        <a href=""><img src="../Image/Icon/ic_taikhoan 2.png" /></a>
+        <a href="cart.html"><img src="../Image/Icon/ic_giỏ hàng.png" /></a>
+    </div>
+
+    <!--Phần menu ngang-->
+    <div class="menu">
+        <ul class="menu_horizontal">
+            <li><a href="../homepage.html">Trang chủ</a></li>
+            <li><a href="../makeup.html">Trang điểm</a></li>
+            <li class="dropdown">
+                <a class="dropbtn">Thương hiệu</a>
+                <div class="dropdown-content">
+                    <a href="../Thuonghieu/Avene.html">Avène</a>
+                    <a href="../Thuonghieu/cocoon.html">Cocoon</a>
+                    <a href="../Thuonghieu/esteelauder.html">Estee Lauder</a>
+                    <a href="../Thuonghieu/innisfree.html">Innisfree</a>
+                    <a href="../Thuonghieu/kiehl's.html">Kiehl's</a>
+                    <a href="../Thuonghieu/larocheposay.html">La Roche-Posay</a>
+                    <a href="../Thuonghieu/maybeline.html">Maybeline</a>
+                    <a href="../Thuonghieu/ohui.html">Ohui</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Dưỡng da</a>
+                <div class="dropdown-content">
+                    <a href="../Duongda/kemchongnang.html">Kem chống nắng</a>
+                    <a href="../Duongda/kemduong.html">Kem dưỡng</a>
+                    <a href="../Duongda/matna.html">Mặt nạ</a>
+                    <a href="../Duongda/suaduongthe.html">Sữa dưỡng thể</a>
+                    <a href="../Duongda/suaruamat.html">Sữa rửa mặt</a>
+                    <a href="../Duongda/taytrang.html">Tẩy trang</a>
+                    <a href="../Duongda/toner.html">Toner</a>
+                </div>
+            </li>
+            <li><a href="../book.html">Sách</a></li>
+            <li><a href="../consultation.html">Tư vấn</a></li>
+            <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+        </ul>
+    </div>
+
+
+    <!--Chi tiết sản phẩm-->
+
+    <div class="product_detail">
+        <div class="product_card">
+            <div class="product_imgs">
+                <div class="img-display">
+                    <div class="img_showcase">
+                        <img src="../Image/Sản phẩm/ImgSach/bimatcuanuoc.jpg" id="ProductImg" />
+
+                        <!--Hình ảnh chi tiết-->
+                        <div class="img_select">
+                            <div class="img_item">
+                                <img class="small_img" src="../Image/Sản phẩm/ImgSach/bimatcuanuoc.jpg" />
+                            </div>
+                            <div class="img_item">
+                                <img class="small_img" src="../Image/Sản phẩm/ImgSach/bimatcuanuoc_1.png" />
+                            </div>
+                            <div class="img_item">
+                                <img class="small_img" src="../Image/Sản phẩm/ImgSach/bimatcuanuoc_2.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product_content">
+                <h2 class="product_title">Bí mật của nước</h2>
+                <div class="prduct_rating">
+                    <img src="../Image/Icon/5_sao_danh_gia.png" />
+                    <span>4.7(21)</span>
+                </div>
+                <div class="product_price">
+                    <p class="last-price"><span>200.000 VNĐ</span></p>
+                    <p class="new-price">Giá:<span>139.000 VNĐ (30%)</span></p>
+                </div>
+
+                <!-----Mô tả sản phẩm----->
+                <div class="product_information">
+                    <h3>Mô tả sản phẩm:</h3>
+                    <p>
+                        Sức khỏe thật sự không có nghĩa là không có sự hiện diện của bệnh tật. Sức khỏe thật sự là trạng thái cân bằng trong cảm xúc, thể chất, tinh thần và tâm hồn
+                        Howard Murad là một trong những bác sĩ có suy nghĩ tân tiến nhất và là một thiên tài ngành thẩm mỹ.
+                    </p>
+                    <p>Qua gần 3 thập niên nghiên cứu, bác sĩ Murad đã đưa ra chương trình sức khỏe tổng thể tân tiến giúp kiểm soát vấn đề lão hóa và đúc kết tất cả trong cuốn sách “Bí mật của nước”.</p>
+                    <ul>
+                        <li>Tác giả:<span>Howard Murad</span> </li>
+                        <li>Nhà xuất bản:<span> NXB Lao Động</span></li>
+                        <li>Ngày xuất bản: <span>12/2016</span></li>
+                    </ul>
+                </div>
+                <div class="purchase">
+                    <input type="number" min="0" value="1" />
+                    <button type="button" class="btn">
+                        Thêm vào giỏ hàng
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="product_item_infor">
+        <h2>THÔNG TIN CHI TIẾT</h2>
+        <p>
+            “Sức khỏe thật sự không có nghĩa là không có sự hiện diện của bệnh tật. Sức khỏe thật sự là trạng thái cân bằng trong cảm xúc, thể chất, tinh thần và tâm hồn”
+            Howard Murad là một trong những bác sĩ có suy nghĩ tân tiến nhất và là một thiên tài ngành thẩm mỹ. Qua gần 3 thập niên nghiên cứu, bác sĩ Murad đã đưa ra chương trình sức khỏe tổng thể tân tiến giúp kiểm soát vấn đề lão hóa và đúc kết tất cả trong cuốn sách “Bí mật của nước”.
+        </p>
+        <p>
+            Mục đích của cuốn sách này là hướng dẫn bạn cách thức áp dụng Bí mật của nước vào cuộc sống theo một phương thức thực tiễn, khả thi và tiết kiệm. Những điều chủ chốt từ Bí mật của nước sẽ là: <br />(1) ngăn ngừa và làm giảm thiểu lượng tế bào bị hủy hoại, để chúng có thể giữ được nhiều nước và dưỡng chất nhất đồng thời <br />(2) điều trị và làm khỏe những màng tế bào và mô liên kết của bạn. Bạn không cần phải kết hợp tất cả ba yếu tố Sức khỏe toàn diện – Chăm sóc bên ngoài, bên trong và Cảm xúc – cùng lúc vào đời sống. Hãy hình dung ba yếu tố này như ba cánh cửa khác nhau có thể giúp bạn chạm tới sức khỏe và năng lượng tối ưu nhất.<br />
+        </p>
+    </div>
+
+
+
+
+
+    <!--Showslie-->
+    <div class="showslide">
+        <h2>SẢN PHẨM LIÊN QUAN</h2>
+        <ul id="autoWidth" class="filtering">
+            <li class="item-a">
+                <a class="box_item" href="">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="../Image/Sản phẩm/ImgSach/bí quyết dưỡng da hàn quốc.jpg" alt="1" />
+                        </div>
+                        <div class="detail_box">
+                            <div class="type"><span>Bí quyết dưỡng da Hàn quốc</span></div>
+                            <div class="price">Giá: 117.000 VNĐ</div>
+                            <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                        </div>
+                    </div>
+                </a>
+
+
+            </li>
+            <li class="item-b">
+                <a class="box_item" href="">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="../Image/Sản phẩm/ImgSach/Dưỡng da kiểu Nhật.jpg" alt="2" />
+                        </div>
+                        <div class="detail_box">
+                            <div class="type"><span>Dưỡng da kiểu Nhật</span></div>
+                            <div class="price">Giá: 96.750 VNĐ</div>
+                            <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                        </div>
+                    </div>
+                </a>
+
+
+
+            </li>
+            <li class="item-c">
+                <a class="box_item" href="">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="../Image/Sản phẩm/ImgSach/dưỡng da trọn gói.jpg" alt="3" />
+                        </div>
+                        <div class="detail_box">
+                            <div class="type"><span>Dưỡng da trọn gói</span></div>
+                            <div class="price">Giá: 99.000 VNĐ</div>
+                            <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                        </div>
+                    </div>
+
+                </a>
+
+
+            </li>
+            <li class="item-d">
+                <a class="box_item" href="">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="../Image/Sản phẩm/ImgSach/Madame Chic - Rất Thần Thái, Rất Paris.jpg" alt="4" />
+                        </div>
+                        <div class="detail_box">
+                            <div class="type"><span>Rất thần thái - rất Paris</span></div>
+                            <div class="price">Giá:  71.400 VNĐ</div>
+                            <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                        </div>
+                    </div>
+                </a>
+
+
+            </li>
+            <li class="item-e">
+                <a class="box_item" href="">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="../Image/Sản phẩm/ImgSach/nghệ thuật chăm sóc làn da.jpg" alt="5" />
+                        </div>
+                        <div class="detail_box">
+                            <div class="type"><span>Nghệ thuật chăm sóc da</span></div>
+                            <div class="price">Giá: 100.000 VNĐ</div>
+                            <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                        </div>
+                    </div>
+                </a>
+
+
+            </li>
+            <li class="item-f">
+                <a class="box_item" href="">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="../Image/Sản phẩm/ImgSach/phù thủy sắc đẹp.jpg" alt="6" />
+                        </div>
+                        <div class="detail_box">
+                            <div class="type"><span>Phù thủy sắc đẹp</span></div>
+                            <div class="price">Giá: 156.800 VNĐ</div>
+                            <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                        </div>
+                    </div>
+                </a>
+
+
+
+            </li>
+            <li class="item-g">
+                <a class="box_item" href="">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="../Image/Sản phẩm/ImgSach/Phụ nữ là phải đẹp.jpg" alt="7" />
+                        </div>
+                        <div class="detail_box">
+                            <div class="type"><span>Phụ nữ là phải đẹp</span></div>
+                            <div class="price">Giá: 135.200 VNĐ</div>
+                            <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                        </div>
+                    </div>
+                </a>
+
+
+            </li>
+            <li class="item-h">
+                <a class="box_item" href="">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="../Image/Sản phẩm/ImgSach/Skincare Chuyên Nghiệp.jpg" alt="8" />
+                        </div>
+                        <div class="detail_box">
+                            <div class="type"><span>Skincare chuyên nghiệp</span></div>
+                            <div class="price">Giá: 120.000 VNĐ</div>
+                            <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                        </div>
+                    </div>
+                </a>
+
+
+
+            </li>
+            <li class="item-i">
+                <a class="box_item" href="">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="../Image/Sản phẩm/ImgSach/Thánh kinh dưỡng da.jpg" alt="9" />
+                        </div>
+                        <div class="detail_box">
+                            <div class="type"><span>Thánh kinh dưỡng da</span></div>
+                            <div class="price">Giá: 84.000 VNĐ</div>
+                            <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                        </div>
+                    </div>
+                </a>
+
+
+
+            </li>
+            <li class="item-k">
+                <a class="box_item" href="">
+                    <div class="box">
+                        <div class="slide-img">
+                            <img src="../Image/Sản phẩm/ImgSach/vũ điệu làn da.jpg" alt="10" />
+                        </div>
+                        <div class="detail_box">
+                            <div class="type"><span>Vũ điệu làn da</span></div>
+                            <div class="price">Giá: 86.500 VNĐ</div>
+                            <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+
+        </ul>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <!--Bắt Đầu Nội Dung Giới Thiệu-->
+            <div class="noi-dung about">
+                <img width="140" height="70" src="../Image/Logo/Logo.png" />
+                <p>
+                    Rosie là kênh mua sắm mỹ phẩm, làm đẹp hàng đầu Việt Nam được các beauty blogger lựa chọn để giới
+                    thiệu sản phẩm họ yêu thích tới khách hàng, người hâm mộ.
+                </p>
+            </div>
+            <!--Kết Thúc Nội Dung Giới Thiệu-->
+            <!--Bắt Đầu Nội Dung Đường Dẫn-->
+            <div class="noi-dung links">
+                <h2>DANH MỤC SẢN PHẨM</h2>
+                <ul>
+                    <li><a href="../Thuonghieu/Avene.html">Thương hiệu</a></li>
+                    <li><a href="../Duongda/suaduongthe.html">Dưỡng da</a></li>
+                    <li><a href="../book.html">Sách</a></li>
+                    <li><a href="../consultation.html">Tư vấn</a></li>
+                    <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+                </ul>
+            </div>
+            <div class="noi-dung chinhsach">
+                <h2>THÔNG TIN VÀ HƯỚNG DẪN</h2>
+                <ul>
+                    <li><a href="../gioithieu-chinhsach/verosie.html">Về Rosie</a></li>
+                    <li><a href="../consultation.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="../gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a></li>
+                    <li><a href="../gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="../gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Đường Dẫn-->
+            <!--Bắt Đâu Nội Dung Liên Hệ-->
+            <div class="noi-dung contact">
+                <h2>THÔNG TIN LIÊN HỆ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>
+                            <a href="#">+84 231 677 789</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>
+                            Đường Số 1 Quận 1 <br /> TP. Hồ Chí Minh
+                            Việt Nam
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="#">Rosie@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <ul class="social-icon">
+                            <li><a href="https://www.facebook.com/Rosie-101843242352127" rel="noreferrer" target="_blank"><img class="fa fa-facebook" src="../Image/Icon/icon-facebook.png" /></a></li>
+                            <li><a href="https://www.instagram.com/rosie_220901/?fbclid=IwAR0mPgy9xpz76xyJcMXziSTPPkFEtbS-OfuL8mxIqId_rseK1PQI1uhjkAI" rel="noreferrer" target="_blank"><img class="fa fa-instagram" src="../Image/Icon/iconinstagram.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Liên Hệ-->
+        </div>
+    </footer>
+
+
+
+    <!--Javascript-->
+    <script type="text/javascript" src="../java/mainstyle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+
+        $('.filtering').slick({
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            arrows: true
+        });
+
+        var filtered = false;
+
+        $('.js-filter').on('click', function () {
+            if (filtered === false) {
+                $('.filtering').slick('slickFilter', ':even');
+                $(this).text('Unfilter Slides');
+                filtered = true;
+            } else {
+                $('.filtering').slick('slickUnfilter');
+                $(this).text('Filter Slides');
+                filtered = false;
+            }
+        });
+    </script>
 </body>
 </html>

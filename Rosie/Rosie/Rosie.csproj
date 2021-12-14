@@ -346,8 +346,8 @@
     <Content Include="Main\Chuongtrinhnoibat\chuongtrinhsanphamtrangdiem.html" />
     <Content Include="Main\Chuongtrinhnoibat\chuongtrinhson.html" />
     <Content Include="Main\Image\Sản phẩm\ImgSach\Để yên cho da khỏe đẹp.jpg" />
-    <Content Include="Main\mainstyle.js" />
-    <Content Include="Main\maintype_dd.css" />
+    <Content Include="Main\java\mainstyle.js" />
+    <Content Include="Main\Css\maintype_dd.css" />
     <Content Include="Main\Order.html" />
     <Content Include="Main\register.html" />
     <Content Include="Main\login.html" />
@@ -367,7 +367,7 @@
     <Content Include="Main\gioithieu-chinhsach\huongdandathang.html" />
     <Content Include="Main\gioithieu-chinhsach\phuongthucvanchuyen.html" />
     <Content Include="Main\gioithieu-chinhsach\verosie.html" />
-    <Content Include="Main\maintype.css" />
+    <Content Include="Main\Css\maintype.css" />
     <Content Include="Main\fogotpw.html" />
     <Content Include="Main\book.html" />
     <Content Include="Main\Thuonghieu\Avene.html" />
