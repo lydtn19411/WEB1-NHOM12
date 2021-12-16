@@ -1,0 +1,182 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Oxygen', sans-serif;
+    background: url(bg.jpg);
+    background-size: cover;
+}
+
+.container_form {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 350px;
+    background: #8B3A62;
+}
+
+    .container_form .form_content, .container_form .login_form {
+        position: relative;
+        width: 50%;
+        height: 350px;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .container_form .form_content {
+        padding: 30px 20px;
+        color: white;
+        box-shadow: -10px -8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+        .container_form .form_content .signup-social-gg {
+            padding: 10px;
+            margin-top: 15px;
+            border-radius: 20px;
+            display: block;
+            width: 100%;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: Roboto;
+            border: 0;
+            background-color: #cD8C95;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 5px 10px 0 rgba(204, 153, 153, 0.5);
+        }
+
+        .container_form .form_content .signup-social-gg-icon-gg {
+            width: 35px;
+            height: 35px;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: red;
+            font-size: 20px;
+        }
+
+        .container_form .form_content .signup-social-fb {
+            padding: 10px;
+            margin-top: 15px;
+            border-radius: 20px;
+            display: block;
+            width: 100%;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: Roboto;
+            border: 0;
+            background-color: #cD8C95;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 5px 10px 0 rgba(204, 153, 153, 0.5);
+        }
+
+        .container_form .form_content .signup-social-fb-icon-fb {
+            width: 35px;
+            height: 35px;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4c6ff4;
+            font-size: 20px;
+        }
+
+        .container_form .form_content .signup-social-text {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .container_form .form_content p {
+            font-family: Roboto;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        .container_form .form_content .text-register {
+            margin: 15px 0 0 0;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+            .container_form .form_content .text-register a {
+                text-decoration: none;
+                color: white;
+            }
+
+                .container_form .form_content .text-register a:hover {
+                    color: #cD8C95;
+                }
+
+    .container_form .login_form {
+        background: #fff;
+        height: 350px;
+        top: 0;
+        box-shadow: -20px 0 15px rgba(0, 0, 0, 0.2);
+        padding: 60px 30px 30px;
+    }
+
+        .container_form .login_form h1 {
+            color: #262626;
+        }
+
+        .container_form .login_form input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            border: 2px solid #ccc;
+            border-radius: 25px;
+            outline: none;
+            font-size: 15px;
+        }
+
+            .container_form .login_form input:hover {
+                border: 2px solid #8B3A62
+            }
+
+            .container_form .login_form input[type="submit"] {
+                color: #fff;
+                background: #8B3A62;
+                font-size: 16px;
+                transition: 0.5s;
+            }
+
+                .container_form .login_form input[type="submit"]:hover {
+                    background: #ff0057;
+                    border: 2px solid #ff0057;
+                }
+
+        .container_form .login_form a {
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #CD8C95;
+        }
+
+            .container_form .login_form a:hover {
+                color: #8B3A62;
+            }

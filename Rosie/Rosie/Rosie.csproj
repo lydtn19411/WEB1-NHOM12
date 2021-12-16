@@ -70,6 +70,8 @@
     <Content Include="Main\Beauty blog\blog.html" />
     <Content Include="Main\Beauty blog\chitietblog.html" />
     <Content Include="Main\ChitietSach\book_biquyetduongdahanquoc.html" />
+    <Content Include="Main\Css\maintype_login.css" />
+    <Content Include="Main\Fogotpassword\fogotpw_OTP.html" />
     <Content Include="Main\Image\Banner\Banner12-12.png" />
     <Content Include="Main\Image\Banner\bannersale.png" />
     <Content Include="Main\Image\Banner\Bannersanphammoii.png" />
@@ -342,7 +344,7 @@
     <Content Include="Main\Image\Sản phẩm\ImgSach\Skincare Chuyên Nghiệp.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgSach\Thánh kinh dưỡng da.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgSach\vũ điệu làn da.jpg" />
-    <Content Include="Main\campaigns.html" />
+    <Content Include="Main\Page\campaigns.html" />
     <Content Include="Main\Chuongtrinhnoibat\chuongtrinhsach.html" />
     <Content Include="Main\Chuongtrinhnoibat\chuongtrinhsanphamduongda.html" />
     <Content Include="Main\Chuongtrinhnoibat\chuongtrinhsanphamtrangdiem.html" />
@@ -350,9 +352,9 @@
     <Content Include="Main\Image\Sản phẩm\ImgSach\Để yên cho da khỏe đẹp.jpg" />
     <Content Include="Main\java\mainstyle.js" />
     <Content Include="Main\Css\maintype_dd.css" />
-    <Content Include="Main\Order.html" />
-    <Content Include="Main\register.html" />
-    <Content Include="Main\login.html" />
+    <Content Include="Main\Page\Order.html" />
+    <Content Include="Main\Page\register.html" />
+    <Content Include="Main\Page\login.html" />
     <Content Include="Main\Duongda\kemchongnang.html" />
     <Content Include="Main\Duongda\kemduong.html" />
     <Content Include="Main\Duongda\matna.html" />
@@ -360,7 +362,7 @@
     <Content Include="Main\Duongda\suaruamat.html" />
     <Content Include="Main\Duongda\taytrang.html" />
     <Content Include="Main\Duongda\toner.html" />
-    <Content Include="Main\cart.html" />
+    <Content Include="Main\Page\cart.html" />
     <Content Include="Main\gioithieu-chinhsach\chinsachbaomat.html" />
     <Content Include="Main\gioithieu-chinhsach\chinsachdoitra.html" />
     <Content Include="Main\gioithieu-chinhsach\cuahangcuarosie.html" />
@@ -370,8 +372,8 @@
     <Content Include="Main\gioithieu-chinhsach\phuongthucvanchuyen.html" />
     <Content Include="Main\gioithieu-chinhsach\verosie.html" />
     <Content Include="Main\Css\maintype.css" />
-    <Content Include="Main\fogotpw.html" />
-    <Content Include="Main\book.html" />
+    <Content Include="Main\Fogotpassword\fogotpw.html" />
+    <Content Include="Main\Page\book.html" />
     <Content Include="Main\Thuonghieu\Avene.html" />
     <Content Include="Main\Thuonghieu\cocoon.html" />
     <Content Include="Main\Thuonghieu\esteelauder.html" />
@@ -380,10 +382,10 @@
     <Content Include="Main\Thuonghieu\larocheposay.html" />
     <Content Include="Main\Thuonghieu\maybeline.html" />
     <Content Include="Main\Thuonghieu\ohui.html" />
-    <Content Include="Main\search.html" />
-    <Content Include="Main\homepage.html" />
-    <Content Include="Main\makeup.html" />
-    <Content Include="Main\consultation.html" />
+    <Content Include="Main\Page\search.html" />
+    <Content Include="Main\index.html" />
+    <Content Include="Main\Page\makeup.html" />
+    <Content Include="Main\Page\consultation.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
