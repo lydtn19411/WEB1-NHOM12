@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đặt hàng</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
@@ -11,7 +12,7 @@
     <div class="cartheader">
         <div>
             <ul>
-                <li><img src="../Image/Logo/Logo.png" width="150px" /></li>
+                <li><img src="../Image/Logo/Logo.png" width="150" /></li>
                 <li style="padding-left: 710px">1. GIỎ HÀNG</li>
                 <li><b>2. THANH TOÁN</b></li>
                 <li>3. HOÀN TẤT</li>
@@ -19,14 +20,14 @@
         </div>
     </div>
 
-
     <!--Đặt hàng-->
-    <table class="cart_table" style="float: left;">
+    <table class="cart_table" width="100%">
         <tr>
-            <!--Thông tin ng nhận-->
+
+            <!--Thông tin người nhận-->
             <td style=" text-align: left;">
                 <h4>
-                    <img src="../Image/Icon/location.png" width="30px" />
+                    <img src="../Image/Icon/location.png" width="30" />
                     Thông tin người nhận
                 </h4>
                 <div style="padding-left: 30px">
@@ -34,57 +35,58 @@
                     <i id="phoneCus">03xxxxxxxx</i> <br />
                     <i id="addressCus">Thôn 1, xã A, huyện B, tỉnh C</i>
                 </div>
-
             </td>
+
             <!--2 Button-->
             <th style="background-color: #ffffff; text-align: center">
-                <button>MUA THÊM</button>
+                <button>QUAY LẠI</button>
+            </th>
+            <th style="background-color: #ffffff; text-align: center">
                 <button style="background-color: #8B3A62; color: #ffffff; ">ĐẶT HÀNG</button>
             </th>
 
         </tr>
+
         <tr>
+
             <!--Phương thức giao hàng-->
             <td style=" text-align: left;">
                 <h4>
-                    <img src="../Image/Icon/ship.png" width="30px" />
+                    <img src="../Image/Icon/ship.png" width="30" />
                     Phương thức giao hàng
                 </h4>
                 <div style="padding-left: 30px">
                     <i id="shipMethod">Giao hàng tiêu chuẩn</i> <br />
                     <i>Thời gian dự kiến: <b id="deliveryTime">17/11 - 19/11</b></i>
                 </div>
-
             </td>
 
             <!--Thông tin đơn hàng-->
-            <td colspan="3" rowspan="2">
+            <td colspan="2" rowspan="2" style=" text-align: left;">
                 <div style="vertical-align:top; text-align:left">
-                    <img src="../image/Icon/ic_giỏ hàng.png" style="float:left; padding-right: 10px" ; width="30px" />
+                    <img src="../image/Icon/ic_giỏ hàng.png" style="float:left; padding-right: 10px" ; width="30" />
                     <h4 style="text-align: left"><i>Thông tin đơn hàng</i></h4>
                 </div>
+                <div>
+                    <img src="../Image/Sản phẩm/ImgCocoon/serum hh.png" width="100" />
+                    <h4 id="pName">Gel rửa mặt hoa hồng CoCoon</h4> <br />
+                    <b id="orderQuantity">2x</b><i>198.000 VNĐ</i>
+                </div>
                 <br />
-                <ul style="list-style: none; float: left; text-align: left;">
-                    <li>
-                        <img src="../Image/Sản phẩm/ImgCocoon/serum hh.png" width="100" />
-                        <h4 id="pName">Gel rửa mặt hoa hồng CoCoon</h4> <br />
-                        <b id="orderQuantity">2x</b><i>198.000 VNĐ</i>
-
-                    </li>
-                    <li>
-                        <img style="text-align: left" src="../Image/Sản phẩm/ImgCocoon/combo body.png" width="100px" />
-                        <h4>Combo body CoCoon</h4> <br />
-                        <b>1x</b><i>280.000 VNĐ</i>
-                    </li>
-                </ul>
+                <div>
+                    <img style="text-align: left" src="../Image/Sản phẩm/ImgCocoon/combo body.png" width="100" />
+                    <h4>Combo body CoCoon</h4> <br />
+                    <b>1x</b><i>280.000 VNĐ</i>
+                </div>
             </td>
 
         </tr>
+
         <tr>
             <!--Phương thức thanh toán-->
             <td style=" text-align: left;">
                 <h4>
-                    <img src="../Image/Icon/payment.png" width="30px" />
+                    <img src="../Image/Icon/payment.png" width="30" />
                     Phương thức thanh toán
                 </h4>
                 <div style="padding-left: 30px">
@@ -92,15 +94,14 @@
                 </div>
             </td>
 
-
-
         </tr>
 
         <tr>
+
             <!--Ghi chú-->
             <td style=" text-align: left;">
                 <h4>
-                    <img src="../Image/Icon/note.png" width="30px" />
+                    <img src="../Image/Icon/note.png" width="30" />
                     Ghi chú
                 </h4> <br />
                 <p style="padding: 30px">
@@ -108,8 +109,9 @@
                 </p>
             </td>
 
+
             <!--Hóa đơn-->
-            <td style=" text-align: left;">
+            <td colspan="2" style=" text-align: left;">
                 <div style="font-size: 20px; ">
                     Tiền hàng:
                     <b id="tienHang" style="float: right;">478.000 VNĐ</b>
@@ -130,6 +132,7 @@
             </td>
         </tr>
     </table>
+
     <footer>
         <div class="container">
             <!--Bắt Đầu Nội Dung Giới Thiệu-->
@@ -199,5 +202,15 @@
             <!--Kết Thúc Nội Dung Liên Hệ-->
         </div>
     </footer>
-</body>
-</html>
+
+
+    <!--lỗi-->
+        <script type="text/javascript">
+            var tienhang = document.getElementById('tienHang');
+            var phiship = document.getElementById('deliCharge');
+            var totalBill = tienhang + phiship;
+            totalBill.innerHTML = totalBill;
+        </script>
+
+    </body>
+    </html>
