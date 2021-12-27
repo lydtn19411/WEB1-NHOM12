@@ -26,4 +26,21 @@ SmallImg[4].onclick = function () {
 }
 
 
+function menu_list(type, element) {
+    console.log('element');
+
+    switch (type) {
+        case 'menu':
+            document.getElementById('menu_hor').style.display = 'block';
+            break;
+        case 'menu_none':
+            document.getElementById('menu_hor').style.display = 'none';
+            break;
+    }
+
+}
+
+
+
+
 

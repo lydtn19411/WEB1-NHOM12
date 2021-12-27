@@ -1,0 +1,392 @@
+﻿
+:root {
+    --color-hongdam: #8B3A62;
+    --color-hongnhat: #FFE4E1;
+    --color-hotpink3: #CD8c95;
+    --color-pink: #FFC0CB;
+    --color-pink2: #EEA9B8;
+    --color-hoaoaihuong: #E6E6FA;
+    --color-xam: #C4C4C4;
+}
+
+/*HOMEPAGE*/
+/*Danh mục sp*/
+
+
+.main_danhmuc_sanpham {
+    width: 150vh;
+    position: relative;
+    margin: auto;
+}
+
+.danhmuc_sanpham {
+    display: block;
+}
+
+    .danhmuc_sanpham b {
+        font-weight: 400;
+        margin-left: -0.5rem;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+.product_list_home {
+    margin: 5rem 0 5rem 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin-top: 30px;
+}
+
+    .product_list_home a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .product_list_home .card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 1em;
+        border: 0.5px solid #C4C4C4;
+        box-shadow: 0px 10px 5px #b2bec3;
+        text-align: center;
+    }
+
+.card .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card .text {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.card .image img {
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card .image_flyer img {
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: var(--color-hongnhat);
+    transition: 0.6s ease;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timkiemgannhat {
+    margin: 5rem 0 5rem 0;
+    display: block;
+}
+
+    .timkiemgannhat b {
+        font-weight: 400;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .timkiemgannhat .text_timkiemgannhat {
+        text-align: center;
+        display: flex;
+    }
+
+        .timkiemgannhat .text_timkiemgannhat .item_timkiemgannhat {
+            font-size: 20px;
+            border: 1.5px solid var(--xam);
+            width: 50rem;
+            font-size: 20px;
+            border: 0.5px solid var(--xam);
+            margin: 5rem 0 0 0;
+        }
+
+            .timkiemgannhat .text_timkiemgannhat .item_timkiemgannhat input {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+                margin-bottom: 20px;
+                border: 2px solid #ccc;
+                border-radius: 25px;
+                outline: none;
+                font-size: 15px;
+            }
+
+                .timkiemgannhat .text_timkiemgannhat .item_timkiemgannhat input:hover {
+                    border: 2px solid var(--color-hongdam);
+                }
+
+                .timkiemgannhat .text_timkiemgannhat .item_timkiemgannhat input[type="submit"] {
+                    color: black;
+                    background: white;
+                    font-size: 16px;
+                    transition: 0.5s;
+                }
+
+                    .timkiemgannhat .text_timkiemgannhat .item_timkiemgannhat input[type="submit"]:hover {
+                        background: var(--color-hongdam );
+                        border: 2px solid var(--color-hongdam );
+                    }
+
+
+/*Home_SLIDE*/
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev_slider, .next_slider {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next_slider {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev_slider:hover, .next_slider:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    max-width: 100%;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/*DANH MỤC SẢN PHẨM TRONG HOMEPAGE*/
+
+.main_danhmuc_sanpham {
+    width: 150vh;
+    position: relative;
+    margin: auto;
+}
+
+.danhmuc_sanpham {
+    display: block;
+}
+
+    .danhmuc_sanpham b {
+        font-weight: 400;
+        margin-left: -0.5rem;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+.product_list_home {
+    margin: 5rem 0 5rem 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin-top: 30px;
+}
+
+    .product_list_home a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .product_list_home .card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 1em;
+        border: 0.5px solid #C4C4C4;
+        box-shadow: 0px 10px 5px #b2bec3;
+        text-align: center;
+    }
+
+.card .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card .text {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.card .image img {
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card .image_flyer img {
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: var(--color-hongnhat);
+    transition: 0.6s ease;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timkiemgannhat {
+    margin: 5rem 0 5rem 0;
+    display: block;
+}
+
+    .timkiemgannhat b {
+        font-weight: 400;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .timkiemgannhat .text_timkiemgannhat {
+        text-align: center;
+        display: flex;
+    }
+
+        .timkiemgannhat .text_timkiemgannhat .item_timkiemgannhat {
+            font-size: 20px;
+            border: 1.5px solid var(--xam);
+            width: 50rem;
+            font-size: 20px;
+            border: 0.5px solid var(--xam);
+            margin: 5rem 0 0 0;
+        }
+
+            .timkiemgannhat .text_timkiemgannhat .item_timkiemgannhat input {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+                margin-bottom: 20px;
+                border: 2px solid #ccc;
+                border-radius: 25px;
+                outline: none;
+                font-size: 15px;
+            }
+
+                .timkiemgannhat .text_timkiemgannhat .item_timkiemgannhat input:hover {
+                    border: 2px solid var(--color-hongdam);
+                }
+
+                .timkiemgannhat .text_timkiemgannhat .item_timkiemgannhat input[type="submit"] {
+                    color: black;
+                    background: white;
+                    font-size: 16px;
+                    transition: 0.5s;
+                }
+
+                    .timkiemgannhat .text_timkiemgannhat .item_timkiemgannhat input[type="submit"]:hover {
+                        background: var(--color-hongdam );
+                        border: 2px solid var(--color-hongdam );
+                    }
+
+
+
+@media (max-width: 768px) {
+    .danhmuc_sanpham {
+        width: 50%;
+        margin-left: 10rem;
+        text-align: center;
+    }
+
+    .product_list_home {
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 40px;
+        margin-top: 30px;
+    }
+
+    .timkiemgannhat {
+        width: 50%;
+        text-align: center;
+        margin-left: 10rem;
+    }
+
+        .timkiemgannhat .text_timkiemgannhat {
+            margin-left: -2rem;
+        }
+}

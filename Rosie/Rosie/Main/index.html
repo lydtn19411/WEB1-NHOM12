@@ -2,35 +2,42 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mỹ phẩm Rosie</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="../Main/Css/maintype.css" />
+    <link rel="stylesheet" type="text/css" href="Css/maintype.css" />
+    <link rel="stylesheet" type="text/css" href="Css/maintype_homepage.css" />
+
 </head>
 <body>
     <header>
-        <a><marquee style="font-size:15px" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
+        <a><marquee style="font-size:15px" width="26% ">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
         <i><a href="Page/register.html">Đăng ký</a> &nbsp; <a href="Page/login.html">Đăng nhập</a></i>
     </header>
 
     <div class="wrapper">
-        <img src="Image/Logo/Logo.png" />
+        <img src="Image/Logo/Logo.png" onclick="menu_list('menu_none', this)" />
         <div class="search">
             <input type="text" class="input" placeholder="Search...">
             <a class="searchbtn" href=""><i class="fa fa-search"></i></a>
         </div>
-        <a href=""><img src="Image/Icon/icon_thongbao.png" /></a>
-        <a href=""><img src="Image/Icon/ic_taikhoan 2.png" /></a>
-        <a href="cart.html"><img src="Image/Icon/ic_giỏ hàng.png" /></a>
+        <div class="icons">
+            <a href=""><i class="fa fa-bell"></i></a>
+            <a href=""><i class="fa fa-user-circle"></i></a>
+            <a href="../Main/Page/cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <div class="menu_small" onclick="menu_list('menu', this)"> <i class="fa fa-bars"></i></div>
+        </div>
     </div>
 
     <!--Phần menu ngang-->
     <div class="menu">
-        <ul class="menu_horizontal">
+        <ul class="menu_horizontal" id="menu_hor">
             <li><a href="index.html">Trang chủ</a></li>
             <li><a href="../Main/Page/makeup.html">Trang điểm</a></li>
-            <li class="dropdown">
-                <a class="dropbtn">Thương hiệu</a>
-                <div class="dropdown-content">
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn" href="Thuonghieu/Avene.html">Thương hiệu</a>
+                <div class="mn_dropdown-content">
                     <a href="Thuonghieu/Avene.html">Avène</a>
                     <a href="Thuonghieu/cocoon.html">Cocoon</a>
                     <a href="Thuonghieu/esteelauder.html">Estee Lauder</a>
@@ -41,9 +48,9 @@
                     <a href="Thuonghieu/ohui.html">Ohui</a>
                 </div>
             </li>
-            <li class="dropdown">
-                <a class="dropbtn">Dưỡng da</a>
-                <div class="dropdown-content">
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn" href="Duongda/kemchongnang.html">Dưỡng da</a>
+                <div class="mn_dropdown-content">
                     <a href="Duongda/kemchongnang.html">Kem chống nắng</a>
                     <a href="Duongda/kemduong.html">Kem dưỡng</a>
                     <a href="Duongda/matna.html">Mặt nạ</a>
@@ -58,6 +65,243 @@
             <li><a href="Beauty blog/blog.html">Beauty blog</a></li>
         </ul>
     </div>
+
+    <!--Slider banner-->
+    <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="Image/Banner/Banner12-12.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="Image/Banner/bannersale.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="Image/Banner/Bannersanphammoii.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="Image/Banner/BannerTet.png" style="width:100%">
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev_slider" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next_slider" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <!-- Sản phẩm -->
+    <div class="main_danhmuc_sanpham">
+        <div class="danhmuc_sanpham">
+            <b>HOT DEAL</b>
+            <div class="product_list_home">
+
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgCocoon/dưỡng thể kd bh.png" /></div>
+                    <div class="title">SỮA DƯỠNG THỂ KHUYNH DIỆP & BẠC HÀ</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 95.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgCocoon/bơ dưỡng cafe.png" /></div>
+                    <div class="title">BƠ DƯỠNG THỂ CÀ PHÊ ĐẮK LẮK</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 195.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgKiehl's/kcn3.jpg" /></div>
+                    <div class="title">
+                        Kiehl's Ultra-Light Daily UV Defense Mineral Sunscreen spf 50 PA+++ 5ml
+                    </div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 139.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgAvene/kcn1.jpg" /></div>
+                    <div class="title">Avène Very High Protection Mineral Lotion SPF50+ 100ml</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 713.000 VNĐ</div>
+
+                </a>
+            </div>
+        </div>
+        <div class="danhmuc_sanpham">
+            <b>BOX BÁN CHẠY</b>
+            <div class="product_list_home">
+
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgCocoon/srm nghệ hưng yên.png" /></div>
+                    <div class="title">SỮA RỬA MẶT NGHỆ HƯNG YÊN</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 175.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgAvene/kem dưỡng thể 2.jpg" /></div>
+                    <div class="title">Avène Moisturising Body Lotion 200ml</div>
+                    <div class="image_star"><img src="image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 669.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgOhui/Ohui Delight Therapy Body Lotion.jpg" /></div>
+                    <div class="title">OHUI Delight Therapy Body Lotion 300ml</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 720.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgAvene/kcn1.jpg" /></div>
+                    <div class="title">Avène Very High Protection Mineral Lotion SPF50+ 100ml</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 713.000 VNĐ</div>
+
+                </a>
+            </div>
+        </div>
+
+        <div class="danhmuc_sanpham">
+            <b>MUA LẺ MỚI NHẤT</b>
+            <div class="product_list_home">
+
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgKiehl's/kcn1.png" /></div>
+                    <div class="title">Ultra Light Daily UV Defense Mineral Sunscreen SPF50 PA+++ </div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 1.390.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgKiehl's/kcn2.jpg" /></div>
+                    <div class="title">Ultra Light Daily UV Defense CC Cream</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 1.000.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgCocoon/Thạch hh dưỡng ẩm.png" /></div>
+                    <div class="title">THẠCH HOA HỒNG DƯỠNG ẨM 100ML</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 375.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgInnisfree/dưỡng ẩm oliu.png" /></div>
+                    <div class="title">Innisfree Olive Real Lotion 160ml</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 400.000 VNĐ</div>
+
+                </a>
+            </div>
+        </div>
+        <div class=timkiemgannhat>
+            <b>TÌM KIẾM NHIỀU NHẤT</b>
+            <div class="text_timkiemgannhat">
+                <div class="item_timkiemgannhat">
+                    <form action="Page/makeup.html">
+                        <input type="submit" name="" value="Son">
+                    </form>
+                </div>
+                <div class="item_timkiemgannhat">
+                    <form action="">
+                        <input type="submit" name="" value="Sữa rửa mặt">
+                    </form>
+                </div>
+                <div class="item_timkiemgannhat">
+                    <form action="">
+                        <input type="submit" name="" value="SỮa dưỡng thể">
+                    </form>
+                </div>
+                <div class="item_timkiemgannhat">
+                    <form action="">
+                        <input type="submit" name="" value="Kem chống nắng">
+                    </form>
+                </div>
+                <div class="item_timkiemgannhat">
+                    <form action="">
+                        <input type="submit" name="" value="Phấn hồng">
+                    </form>
+                </div>
+                <div class="item_timkiemgannhat">
+                    <form action="">
+                        <input type="submit" name="" value="Kem nền">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="danhmuc_sanpham">
+            <b>DÀNH RIÊNG CHO BẠN</b>
+            <div class="product_list_home">
+
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgKiehl's/srm 3.png" /></div>
+                    <div class="title">Kiehl’s Ultra Facial Oil-Free Cleanser 150ml</div>
+                    <div class="image_star"><img src="image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 575.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgKiehl's/srm4.jpg" /></div>
+                    <div class="title">Sữa Rửa Mặt Kiehl’s Cho Nam Age Defender Cleanser</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 450.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgCocoon/Ntt hoa hồng.png" /></div>
+                    <div class="title">NƯỚC TẨY TRANG HOA HỒNG 500ML</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 275.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image"><img src="Image/Sản phẩm/ImgCocoon/Dầu tt hh.png" /></div>
+                    <div class="title">DẦU TẨY TRANG HOA HỒNG</div>
+                    <div class="image_star"><img src="image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 180.000 VNĐ</div>
+
+                </a>
+            </div>
+        </div>
+        <div class="danhmuc_sanpham">
+            <b>CHƯƠNG TRÌNH NỔI BẬT</b>
+            <div class="product_list_home">
+
+                <a class="card" href="#">
+                    <div class="image_flyer"><img src="Image/Flyer/flyerduongda.png" /></div>
+
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image_flyer"><img src="Image/Flyer/flyergiamgiason.png" /></div>
+
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image_flyer"><img src="Image/Flyer/flyersach.png" /></div>
+
+                </a>
+                <a class="card" href="#">
+                    <div class="image_flyer"><img src="Image/Flyer/flyersanphammoi.png" /></div>
+
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
 
 
 
@@ -131,6 +375,54 @@
             <!--Kết Thúc Nội Dung Liên Hệ-->
         </div>
     </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!--Javascript-->
+
+
+    <script src="java/mainstyle.js"></script>
+    <script>
+        //slider_banner
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script>
 
 
 

@@ -1,8 +1,19 @@
 ﻿* {
     margin: 0;
+    padding: 0;
     font-family: Roboto;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s cubic-bezier(.37,1.14,.26,1.24)
 }
 
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/*Khai báo mã màu*/
 :root {
     --color-hongdam: #8B3A62;
     --color-hongnhat: #FFE4E1;
@@ -13,6 +24,7 @@
     --color-xam: #C4C4C4;
 }
 
+/*Phần header*/
 header {
     background-color: var(--color-hotpink3);
     font-family: Roboto;
@@ -26,6 +38,7 @@ header {
 
         header a:hover {
             color: var(--color-hongdam);
+            text-decoration: none;
         }
 
         header a:active {
@@ -46,15 +59,21 @@ header {
             display: inline-block;
         }
 
+/*Thanh công cụ*/
+
 .wrapper {
     display: flex;
-    padding: 20px 0px 20px 80px;
+    padding: 1.5rem;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+    z-index: 1000;
 }
 
     .wrapper img {
-        width: 12%;
+        width: 12rem;
         height: 7%;
-        margin-left: 38px;
+        margin: 0 0 0 5rem;
     }
 
     .wrapper a {
@@ -62,30 +81,9 @@ header {
         margin-right: 20px;
     }
 
-        .wrapper a img {
-            width: 80%;
-            height: 50%;
-            margin-top: 15px;
-            background-color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .wrapper a:hover img {
-            background-color: var(--color-hongdam);
-            transform: scale(1.1);
-            transition: 0.6s ease;
-        }
-
-        .wrapper a:active img {
-            background-color: var(--color-hongnhat);
-        }
-
 .search {
-    max-width: 700px;
-    max-height: 80px;
-    height: 100%;
-    width: 100%;
+    height: 6rem;
+    width: 80rem;
     margin-left: 120px;
     margin-right: 50px;
     background: var(--color-hongnhat);
@@ -124,6 +122,24 @@ header {
         font-size: 18px;
     }
 
+.icons a {
+    color: black;
+    font-size: 3.5rem;
+    padding: 0 1rem;
+}
+
+    .icons a:hover {
+        color: var(--color-hongdam);
+        transition: 0.2s ease;
+    }
+
+.icons .menu_small {
+    font-size: 3.5rem;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+/*Phần menu ngang*/
 .menu {
     padding: 0 0 0 60px;
     width: 100%;
@@ -151,7 +167,7 @@ header {
                 text-decoration: none;
             }
 
-            .menu ul.menu_horizontal li:hover .dropdown-content {
+            .menu ul.menu_horizontal li:hover .mn_dropdown-content {
                 opacity: 1;
                 visibility: visible;
                 transition: 0.5s ease;
@@ -168,11 +184,11 @@ header {
 
 
 
-li.dropdown {
+li.mn_dropdown {
     display: inline-block;
 }
 
-.dropdown-content {
+.mn_dropdown-content {
     position: absolute;
     background: white;
     min-width: 160px;
@@ -185,7 +201,7 @@ li.dropdown {
     border-radius: 10px
 }
 
-    .dropdown-content a {
+    .mn_dropdown-content a {
         color: black;
         padding: 12px 16px;
         text-decoration: none;
@@ -193,19 +209,19 @@ li.dropdown {
         text-align: left;
     }
 
-        .dropdown-content a:hover {
+        .mn_dropdown-content a:hover {
             background-color: var(--color-hongdam);
         }
 
-        .dropdown-content a:active {
+        .mn_dropdown-content a:active {
             background-color: var(--color-hongnhat);
         }
 
-.dropdown:hover .dropdown-content {
+.mn_dropdown:hover .dropdown-content {
     display: block;
 }
 
-
+/*Phần menu dọc*/
 .danhmuc {
     display: flex;
     margin-top: 60px;
@@ -216,16 +232,22 @@ li.dropdown {
     display: none;
 }
 
-.multi-level, .item input:checked ~ ul {
+.multi-level{
     display: block;
-    width: 250px;
+    width: 330px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
-
+.item input:checked ~ ul {
+    display: block;
+    width: 330px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
 .menu_vertical {
     display: inline-block;
-    margin-left: 125px;
+    margin-left: 80px;
+    margin-right: 40px;
     width: 500px;
     background-color: white;
 }
@@ -247,6 +269,10 @@ li.dropdown {
         font-weight: 100;
         width: 100%;
     }
+        .menu_vertical ul, .menu_vertical li, label ul li a{
+            font-size: 20px;
+            color: black;
+        }
 
         .menu_vertical li a {
             margin: 0;
@@ -306,10 +332,9 @@ item ul li a:active {
 }
 
 
-
-
 .danhmuc_sanpham {
     display: block;
+    margin-right: 25px;
 }
 
     .danhmuc_sanpham b {
@@ -347,7 +372,10 @@ item ul li a:active {
     font-size: 20px;
     font-weight: 600;
 }
-
+.card .text {
+    font-size: 20px;
+    font-weight: 400;
+}
 .card .image img {
     max-width: 100%;
     width: 87%;
@@ -733,3 +761,90 @@ footer {
                 font-size: 16px;
                 border-radius: 8px;
             }
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    /*Thanh công cụ và menu ngang*/
+    .search {
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+
+    .icons {
+        display: flex;
+    }
+
+        .icons .menu_small {
+            font-size: 2.5rem;
+            padding: 0;
+            display: block;
+        }
+
+            .icons .menu_small:hover {
+                opacity: 1;
+                color: var(--color-hongdam);
+            }
+
+        .icons a {
+            font-size: 2.5rem;
+            padding: 0;
+        }
+
+    .menu {
+        background-color: var(--color-hotpink3);
+    }
+
+
+    .menu_horizontal {
+        position: absolute;
+        display: block;
+        width: 30rem;
+        height: 45rem;
+        top: 12.5rem;
+        left: 70%;
+        z-index: 500;
+        box-shadow: 0px 10px 5px var(--color-xam);
+        display: none;
+    }
+
+    .menu ul.menu_horizontal {
+        background-color: var(--color-hotpink3);
+    }
+
+        .menu ul.menu_horizontal li:hover .mn_dropdown-content {
+            display: none;
+        }
+
+    /*Danh mục sp*/
+    .danhmuc .menu_vertical {
+        display: none;
+    }
+
+    .danhmuc_sanpham {
+        width: 90%;
+        text-align: center;
+    }
+
+    .product_list {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 40px;
+        grid-row-gap: 40px;
+        margin-top: 30px;
+    }
+
+    .pagination {
+        margin: 5rem 20rem;
+    }
+
+    /*Footer*/
+    footer .container .noi-dung.about {
+        width: 20rem;
+        margin-bottom: 5rem;
+    }
+
+    .contact {
+        width: 25rem;
+    }
+}

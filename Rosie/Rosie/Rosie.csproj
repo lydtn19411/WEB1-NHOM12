@@ -70,6 +70,8 @@
     <Content Include="Main\Beauty blog\blog.html" />
     <Content Include="Main\Beauty blog\chitietblog.html" />
     <Content Include="Main\ChitietSach\book_biquyetduongdahanquoc.html" />
+    <Content Include="Main\Css\maintype_chitietsanpham.css" />
+    <Content Include="Main\Css\maintype_homepage.css" />
     <Content Include="Main\Css\maintype_login.css" />
     <Content Include="Main\Fogotpassword\fogotpw_OTP.html" />
     <Content Include="Main\Image\Banner\Banner12-12.png" />
