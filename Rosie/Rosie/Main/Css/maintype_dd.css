@@ -234,9 +234,9 @@ li.mn_dropdown {
 
 .multi-level{
     display: block;
-    width: 330px;
+    width: 250px;
     margin-top: 10px;
-    margin-left: 0px;
+    margin-left: -10px;
 }
 .item input:checked ~ ul {
     display: block;
@@ -255,6 +255,7 @@ li.mn_dropdown {
     .menu_vertical b {
         width: 100%;
         font-weight: 400;
+        margin-left: -10px;
         margin-bottom: 10px;
         font-size: 25px;
     }
@@ -331,10 +332,11 @@ item ul li a:active {
     color: var(--color-hongnhat);
 }
 
-
+/*Danh sách sản phẩm*/
 .danhmuc_sanpham {
     display: block;
-    margin-right: 25px;
+    margin-left: -100px;
+    margin-right: 40px;
 }
 
     .danhmuc_sanpham b {
