@@ -73,11 +73,16 @@
     <Content Include="Main\Css\maintype_chitietsanpham.css" />
     <Content Include="Main\Css\maintype_homepage.css" />
     <Content Include="Main\Css\maintype_login.css" />
+    <Content Include="Main\Css\style_blog.css" />
     <Content Include="Main\Fogotpassword\fogotpw_OTP.html" />
     <Content Include="Main\Image\Banner\Banner12-12.png" />
     <Content Include="Main\Image\Banner\bannersale.png" />
     <Content Include="Main\Image\Banner\Bannersanphammoii.png" />
     <Content Include="Main\Image\Banner\BannerTet.png" />
+    <Content Include="Main\Image\Blog\blog_1.jpg" />
+    <Content Include="Main\Image\Blog\blog_2.png" />
+    <Content Include="Main\Image\Blog\blog_3.png" />
+    <Content Include="Main\Image\Blog\blog_4.jpg" />
     <Content Include="Main\Image\Flyer\flyerduongda.png" />
     <Content Include="Main\Image\Flyer\flyergiamgiason.png" />
     <Content Include="Main\Image\Flyer\flyersach.png" />
