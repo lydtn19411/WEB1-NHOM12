@@ -693,6 +693,7 @@ footer {
     text-indent: 0px;
     text-align: center;
     width: 100%;
+    font-size: 18px;
 }
 
     .cartheader ul {
@@ -704,7 +705,7 @@ footer {
         .cartheader ul li {
             position: relative;
             float: left;
-            padding-inline: 10px;
+            padding-inline: 5px;
         }
 
 .carttitle {

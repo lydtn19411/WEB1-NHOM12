@@ -68,7 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main\Beauty blog\blog.html" />
-    <Content Include="Main\Beauty blog\chitietblog.html" />
+    <Content Include="Main\Beauty blog\chitietblog4.html" />
+    <Content Include="Main\Beauty blog\chitietblog3.html" />
+    <Content Include="Main\Beauty blog\chitietblog2.html" />
+    <Content Include="Main\Beauty blog\chitietblog1.html" />
     <Content Include="Main\ChitietSach\book_biquyetduongdahanquoc.html" />
     <Content Include="Main\Css\maintype_chitietsanpham.css" />
     <Content Include="Main\Css\maintype_homepage.css" />
@@ -85,6 +88,11 @@
     <Content Include="Main\Image\Blog\blogpic4.jpg" />
     <Content Include="Main\Image\Blog\blogpic5.png" />
     <Content Include="Main\Image\Blog\blogpic6.png" />
+    <Content Include="Main\Image\Blog\blogpic_b1.png" />
+    <Content Include="Main\Image\Blog\blogpic_b2.png" />
+    <Content Include="Main\Image\Blog\blogpic_b3.png" />
+    <Content Include="Main\Image\Blog\blogpic_b4.png" />
+    <Content Include="Main\Image\Blog\blogpic_b5.png" />
     <Content Include="Main\Image\Blog\blog_1.jpg" />
     <Content Include="Main\Image\Blog\blog_2.png" />
     <Content Include="Main\Image\Blog\blog_3.png" />

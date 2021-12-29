@@ -207,127 +207,23 @@ li.dropdown {
 
 
 .danhmuc {
-    display: flex;
-    margin-top: 60px;
-    width: 100%;
-}
-
-.item ul, .menu_vertical input[type="checkbox"] {
-    display: none;
-}
-
-.multi-level, .item input:checked ~ ul {
-    display: block;
-    width: 250px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.menu_vertical {
-    display: inline-block;
-    margin-left: 125px;
-    width: 500px;
-    background-color: white;
-}
-
-    .menu_vertical b {
-        width: 100%;
-        font-weight: 400;
-        margin-bottom: 10px;
-        font-size: 25px;
-    }
-
-    .menu_vertical ul, .menu_vertical li, label {
-        line-height: 50px;
-        margin: 0;
-        padding: 0 2em;
-        list-style: none;
-        text-decoration: none;
-        color: black;
-        font-weight: 100;
-        width: 100%;
-    }
-
-        .menu_vertical li a {
-            margin: 0;
-            padding: 0 2em;
-            list-style: none;
-            text-decoration: none;
-            color: black;
-            width: 100%;
-        }
-
-.item label {
-    padding: 0px;
-    width: 100%;
-    font-size: 20px;
-    display: block;
-    z-index: 3;
     position: relative;
-    border-bottom: 1px solid var(--color-xam);
+    left: 10%;
 }
 
-    .item label:hover {
-        cursor: pointer;
-        color: var(--color-hongdam);
-    }
-
-    .item label:active {
-        color: var(--color-hongnhat);
-        transition: 1s ease;
-    }
-
-
-.item ul {
-    padding: 0 0.25em;
-    font-size: 15px;
-    margin-left: 70px;
+.main_danhmuc_blog {
+    display: block;
 }
-
-.item a {
-    text-decoration: none;
-    color: black;
-}
-
-    .item a:hover {
-        color: var(--color-hongdam);
-    }
-
-    .item a:active {
-        color: var(--color-hongnhat);
-    }
-
-.item ul li a:hover {
-    color: var(--color-hongdam);
-}
-
-item ul li a:active {
-    color: var(--color-hongnhat);
-}
-
-
-.danhmuc_blog {
-    width: 150vh;
-    position: relative;
-    margin: auto;
-}
-
-    .danhmuc_blog b {
-        margin-left: 37px;
-        font-weight: 400;
-        margin-bottom: 10px;
-        font-size: 25px;
-    }
-
 
 
 .blog {
     background-color: white;
     display: grid;
-    grid-template-columns: 0.8fr 0.8fr;
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
+    grid-template-columns: 0.6fr 0.6fr;
+    grid-column-gap: 80px;
+    grid-row-gap: 100px;
     margin-top: 30px;
+    margin-bottom: 80px;
     margin-left: 57px;
 }
 
