@@ -79,6 +79,12 @@
     <Content Include="Main\Image\Banner\bannersale.png" />
     <Content Include="Main\Image\Banner\Bannersanphammoii.png" />
     <Content Include="Main\Image\Banner\BannerTet.png" />
+    <Content Include="Main\Image\Blog\blogpic1.png" />
+    <Content Include="Main\Image\Blog\blogpic2.png" />
+    <Content Include="Main\Image\Blog\blogpic3.png" />
+    <Content Include="Main\Image\Blog\blogpic4.jpg" />
+    <Content Include="Main\Image\Blog\blogpic5.png" />
+    <Content Include="Main\Image\Blog\blogpic6.png" />
     <Content Include="Main\Image\Blog\blog_1.jpg" />
     <Content Include="Main\Image\Blog\blog_2.png" />
     <Content Include="Main\Image\Blog\blog_3.png" />
