@@ -6,32 +6,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="../Css/style_blog.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
 </head>
 <body>
     <header>
         <a><marquee style="font-size:15px" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
-        <i><a href="../Page/register.html">Đăng ký</a> &nbsp; <a href="../Page/login.html">Đăng nhập</a></i>
+        <i><a href="register.html">Đăng ký</a> &nbsp; <a href="login.html">Đăng nhập</a></i>
     </header>
 
     <div class="wrapper">
-        <img src="../Image/Logo/Logo.png" />
+        <img src="../Image/Logo/Logo.png" onclick="menu_list('menu_none', this)" />
         <div class="search">
             <input type="text" class="input" placeholder="Search...">
             <a class="searchbtn" href=""><i class="fa fa-search"></i></a>
         </div>
-        <a href=""><img src="../Image/Icon/icon_thongbao.png" /></a>
-        <a href=""><img src="../Image/Icon/ic_taikhoan 2.png" /></a>
-        <a href="cart.html"><img src="../Image/Icon/ic_giỏ hàng.png" /></a>
+        <div class="icons">
+            <a href=""><i class="fa fa-bell"></i></a>
+            <a href=""><i class="fa fa-user-circle"></i></a>
+            <a href="../Page/cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <div class="menu_small" onclick="menu_list('menu', this)"> <i class="fa fa-bars"></i></div>
+        </div>
     </div>
 
     <!--Phần menu ngang-->
     <div class="menu">
-        <ul class="menu_horizontal">
+        <ul class="menu_horizontal" id="menu_hor">
             <li><a href="../index.html">Trang chủ</a></li>
-            <li><a href="../Page/makeup.html">Trang điểm</a></li>
-            <li class="dropdown">
-                <a class="dropbtn">Thương hiệu</a>
-                <div class="dropdown-content">
+            <li><a href="makeup.html">Trang điểm</a></li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Thương hiệu</a>
+                <div class="mn_dropdown-content">
                     <a href="../Thuonghieu/Avene.html">Avène</a>
                     <a href="../Thuonghieu/cocoon.html">Cocoon</a>
                     <a href="../Thuonghieu/esteelauder.html">Estee Lauder</a>
@@ -42,9 +46,9 @@
                     <a href="../Thuonghieu/ohui.html">Ohui</a>
                 </div>
             </li>
-            <li class="dropdown">
-                <a class="dropbtn">Dưỡng da</a>
-                <div class="dropdown-content">
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Dưỡng da</a>
+                <div class="mn_dropdown-content">
                     <a href="../Duongda/kemchongnang.html">Kem chống nắng</a>
                     <a href="../Duongda/kemduong.html">Kem dưỡng</a>
                     <a href="../Duongda/matna.html">Mặt nạ</a>
@@ -59,7 +63,7 @@
             <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
         </ul>
     </div>
-    
+
     <table align="center" style="text-align: center; border-spacing: 30px">
         <tr>
             <td>
@@ -119,10 +123,10 @@
         <tr>
             <td>
                 <p style="font-size: 20px">
-                    Khá nhiều sao Hàn từng thử nghiệm với son hồng nude và phải ngậm ngùi thừa nhận “xinh thì xinh nhưng 
-                    khí chất giảm đi một nửa" bởi gương mặt có phần nhợt nhạt. Tuy nhiên với Lisa, dân tình chỉ thấy một 
-                    cô nàng quyến rũ hết mức với màu son tự nhiên này. Ekip đã khéo léo tạo điểm nhấn cho gương mặt Lisa 
-                    bằng lối makeup mắt cầu kỳ với các hạt đá đính tỉ mỉ hoặc mi giả phá cách và trung hoà cho gương mặt 
+                    Khá nhiều sao Hàn từng thử nghiệm với son hồng nude và phải ngậm ngùi thừa nhận “xinh thì xinh nhưng
+                    khí chất giảm đi một nửa" bởi gương mặt có phần nhợt nhạt. Tuy nhiên với Lisa, dân tình chỉ thấy một
+                    cô nàng quyến rũ hết mức với màu son tự nhiên này. Ekip đã khéo léo tạo điểm nhấn cho gương mặt Lisa
+                    bằng lối makeup mắt cầu kỳ với các hạt đá đính tỉ mỉ hoặc mi giả phá cách và trung hoà cho gương mặt
                     với màu son bóng nhẹ nhàng.
                 </p>
             </td>
@@ -135,19 +139,20 @@
         <tr>
             <td>
                 <p style="font-size: 20px">
-                    Dĩ nhiên, bạn cũng có thể lưu lại mẹo hay ho này để áp dụng khi diện các màu son nude. 
-                    Làm gì thì làm, hãy cứ học thuộc lòng bí kíp “môi nhạt thì mắt đậm” để giúp trung hòa 
+                    Dĩ nhiên, bạn cũng có thể lưu lại mẹo hay ho này để áp dụng khi diện các màu son nude.
+                    Làm gì thì làm, hãy cứ học thuộc lòng bí kíp “môi nhạt thì mắt đậm” để giúp trung hòa
                     layout trang điểm không bị nhàm chán hay quá nặng nề nhé.
                 </p>
             </td>
         </tr>
         <tr>
             <td>
-                <p style="font-size: 20px">Đôi khi thử nghiệm những điều "ngược lại với số đông" sẽ mang đến kết quả đầy ngạc nhiên. 
-                Hãy nhìn một Lisa xinh đẹp và cuốn hút biết bao với những màu son vốn luôn nằm trong blacklist 
-                của con gái. Vậy thì các cô nàng của chúng ta ngại gì không thử refresh bản thân bằng những điều 
-                mới mẻ để chuẩn bị cho màn "lột xác" sau giãn cách. Nếu chưa biết bắt đầu từ đâu thì hãy follow 
-                ngay các Beauty Tiktoker triệu view này để "lượm lặt" thêm các tips làm đẹp và makeup siêu hay ho nhé!
+                <p style="font-size: 20px">
+                    Đôi khi thử nghiệm những điều "ngược lại với số đông" sẽ mang đến kết quả đầy ngạc nhiên.
+                    Hãy nhìn một Lisa xinh đẹp và cuốn hút biết bao với những màu son vốn luôn nằm trong blacklist
+                    của con gái. Vậy thì các cô nàng của chúng ta ngại gì không thử refresh bản thân bằng những điều
+                    mới mẻ để chuẩn bị cho màn "lột xác" sau giãn cách. Nếu chưa biết bắt đầu từ đâu thì hãy follow
+                    ngay các Beauty Tiktoker triệu view này để "lượm lặt" thêm các tips làm đẹp và makeup siêu hay ho nhé!
                 </p>
             </td>
         </tr>
@@ -221,6 +226,6 @@
             <!--Kết Thúc Nội Dung Liên Hệ-->
         </div>
     </footer>
-    
+
 </body>
 </html>

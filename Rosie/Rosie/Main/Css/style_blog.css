@@ -307,7 +307,9 @@ item ul li a:active {
 
 
 .danhmuc_blog {
-    display: block;
+    width: 150vh;
+    position: relative;
+    margin: auto;
 }
 
     .danhmuc_blog b {
@@ -475,6 +477,7 @@ footer {
     color: white;
     font-weight: 500;
     margin-left: 35px;
+    margin-left: -0.5rem;
     margin-bottom: 20px;
     margin-right: 0px;
     font-size: 20px;
@@ -518,7 +521,7 @@ footer {
     position: relative;
     color: white;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: -0.5rem;
     margin-bottom: 20px;
     font-size: 20px;
 }
@@ -562,7 +565,7 @@ footer {
     position: relative;
     color: white;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: -0.5rem;
     margin-bottom: 20px;
     font-size: 20px;
 }
