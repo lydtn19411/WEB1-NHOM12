@@ -412,16 +412,16 @@ item ul li a:active {
 
 /*Phân trang*/
 .pagination {
-    border-radius: 10px;
-    align-content: center;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    margin-left: 250px;
-    width: 400px;
-    padding: 0 0 0 0;
-    height: 50px;
-}
+                border-radius: 10px;
+                align-content: center;
+                justify-content: center;
+                margin-top: 50px;
+                margin-bottom: 100px;
+                margin-left: 250px;
+                width: 400px;
+                padding: 0 0 0 0;
+                height: 50px;
+            }
 
     .pagination ul {
         display: flex;
@@ -723,6 +723,7 @@ footer {
     border-spacing: 20px;
     padding: 30px;
     border-radius: 10%;
+    font-size: 15px;
 }
 
     .cart_table tr {
@@ -777,6 +778,28 @@ footer {
                 display: inline-block;
                 font-size: 16px;
                 border-radius: 8px;
+            }
+.cart_pagination {
+    
+}
+
+    .cart_pagination ul {
+        list-style: none;
+        padding: 5px 5px;
+        display: flex;
+    }
+
+        .cart_pagination ul li {
+            cursor: pointer;
+            text-align: center;
+        }
+
+            .cart_pagination ul li:hover {
+            }
+
+            .cart_pagination ul li a {
+                text-decoration: none;
+                color: black;
             }
 
 
