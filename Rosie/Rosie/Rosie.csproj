@@ -2213,7 +2213,16 @@
     <Content Include="Main\Image\Blog\blog_1.jpg" />
     <Content Include="Main\Image\Blog\blog_2.png" />
     <Content Include="Main\Image\Blog\blog_3.png" />
+    <Content Include="Main\Image\Blog\blog_3a.jpg" />
+    <Content Include="Main\Image\Blog\blog_3b.jpg" />
+    <Content Include="Main\Image\Blog\blog_3c.jpg" />
+    <Content Include="Main\Image\Blog\blog_3d.jpg" />
+    <Content Include="Main\Image\Blog\blog_3e.jpg" />
     <Content Include="Main\Image\Blog\blog_4.jpg" />
+    <Content Include="Main\Image\Blog\blog_4a.jpg" />
+    <Content Include="Main\Image\Blog\blog_4b.jpg" />
+    <Content Include="Main\Image\Blog\blog_4c.jpg" />
+    <Content Include="Main\Image\Blog\blog_4d.jpg" />
     <Content Include="Main\Image\Flyer\flyerduongda.png" />
     <Content Include="Main\Image\Flyer\flyergiamgiason.png" />
     <Content Include="Main\Image\Flyer\flyersach.png" />

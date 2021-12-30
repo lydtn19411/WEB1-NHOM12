@@ -14,6 +14,10 @@
 }
 
 
+table {
+    text-align: center;
+    border-spacing: 30px;
+}
 
 .danhmuc {
     position: relative;
@@ -76,69 +80,7 @@
 
 
 
-.pagination {
-    border-radius: 10px;
-    align-content: center;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    margin-left: 250px;
-    width: 400px;
-    padding: 0 0 0 0;
-    height: 50px;
-}
 
-    .pagination ul {
-        display: flex;
-        align-content: flex-start;
-        background-color: white;
-        list-style: none;
-        border: 2px solid var(--color-hongnhat);
-        border-radius: 10px;
-        box-shadow: 0px 5px 5px var(--color-xam);
-        padding: 5px 5px;
-    }
-
-        .pagination ul li {
-            width: 100px;
-            text-align: center;
-            font-size: 18px;
-            height: 60px;
-            line-height: 60px;
-            cursor: pointer;
-        }
-
-            .pagination ul li:hover {
-                background: var(--color-hongdam);
-            }
-
-            .pagination ul li a {
-                text-decoration: none;
-                color: var(--color-pink2);
-            }
-
-
-
-            .pagination ul li.btn {
-                background-color: var(--color-hotpink3);
-                border-radius: 5px 0 0 0;
-            }
-
-                .pagination ul li.btn a {
-                    color: var(--color-hongnhat);
-                }
-
-                    .pagination ul li.btn a:hover {
-                        color: var(--color-hongdam);
-                    }
-
-            .pagination ul li.prev {
-                border-radius: 10px 0 0 10px;
-            }
-
-            .pagination ul li.next {
-                border-radius: 0 10px 10px 0;
-            }
 
 
 @media (max-width: 768px){
