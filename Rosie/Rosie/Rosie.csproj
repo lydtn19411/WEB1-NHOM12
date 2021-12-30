@@ -2500,6 +2500,7 @@
     <Content Include="Main\java\mainstyle.js" />
     <Content Include="Main\Css\maintype_dd.css" />
     <Content Include="Main\Page\Order.html" />
+    <Content Include="Main\Page\Order_Complete.html" />
     <Content Include="Main\Page\register.html" />
     <Content Include="Main\Page\login.html" />
     <Content Include="Main\Duongda\kemchongnang.html" />

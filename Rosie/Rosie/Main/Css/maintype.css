@@ -801,19 +801,42 @@ footer {
                 text-decoration: none;
                 color: black;
             }
-
-
-
-
-
+.order_table {
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color: #FFF1F0;
+    border-radius: 20px;
+    border-spacing: 20px;
+}
+    .order_table td {
+        font-size: 15px;
+        float: left;
+        padding: 0 10px 0 10px;
+        width: 200px;
+    }
+    .order_table th {
+        font-size: 15px;
+        padding: 0 10px 0 10px;
+    }
+.order_button {
+    border: initial;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #8B3A62;
+    color: #ffffff;
+}
 /*Phần chi tiết sản phẩm*/
 .product_detail {
-    max-width: 1000px;
-    margin-left: 15rem;
-    margin-bottom: 10px;
-    height: 100%;
-    max-height: 600px;
-}
+        max-width: 1000px;
+        margin-left: 15rem;
+        margin-bottom: 10px;
+        height: 100%;
+        max-height: 600px;
+    }
 
 .product_imgs {
     padding: 0 0 15rem 4rem;
