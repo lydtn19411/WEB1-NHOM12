@@ -2213,6 +2213,18 @@
     <Content Include="Main\ChitietEssteelauder\esla_7.html" />
     <Content Include="Main\ChitietEssteelauder\esla_8.html" />
     <Content Include="Main\ChitietEssteelauder\esla_9.html" />
+    <Content Include="Main\ChitietKiehl%27s\duongam1.html" />
+    <Content Include="Main\ChitietKiehl%27s\duongam2.html" />
+    <Content Include="Main\ChitietKiehl%27s\kcn1.html" />
+    <Content Include="Main\ChitietKiehl%27s\kcn2.html" />
+    <Content Include="Main\ChitietKiehl%27s\kem dưỡng thể 2.html" />
+    <Content Include="Main\ChitietKiehl%27s\matna1.html" />
+    <Content Include="Main\ChitietKiehl%27s\matna3.html" />
+    <Content Include="Main\ChitietKiehl%27s\srm1.html" />
+    <Content Include="Main\ChitietKiehl%27s\srm2.html" />
+    <Content Include="Main\ChitietKiehl%27s\taytrang1.html" />
+    <Content Include="Main\ChitietKiehl%27s\taytrang2.html" />
+    <Content Include="Main\ChitietKiehl%27s\toner1.html" />
     <Content Include="Main\Chitietlarocheposay\NuoctaytrangLRP.html" />
     <Content Include="Main\Chitietlarocheposay\La Roche Posay Soothing Lotion Sensitive Skin.html" />
     <Content Include="Main\Chitietlarocheposay\La Roche Posay Serozinc Zinc Sulfate Solution Cleansing.html" />
@@ -2846,7 +2858,6 @@
   <ItemGroup>
     <Folder Include="Main\ChitietAvene\" />
     <Folder Include="Main\ChitietInnisfree\" />
-    <Folder Include="Main\ChitietKiehl%27s\" />
     <Folder Include="Main\ChitietMaybeline\" />
     <Folder Include="Main\Taikhoan\" />
     <Folder Include="Main\Tinnhan\" />
