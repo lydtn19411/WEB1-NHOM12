@@ -2189,6 +2189,7 @@
     <Content Include="Main\Beauty blog\chitietblog3.html" />
     <Content Include="Main\Beauty blog\chitietblog2.html" />
     <Content Include="Main\Beauty blog\chitietblog1.html" />
+    <Content Include="Main\ChitietCocoon\cocoon_thachhh.html" />
     <Content Include="Main\ChitietSach\book_biquyetduongdahanquoc.html" />
     <Content Include="Main\Css\maintype_chitietsanpham.css" />
     <Content Include="Main\Css\maintype_homepage.css" />
@@ -2779,7 +2780,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Main\ChitietAvene\" />
-    <Folder Include="Main\ChitietCocoon\" />
     <Folder Include="Main\ChitietEssteelauder\" />
     <Folder Include="Main\ChitietInnisfree\" />
     <Folder Include="Main\ChitietKiehl%27s\" />
