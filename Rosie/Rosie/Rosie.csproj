@@ -2204,6 +2204,15 @@
     <Content Include="Main\ChitietCocoon\cocoon_tinhchathh.html" />
     <Content Include="Main\ChitietCocoon\cocoon_ttbidao.html" />
     <Content Include="Main\ChitietCocoon\cocoon_tthh.html" />
+    <Content Include="Main\ChitietEssteelauder\esla_1.html" />
+    <Content Include="Main\ChitietEssteelauder\esla_2.html" />
+    <Content Include="Main\ChitietEssteelauder\esla_3.html" />
+    <Content Include="Main\ChitietEssteelauder\esla_4.html" />
+    <Content Include="Main\ChitietEssteelauder\esla_5.html" />
+    <Content Include="Main\ChitietEssteelauder\esla_6.html" />
+    <Content Include="Main\ChitietEssteelauder\esla_7.html" />
+    <Content Include="Main\ChitietEssteelauder\esla_8.html" />
+    <Content Include="Main\ChitietEssteelauder\esla_9.html" />
     <Content Include="Main\ChitietSach\book_biquyetduongdahanquoc.html" />
     <Content Include="Main\Css\maintype_chitietsanpham.css" />
     <Content Include="Main\Css\maintype_homepage.css" />
@@ -2315,6 +2324,8 @@
     <Content Include="Main\Image\Sản phẩm\ImgCocoon\son dưỡng dừa.png" />
     <Content Include="Main\Image\Sản phẩm\ImgCocoon\srm nghệ hưng yên.png" />
     <Content Include="Main\Image\Sản phẩm\ImgCocoon\Thạch hh dưỡng ẩm.png" />
+    <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\esla_6.png" />
+    <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\esla_7.png" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estee Lauder Crescent White Cleanser.png" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estee Lauder Micro Essence Infusion Mask.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\ESTEE LAUDER PERFECTLY CLEAN MULTI-ACTION.png" />
@@ -2794,7 +2805,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Main\ChitietAvene\" />
-    <Folder Include="Main\ChitietEssteelauder\" />
     <Folder Include="Main\ChitietInnisfree\" />
     <Folder Include="Main\ChitietKiehl%27s\" />
     <Folder Include="Main\ChitietLareposay\" />

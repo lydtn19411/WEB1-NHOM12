@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mỹ phẩm Rosie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype_chitietsanpham.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+    <style>
+    </style>
+
+</head>
+<body>
+    <header>
+        <a><marquee style="font-size:15px; color:white" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
+        <i><a href="register.html">Đăng ký</a> &nbsp; <a href="login.html">Đăng nhập</a></i>
+    </header>
+
+    <div class="wrapper">
+        <img src="../Image/Logo/Logo.png" onclick="menu_list('menu_none', this)" />
+        <div class="search">
+            <input type="text" class="input" placeholder="Search...">
+            <a class="searchbtn" href=""><i class="fa fa-search"></i></a>
+        </div>
+        <div class="icons">
+            <a href=""><i class="fa fa-bell"></i></a>
+            <a href=""><i class="fa fa-user-circle"></i></a>
+            <a href="../Page/cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <div class="menu_small" onclick="menu_list('menu', this)"> <i class="fa fa-bars"></i></div>
+        </div>
+    </div>
+
+    <!--Phần menu ngang-->
+    <div class="menu">
+        <ul class="menu_horizontal" id="menu_hor">
+            <li><a href="../index.html">Trang chủ</a></li>
+            <li><a href="makeup.html">Trang điểm</a></li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Thương hiệu</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Thuonghieu/Avene.html">Avène</a>
+                    <a href="../Thuonghieu/cocoon.html">Cocoon</a>
+                    <a href="../Thuonghieu/esteelauder.html">Estee Lauder</a>
+                    <a href="../Thuonghieu/innisfree.html">Innisfree</a>
+                    <a href="../Thuonghieu/kiehl's.html">Kiehl's</a>
+                    <a href="../Thuonghieu/larocheposay.html">La Roche-Posay</a>
+                    <a href="../Thuonghieu/maybeline.html">Maybeline</a>
+                    <a href="../Thuonghieu/ohui.html">Ohui</a>
+                </div>
+            </li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Dưỡng da</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Duongda/kemchongnang.html">Kem chống nắng</a>
+                    <a href="../Duongda/kemduong.html">Kem dưỡng</a>
+                    <a href="../Duongda/matna.html">Mặt nạ</a>
+                    <a href="../Duongda/suaduongthe.html">Sữa dưỡng thể</a>
+                    <a href="../Duongda/suaruamat.html">Sữa rửa mặt</a>
+                    <a href="../Duongda/taytrang.html">Tẩy trang</a>
+                    <a href="../Duongda/toner.html">Toner</a>
+                </div>
+            </li>
+            <li><a href="../Page/book.html">Sách</a></li>
+            <li><a href="../Page/consultation.html">Tư vấn</a></li>
+            <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+        </ul>
+    </div>
+
+
+    <!--Chi tiết sản phẩm-->
+
+    <div class="product_detail">
+        <div class="product_card">
+            <div class="product_imgs">
+                <div class="img-display">
+                    <div class="img_showcase">
+                        <img src="../Image/Sản phẩm/ImgEssteelauder/esla_7.png" id="ProductImg" />
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="product_content">
+                <h1>Estée Lauder Revitalizing Supreme+ Night Intensive Restorative Crème 50ml</h1>
+                <div class="prduct_rating">
+                    <img src="../Image/Icon/5_sao_danh_gia.png" />
+                    <span>4.9(21)</span>
+                </div>
+                <div class="product_price">
+                    <p class="new-price">Giá:<span>3.000.000 VNĐ</span></p>
+                </div>
+
+
+                <div class="purchase">
+                    <input type="number" min="0" value="1" />
+                    <button type="button" class="btn">
+                        Thêm vào giỏ hàng
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="product_item_infor">
+        <h1>THÔNG TIN CHI TIẾT</h1>
+        <p>Acid Hyaluronic đậm đặc khóa chặt độ ẩm suốt 24h. <p>
+        <p>Công nghệ RevitaKeyTM 2x + Chiết xuất hoa chùm ngây giúp da chống lại các dấu hiệu lão hóa, tăng cường sản sinh collagen tự nhiên cho da vào ban đêm. <p>
+        <p>Chiết xuất hoa oải hương biển + Glucosamine giúp gia tăng sản sinh tế bào mới cho da mềm mại rạng rỡ. <p>
+    </div>
+
+
+
+
+
+
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>SẢN PHẨM LIÊN QUAN</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active">
+                            <div class="row">
+
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgEssteelauder/Estee Lauder Micro Essence Infusion Mask.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>Estée Lauder Micro Essence Infusion 6x15ml</b></h4>
+                                            <p class="item-price"><span>GIÁ: 1.114.000 VNĐ</span></p>
+
+                                            <a href="../ChitietEssteelauder/esla_8.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgEssteelauder/Estée Lauder Crescent White Full Cycle Brightening Ultra-Light SPF 45_PA(4PLUS).png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>Estée Lauder Crescent White Full Cycle Brightening Ultra-Light SPF 45/PA++++ 30ml</b></h4>
+                                            <p class="item-price"><span>GIÁ: 1.500.000 VNĐ</span></p>
+
+                                            <a href="../ChitietEssteelauder/esla_9.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgEssteelauder/Estee Lauder Crescent White Cleanser.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>Estée Lauder Crescent White Full Cycle Brightening Cleanser 125ml</b></h4>
+                                            <p class="item-price"><span>GIÁ: 1.200.000 VNĐ</span></p>
+
+                                            <a href="../ChitietEssteelauder/esla_1.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgEssteelauder/ESTEE LAUDER PERFECTLY CLEAN MULTI-ACTION.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>Estée Lauder Perfectly Clean Multi-Action Foam Cleanser Purifying Mask 150ml</b></h4>
+                                            <p class="item-price"><b>GIÁ: 1.000.000 VNĐ</b></p>
+                                            <a href="../ChitietEssteelauder/esla_2.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Carousel controls -->
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="container">
+                <!--Bắt Đầu Nội Dung Giới Thiệu-->
+                <div class="noi-dung about">
+                    <img width="140" height="70" src="../Image/Logo/Logo.png" />
+                    <p>
+                        Rosie là kênh mua sắm mỹ phẩm, làm đẹp hàng đầu Việt Nam được các beauty blogger lựa chọn để giới
+                        thiệu sản phẩm họ yêu thích tới khách hàng, người hâm mộ.
+                    </p>
+                </div>
+                <!--Kết Thúc Nội Dung Giới Thiệu-->
+                <!--Bắt Đầu Nội Dung Đường Dẫn-->
+                <div class="noi-dung links">
+                    <h2>DANH MỤC SẢN PHẨM</h2>
+                    <ul>
+                        <li><a href="../Thuonghieu/Avene.html">Thương hiệu</a></li>
+                        <li><a href="../Duongda/suaduongthe.html">Dưỡng da</a></li>
+                        <li><a href="../Page/book.html">Sách</a></li>
+                        <li><a href="../Page/consultation.html">Tư vấn</a></li>
+                        <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+                    </ul>
+                </div>
+                <div class="noi-dung chinhsach">
+                    <h2>THÔNG TIN VÀ HƯỚNG DẪN</h2>
+                    <ul>
+                        <li><a href="../gioithieu-chinhsach/verosie.html">Về Rosie</a></li>
+                        <li><a href="../Page/consultation.html">Câu hỏi thường gặp</a></li>
+                        <li><a href="../gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a></li>
+                        <li><a href="../gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a></li>
+                        <li><a href="../gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a></li>
+                        <li><a href="../gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a></li>
+                        <li><a href="../gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a></li>
+                        <li><a href="../gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a></li>
+                        <li><a href="../gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                    </ul>
+                </div>
+                <!--Kết Thúc Nội Dung Đường Dẫn-->
+                <!--Bắt Đâu Nội Dung Liên Hệ-->
+                <div class="noi-dung contact">
+                    <h2>THÔNG TIN LIÊN HỆ</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-phone"></i></span>
+                            <p>
+                                <a href="#">+84 231 677 789</a>
+                            </p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-map-marker"></i></span>
+                            <span>
+                                Đường Số 1 Quận 1 <br /> TP. Hồ Chí Minh
+                                Việt Nam
+                            </span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope"></i></span>
+                            <p><a href="#">Rosie@gmail.com</a></p>
+                        </li>
+                        <li>
+                            <ul class="social-icon">
+                                <li><a href="https://www.facebook.com/Rosie-101843242352127" rel="noreferrer" target="_blank"><img class="fa fa-facebook" src="../Image/Icon/icon-facebook.png" /></a></li>
+                                <li><a href="https://www.instagram.com/rosie_220901/?fbclid=IwAR0mPgy9xpz76xyJcMXziSTPPkFEtbS-OfuL8mxIqId_rseK1PQI1uhjkAI" rel="noreferrer" target="_blank"><img class="fa fa-instagram" src="../Image/Icon/iconinstagram.png" /></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!--Kết Thúc Nội Dung Liên Hệ-->
+            </div>
+        </footer>
+
+
+
+        <!--Javascript-->
+
+        <script type="text/javascript" src="../java/mainstyle.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script type="text/javascript">
+        $(document).ready(function () {
+            $(".wish-icon i").click(function () {
+                $(this).toggleClass("fa-heart fa-heart-o");
+            });
+        });
+
+        </script>
+</body>
+</html>
