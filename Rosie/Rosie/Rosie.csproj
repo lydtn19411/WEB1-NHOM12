@@ -2189,6 +2189,18 @@
     <Content Include="Main\Beauty blog\chitietblog3.html" />
     <Content Include="Main\Beauty blog\chitietblog2.html" />
     <Content Include="Main\Beauty blog\chitietblog1.html" />
+    <Content Include="Main\ChitietAvene\duongam1.html" />
+    <Content Include="Main\ChitietAvene\duongam2.html" />
+    <Content Include="Main\ChitietAvene\duongam3.html" />
+    <Content Include="Main\ChitietAvene\kcn1.html" />
+    <Content Include="Main\ChitietAvene\kcn3.html" />
+    <Content Include="Main\ChitietAvene\kdt1.html" />
+    <Content Include="Main\ChitietAvene\kdt2.html" />
+    <Content Include="Main\ChitietAvene\srm1.html" />
+    <Content Include="Main\ChitietAvene\toner1.html" />
+    <Content Include="Main\ChitietAvene\toner2.html" />
+    <Content Include="Main\ChitietAvene\toner3.html" />
+    <Content Include="Main\ChitietAvene\tt1.html" />
     <Content Include="Main\ChitietCocoon\cocoon_bodt.html" />
     <Content Include="Main\ChitietCocoon\cocoon_dauhh.html" />
     <Content Include="Main\ChitietCocoon\cocoon_gelbacha.html" />
@@ -2267,7 +2279,18 @@
     <Content Include="Main\ChitietOhui\kcnOHUI.html" />
     <Content Include="Main\ChitietOhui\Geltaytebaochet.html" />
     <Content Include="Main\ChitietOhui\Combobosanphanduongtrang.html" />
-    <Content Include="Main\ChitietSach\book_biquyetduongdahanquoc.html" />
+    <Content Include="Main\ChitietSach\biquyetddhq.html" />
+    <Content Include="Main\ChitietSach\book_bimatcuanuoc.html" />
+    <Content Include="Main\ChitietSach\ddkieunhat.html" />
+    <Content Include="Main\ChitietSach\ddtrongoi.html" />
+    <Content Include="Main\ChitietSach\deyenchoda.html" />
+    <Content Include="Main\ChitietSach\ntchamsocda.html" />
+    <Content Include="Main\ChitietSach\phunuphaidep.html" />
+    <Content Include="Main\ChitietSach\phuthuysd.html" />
+    <Content Include="Main\ChitietSach\rattt_ratparis.html" />
+    <Content Include="Main\ChitietSach\skincarecn.html" />
+    <Content Include="Main\ChitietSach\thanhkinhdd.html" />
+    <Content Include="Main\ChitietSach\vudieuld.html" />
     <Content Include="Main\Css\maintype_chitietsanpham.css" />
     <Content Include="Main\Css\maintype_gt_cs.css" />
     <Content Include="Main\Css\maintype_homepage.css" />
@@ -2868,7 +2891,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Main\ChitietAvene\" />
     <Folder Include="Main\ChitietInnisfree\" />
     <Folder Include="Main\Taikhoan\" />
     <Folder Include="Main\Tinnhan\" />
