@@ -2,9 +2,211 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hướng dẫn đặt hàng</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype_gt_cs.css" />
+
 </head>
 <body>
+    <header>
+        <a><marquee style="font-size:15px; color:white" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
+        <i><a href="register.html">Đăng ký</a> &nbsp; <a href="login.html">Đăng nhập</a></i>
+    </header>
+
+    <div class="wrapper">
+        <img src="../Image/Logo/Logo.png" onclick="menu_list('menu_none', this)" />
+        <div class="search">
+            <input type="text" class="input" placeholder="Search...">
+            <a class="searchbtn" href=""><i class="fa fa-search"></i></a>
+        </div>
+        <div class="icons">
+            <a href=""><i class="fa fa-bell"></i></a>
+            <a href=""><i class="fa fa-user-circle"></i></a>
+            <a href="../Page/cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <div class="menu_small" onclick="menu_list('menu', this)"> <i class="fa fa-bars"></i></div>
+        </div>
+    </div>
+
+    <!--Phần menu ngang-->
+    <div class="menu">
+        <ul class="menu_horizontal" id="menu_hor">
+            <li><a href="../index.html">Trang chủ</a></li>
+            <li><a href="makeup.html">Trang điểm</a></li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Thương hiệu</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Thuonghieu/Avene.html">Avène</a>
+                    <a href="../Thuonghieu/cocoon.html">Cocoon</a>
+                    <a href="../Thuonghieu/esteelauder.html">Estee Lauder</a>
+                    <a href="../Thuonghieu/innisfree.html">Innisfree</a>
+                    <a href="../Thuonghieu/kiehl's.html">Kiehl's</a>
+                    <a href="../Thuonghieu/larocheposay.html">La Roche-Posay</a>
+                    <a href="../Thuonghieu/maybeline.html">Maybeline</a>
+                    <a href="../Thuonghieu/ohui.html">Ohui</a>
+                </div>
+            </li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Dưỡng da</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Duongda/kemchongnang.html">Kem chống nắng</a>
+                    <a href="../Duongda/kemduong.html">Kem dưỡng</a>
+                    <a href="../Duongda/matna.html">Mặt nạ</a>
+                    <a href="../Duongda/suaduongthe.html">Sữa dưỡng thể</a>
+                    <a href="../Duongda/suaruamat.html">Sữa rửa mặt</a>
+                    <a href="../Duongda/taytrang.html">Tẩy trang</a>
+                    <a href="../Duongda/toner.html">Toner</a>
+                </div>
+            </li>
+            <li><a href="../Page/book.html">Sách</a></li>
+            <li><a href="../Page/consultation.html">Tư vấn</a></li>
+            <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+        </ul>
+    </div>
+
+    <div class="thongtin">
+        <div class="menuthongtin">
+            <b>THÔNG TIN</b>
+            <ul>
+                <li>
+                    <a href="../gioithieu-chinhsach/gioithieurosie.html">Giới thiệu</a>
+                    <a href="../gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a>
+                    <a href="../gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a>
+                    <a href="../gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a>
+                    <a href="../gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a>
+                </li>
+            </ul>
+            <b>HƯỚNG DẪN</b>
+            <ul>
+                <li>
+                    <a href="../gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a>
+                    <a href="../gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a>
+                    <a style="color:var(--color-hongdam); font-size:23px" href="../gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="noidungdathang">
+            <b>Mua hàng trên Website</b>
+            <ol>
+                <li>
+                    BƯỚC 1: ĐĂNG KÝ TÀI KHOẢN
+                    <p>Để bắt đầu mua hàng trên Rosie và được hưởng những ưu đãi hấp dẫn nhất,hãy dành 1 phút để tạo tài khoản Rosie bằng Email cá nhân hoặc Tài khoản Facebook. Ở những lần mua hàng sau, bạn chỉ cần truy cập Website Rosie, đăng nhập và tiến hành mua sắm mà không cần tạo tài khoản mới.</p>
+                </li>
+                <li>
+                    BƯỚC 2: TÌM KIẾM VÀ TÌM KIẾN THÔNG TIN SẢN PHẨM
+                    <p>Để tìm kiếm sản phẩm phù hợp với nhu cầu bản thân, bạn có thể tham khảo 2 cách sau:</p>
+                    <ul>
+                        <li>Cách 1:Tham khảo theo từng hạng mục phù hợp với nhu cầu của anh bạn trong <a style="color:burlywood; text-decoration:underline" href="../index.html">Menu</a> của Rosie</li>
+                        <li>Cách 2: Nhập tên sản phẩm hoặc tên thương hiệu cần tìm vào thanh "Tìm kiếm" Sau khi tìm được sản phẩm ưng ý, bạn có thể tìm hiểu thông tin chi tiết về sản phẩm tại mục THÔNG TIN. Ngoài ra, bạn cũng có thể tham khảo thêm Feedback của các khách hàng khác đã mua và trải nghiệm sản phẩm tại mục ĐÁNH GIÁ.</li>
+                    </ul>
+                </li>
+                <li>
+                    BƯỚC 3: TIẾN HÀNH ĐẶT HÀNG
+                    <p>Bạn vui lòng kiểm tra thật kỹ sản phẩm trong giỏ hàng của mình và chọn mã khuyến mãi tại ô <a style="color: burlywood; text-decoration: underline" href="../Page/cart.html">Mã giảm giá</a> theo nhu cầu của bản thân. Khi cần kiểm tra đơn hàng, bạn vui lòng liên hệ trực tiếp với Rosie qua Fanpage hoặc hotline 1800 2040</p>
+                </li>
+                <li>
+                    <p>LƯU Ý VỀ MÃ KHUYẾN MÃI</p>
+                    <ul>
+                        <li>Mỗi đơn hàng chỉ áp dụng duy nhất 1 mã khuyến mãi.</li>
+                        <li>Khi có quà đi kèm với đơn hàng, món quà đó cũng phải thể hiện trong giỏ hàng của bạn trước khi đặt hàng. Vì vậy việc chọn mã khuyến mãi đúng ý bạn là cần thiết để tránh trường hợp thất vọng vì chọn mã sai. Bạn vui lòng liên hệ trực tiếp với fanpage Rosie khi cần hỗ trợ về mã khuyến mãi.</li>
+                        <li>Sau khi mua hàng, Rosie sẽ gửi riêng các mã khuyến mãi áp dụng cho những lần mua sau của bạn. Những mã khuyến mãi này chỉ áp dụng khi đơn hàng được thực hiện bởi tài khoản của bạn. - Rosie sẽ KHÔNG hỗ trợ đổi/trả phần quà nếu như bạn nhập nhầm MÃ KHUYẾN MÃI. Vậy nên, vui lòng kiểm tra thật kỹ phần quà nhận được sau khi áp dụng Mã khuyến mãi trước khi tiến hành đặt mua sản phẩm.</li>
+                    </ul>
+                </li>
+                <li>
+                    BƯỚC 4: PHƯƠNG THỨC THANH TOÁN VÀ CÁCH THỨC NHẬN HÀNG
+                    <p>Nhập địa chỉ giao hàng, đồng thời lựa chọn phương thức nhận hàng, thanh toán một cách chính xác và chọn các dịch vụ kèm theo nếu có nhu cầu. Sau khi xác nhận đặt hàng, bạn sẽ nhận được mã đơn hàng và tin nhắn/email từ Rosie. Hãy lưu lại mã đơn hàng để bộ phận CSKH của chúng tôi có thể giải quyết các thắc mắc cho bạn trong trường hợp cần thiết.</p>
+                    <p>Khi có nhu cầu cần kiểm tra trạng thái đơn hàng, vui lòng Kiểm tra Email đơn hàng của Rosie và click vào <a style="color: burlywood; text-decoration: underline" href="../Page/Order.html">ĐÂY</a> để theo dõi.</p>
+                </li>
+            </ol>
+            <p>Rosie xin chân thành cảm ơn và chúc bạn có một trải nghiệm mua sắm tốt đẹp!</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <!--Bắt Đầu Nội Dung Giới Thiệu-->
+            <div class="noi-dung about">
+                <img width="140" height="70" src="../Image/Logo/Logo.png" />
+                <p>
+                    Rosie là kênh mua sắm mỹ phẩm, làm đẹp hàng đầu Việt Nam được các beauty blogger lựa chọn để giới
+                    thiệu sản phẩm họ yêu thích tới khách hàng, người hâm mộ.
+                </p>
+            </div>
+            <!--Kết Thúc Nội Dung Giới Thiệu-->
+            <!--Bắt Đầu Nội Dung Đường Dẫn-->
+            <div class="noi-dung links">
+                <h2>DANH MỤC SẢN PHẨM</h2>
+                <ul>
+                    <li><a href="../Thuonghieu/Avene.html">Thương hiệu</a></li>
+                    <li><a href="../Duongda/suaduongthe.html">Dưỡng da</a></li>
+                    <li><a href="../book.html">Sách</a></li>
+                    <li><a href="../consultation.html">Tư vấn</a></li>
+                    <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+                </ul>
+            </div>
+            <div class="../noi-dung chinhsach">
+                <h2>THÔNG TIN VÀ HƯỚNG DẪN</h2>
+                <ul>
+                    <li><a href="../gioithieu-chinhsach/verosie.html">Về Rosie</a></li>
+                    <li><a href="../Page/cauhoithuonggap1.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="../gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a></li>
+                    <li><a href="../gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="../gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Đường Dẫn-->
+            <!--Bắt Đâu Nội Dung Liên Hệ-->
+            <div class="noi-dung contact">
+                <h2>THÔNG TIN LIÊN HỆ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>
+                            <a href="#">+84 231 677 789</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>
+                            Đường Số 1 Quận 1 <br /> TP. Hồ Chí Minh
+                            Việt Nam
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="#">rosie19411@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <ul class="social-icon">
+                            <li><a href="https://www.facebook.com/Rosie-101843242352127" rel="noreferrer" target="_blank"><img class="fa fa-facebook" src="../Image/Icon/icon-facebook.png" /></a></li>
+                            <li><a href="https://www.instagram.com/rosie_220901/?fbclid=IwAR0mPgy9xpz76xyJcMXziSTPPkFEtbS-OfuL8mxIqId_rseK1PQI1uhjkAI" rel="noreferrer" target="_blank"><img class="fa fa-instagram" src="../Image/Icon/iconinstagram.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Liên Hệ-->
+        </div>
+    </footer>
+
+    <!--Javascript-->
+    <script type="text/javascript" src="../java/mainstyle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".wish-icon i").click(function () {
+                $(this).toggleClass("fa-heart fa-heart-o");
+            });
+        });
+
+    </script>
 
 </body>
 </html>

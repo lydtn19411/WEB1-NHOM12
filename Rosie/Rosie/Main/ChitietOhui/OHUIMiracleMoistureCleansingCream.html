@@ -1,0 +1,502 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mỹ phẩm Rosie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype_chitietsanpham.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+    <style>
+    </style>
+
+</head>
+<body>
+    <header>
+        <a><marquee style="font-size:15px; color:white" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
+        <i><a href="register.html">Đăng ký</a> &nbsp; <a href="login.html">Đăng nhập</a></i>
+    </header>
+
+    <div class="wrapper">
+        <img src="../Image/Logo/Logo.png" onclick="menu_list('menu_none', this)" />
+        <div class="search">
+            <input type="text" class="input" placeholder="Search...">
+            <a class="searchbtn" href=""><i class="fa fa-search"></i></a>
+        </div>
+        <div class="icons">
+            <a href=""><i class="fa fa-bell"></i></a>
+            <a href=""><i class="fa fa-user-circle"></i></a>
+            <a href="../Page/cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <div class="menu_small" onclick="menu_list('menu', this)"> <i class="fa fa-bars"></i></div>
+        </div>
+    </div>
+
+    <!--Phần menu ngang-->
+    <div class="menu">
+        <ul class="menu_horizontal" id="menu_hor">
+            <li><a href="../index.html">Trang chủ</a></li>
+            <li><a href="makeup.html">Trang điểm</a></li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Thương hiệu</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Thuonghieu/Avene.html">Avène</a>
+                    <a href="../Thuonghieu/cocoon.html">Cocoon</a>
+                    <a href="../Thuonghieu/esteelauder.html">Estee Lauder</a>
+                    <a href="../Thuonghieu/innisfree.html">Innisfree</a>
+                    <a href="../Thuonghieu/kiehl's.html">Kiehl's</a>
+                    <a href="../Thuonghieu/larocheposay.html">La Roche-Posay</a>
+                    <a href="../Thuonghieu/maybeline.html">Maybeline</a>
+                    <a href="../Thuonghieu/ohui.html">Ohui</a>
+                </div>
+            </li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Dưỡng da</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Duongda/kemchongnang.html">Kem chống nắng</a>
+                    <a href="../Duongda/kemduong.html">Kem dưỡng</a>
+                    <a href="../Duongda/matna.html">Mặt nạ</a>
+                    <a href="../Duongda/suaduongthe.html">Sữa dưỡng thể</a>
+                    <a href="../Duongda/suaruamat.html">Sữa rửa mặt</a>
+                    <a href="../Duongda/taytrang.html">Tẩy trang</a>
+                    <a href="../Duongda/toner.html">Toner</a>
+                </div>
+            </li>
+            <li><a href="../Page/book.html">Sách</a></li>
+            <li><a href="../Page/consultation.html">Tư vấn</a></li>
+            <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+        </ul>
+    </div>
+
+
+    <!--Chi tiết sản phẩm-->
+
+    <div class="product_detail">
+        <div class="product_card">
+            <div class="product_imgs">
+                <div class="img-display">
+                    <div class="img_showcase">
+                        <img src="../Image/Sản phẩm/ImgOhui/OHUI Miracle Moisture Cleansing Cream.png" id="ProductImg" />
+
+                        <!--Hình ảnh chi tiết-->
+                        <div class="img_select">
+                            <div class="img_item">
+                                <img class="small_img" src="../Image/Sản phẩm/ImgOhui/OHUI Miracle Moisture Cleansing Cream.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product_content">
+                <h1>OHUI Miracle Moisture Cleansing Cream 200ml</h1>
+                <div class="prduct_rating">
+                    <img src="../Image/Icon/5_sao_danh_gia.png" />
+                    <span>4.7(21)</span>
+                </div>
+                <div class="product_price">
+                    <p class="last-price"><span>900.000 VNĐ</span></p>
+                    <p class="new-price">Giá:<span>750.000 VNĐ (20%)</span></p>
+                </div>
+
+                <!-----Mô tả sản phẩm----->
+                <div class="product_information">
+                    <h3>Mô tả sản phẩm:</h3>
+                    <p>
+                        Kem tẩy trang 2 trong 1 giúp làm sạch lớp makeup đồng thời cấp ẩm làm dịu nhẹ da...
+                    </p>
+                    <ul>
+                        <li>Thương hiệu:<span> O HUI</span> </li>
+                        <li>Xuất xứ: <span> Hàn Quốc</span></li>
+                        <li>Số lượng trong kho: <span>4100</span></li>
+                    </ul>
+                </div>
+                <div class="purchase">
+                    <input type="number" min="0" value="1" />
+                    <button type="button" class="btn">
+                        Thêm vào giỏ hàng
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="product_item_infor">
+        <h1>THÔNG TIN CHI TIẾT</h1>
+        <p>
+            Kem tẩy trang 2 trong 1 giúp làm sạch lớp makeup đồng thời cấp ẩm làm dịu nhẹ da.
+        </p>
+        <p>
+            Chứa thành phần dầu thiên nhiên giúp bổ sung ẩm, mang lại làn da căng tràn & sáng mịn sau khi tẩy trang.
+        </p>
+        <p>
+            Giúp làn da sạch mịn, ẩm mượt căng tràn sức sống.
+        </p>
+    </div>
+
+
+
+
+
+
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>SẢN PHẨM LIÊN QUAN</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/O Hui Miracle Moisture Cleansing Oil.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Miracle Moisture Cleansing Oil 150ml</b></h4>
+                                            <p class="item-price"><b>GIÁ: 750.000VNĐ</b></p>
+                                            <a href="../ChitietOhui/OHuiMiracleMoistureCleansingOil.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/O Hui Prime Advancer Ampoule Mask 3 Step.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Prime Advancer Ampoule Mask 3 Step Set 37ml</b></h4>
+                                            <p class="item-price"> <span>Giá: 159.000 VNĐ</span></p>
+                                            <a href="../ChitietOhui/OHuiPrimeAdvancerAmpouleMask3Step.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/OHui Clinic Science Deep Medi Cleansing Foam.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Clinic Science Deep Medi-Cleansing Foam 200ml</b></h4>
+                                            <p class="item-price"><span>GIÁ: 600.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/OHuiClinicScienceDeepMediCleansingFoam.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/SP_Bosung/62.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>Gel tẩy tế bào chết OHUI Clear Science Soft Peeling [100ml]</b></h4>
+                                            <p class="item-price"><span>GIÁ: 435.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/Geltaytebaochet.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- NHóm 2 -->
+                        <div class="item carousel-item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/Ohui Delight Therapy Body Lotion.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Delight Therapy Body Lotion 300ml </b></h4>
+                                            <p class="item-price"><span>GIÁ: 720.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/OhuiDelightTherapyBodyLotion.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/OHUI Extreme White Skin Softener.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Extreme White Skin Softener 150ml</b></h4>
+                                            <p class="item-price"><span>GIÁ: 1.200.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/OHUIExtremeWhiteSkinSoftener.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/Ohui Extreme White Sleeping Mask.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Extreme White Sleeping Mask 100ml</b></h4>
+                                            <p class="item-price"><span>Giá: 1.260.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/OhuiExtremeWhiteSleepingMask.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/Ohui Miracle Aqua Gel Cream.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Miracle Aqua Gel Cream 100ml</b></h4>
+                                            <p class="item-price"><span>Giá: 1.400.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/OhuiMiracleAquaGelCream.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/OHUI Miracle Moisture Cleansing Cream.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Miracle Moisture Cleansing Cream 200ml</b></h4>
+                                            <p class="item-price"><span>Giá: 750.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/OHUIMiracleMoistureCleansingCream.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/OHUI Miracle Moisture Skin Softener.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Miracle Moisture Skin Softener Moist 150ml</b></h4>
+                                            <p class="item-price"><span>Giá: 900.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/OHUIMiracleMoistureSkinSoftener.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/Ohui The First Geniture Ampoule Mask.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI The First Geniture Ampoule Mask 40ml</b></h4>
+                                            <p class="item-price"><span>Giá: 180.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/OhuiTheFirstGenitureAmpouleMask.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/Ohui Vital Boby Energyzing Body Lotion.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Vita Body Energizing Body Lotion 200ml</b></h4>
+                                            <p class="item-price"><span>Giá: 700.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/OhuiVitalBobyEnergyzingBodyLotion.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/kcnOHUI.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Day Shield Perfect Sun Red SPF50+ PA++++ 50ml</b></h4>
+                                            <p class="item-price"><span>Giá: 950.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/kcnOHUI.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/Ohui White Extreme 3D Black Mask.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>OHUI Extreme White 3D Black Mask 6x27g</b></h4>
+                                            <p class="item-price"><span>Giá: 1.600.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/OhuiWhiteExtreme3DBlackMask.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="../Image/Sản phẩm/ImgOhui/SP_Bosung/61.png" class="img-fluid">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><b>Combo bộ sản phẩm dưỡng trắng da, ngăn ngừa lão hóa OHUI</b></h4>
+                                            <p class="item-price"><span>Giá: 1.200.000 VNĐ</span></p>
+
+                                            <a href="../ChitietOhui/Combobosanphanduongtrang.html" class="btn btn-primary">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <!--Bắt Đầu Nội Dung Giới Thiệu-->
+            <div class="noi-dung about">
+                <img width="140" height="70" src="../Image/Logo/Logo.png" />
+                <p>
+                    Rosie là kênh mua sắm mỹ phẩm, làm đẹp hàng đầu Việt Nam được các beauty blogger lựa chọn để giới
+                    thiệu sản phẩm họ yêu thích tới khách hàng, người hâm mộ.
+                </p>
+            </div>
+            <!--Kết Thúc Nội Dung Giới Thiệu-->
+            <!--Bắt Đầu Nội Dung Đường Dẫn-->
+            <div class="noi-dung links">
+                <h2>DANH MỤC SẢN PHẨM</h2>
+                <ul>
+                    <li><a href="../Thuonghieu/Avene.html">Thương hiệu</a></li>
+                    <li><a href="../Duongda/suaduongthe.html">Dưỡng da</a></li>
+                    <li><a href="../Page/book.html">Sách</a></li>
+                    <li><a href="../Page/consultation.html">Tư vấn</a></li>
+                    <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+                </ul>
+            </div>
+            <div class="noi-dung chinhsach">
+                <h2>THÔNG TIN VÀ HƯỚNG DẪN</h2>
+                <ul>
+                    <li><a href="../gioithieu-chinhsach/verosie.html">Về Rosie</a></li>
+                    <li><a href="../Page/cauhoithuonggap1.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="../gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a></li>
+                    <li><a href="../gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="../gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Đường Dẫn-->
+            <!--Bắt Đâu Nội Dung Liên Hệ-->
+            <div class="noi-dung contact">
+                <h2>THÔNG TIN LIÊN HỆ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>
+                            <a href="#">+84 231 677 789</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>
+                            Đường Số 1 Quận 1 <br /> TP. Hồ Chí Minh
+                            Việt Nam
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="#">Rosie@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <ul class="social-icon">
+                            <li><a href="https://www.facebook.com/Rosie-101843242352127" rel="noreferrer" target="_blank"><img class="fa fa-facebook" src="../Image/Icon/icon-facebook.png" /></a></li>
+                            <li><a href="https://www.instagram.com/rosie_220901/?fbclid=IwAR0mPgy9xpz76xyJcMXziSTPPkFEtbS-OfuL8mxIqId_rseK1PQI1uhjkAI" rel="noreferrer" target="_blank"><img class="fa fa-instagram" src="../Image/Icon/iconinstagram.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Liên Hệ-->
+        </div>
+    </footer>
+
+
+
+    <!--Javascript-->
+
+    <script type="text/javascript" src="../java/mainstyle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".wish-icon i").click(function () {
+                $(this).toggleClass("fa-heart fa-heart-o");
+            });
+        });
+
+    </script>
+</body>
+</html>

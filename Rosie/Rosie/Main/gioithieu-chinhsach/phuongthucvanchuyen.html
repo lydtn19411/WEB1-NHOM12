@@ -2,9 +2,209 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giới thiệu về Rosie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype_gt_cs.css" />
+
 </head>
 <body>
+    <header>
+        <a><marquee style="font-size:15px; color:white" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
+        <i><a href="register.html">Đăng ký</a> &nbsp; <a href="login.html">Đăng nhập</a></i>
+    </header>
+
+    <div class="wrapper">
+        <img src="../Image/Logo/Logo.png" onclick="menu_list('menu_none', this)" />
+        <div class="search">
+            <input type="text" class="input" placeholder="Search...">
+            <a class="searchbtn" href=""><i class="fa fa-search"></i></a>
+        </div>
+        <div class="icons">
+            <a href=""><i class="fa fa-bell"></i></a>
+            <a href=""><i class="fa fa-user-circle"></i></a>
+            <a href="../Page/cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <div class="menu_small" onclick="menu_list('menu', this)"> <i class="fa fa-bars"></i></div>
+        </div>
+    </div>
+
+    <!--Phần menu ngang-->
+    <div class="menu">
+        <ul class="menu_horizontal" id="menu_hor">
+            <li><a href="../index.html">Trang chủ</a></li>
+            <li><a href="makeup.html">Trang điểm</a></li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Thương hiệu</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Thuonghieu/Avene.html">Avène</a>
+                    <a href="../Thuonghieu/cocoon.html">Cocoon</a>
+                    <a href="../Thuonghieu/esteelauder.html">Estee Lauder</a>
+                    <a href="../Thuonghieu/innisfree.html">Innisfree</a>
+                    <a href="../Thuonghieu/kiehl's.html">Kiehl's</a>
+                    <a href="../Thuonghieu/larocheposay.html">La Roche-Posay</a>
+                    <a href="../Thuonghieu/maybeline.html">Maybeline</a>
+                    <a href="../Thuonghieu/ohui.html">Ohui</a>
+                </div>
+            </li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Dưỡng da</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Duongda/kemchongnang.html">Kem chống nắng</a>
+                    <a href="../Duongda/kemduong.html">Kem dưỡng</a>
+                    <a href="../Duongda/matna.html">Mặt nạ</a>
+                    <a href="../Duongda/suaduongthe.html">Sữa dưỡng thể</a>
+                    <a href="../Duongda/suaruamat.html">Sữa rửa mặt</a>
+                    <a href="../Duongda/taytrang.html">Tẩy trang</a>
+                    <a href="../Duongda/toner.html">Toner</a>
+                </div>
+            </li>
+            <li><a href="../Page/book.html">Sách</a></li>
+            <li><a href="../Page/consultation.html">Tư vấn</a></li>
+            <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+        </ul>
+    </div>
+
+    <div class="thongtin">
+        <div class="menuthongtin">
+            <b>THÔNG TIN</b>
+            <ul>
+                <li>
+                    <a style="color:var(--color-hongdam); font-size:23px" href="../gioithieu-chinhsach/gioithieurosie.html">Giới thiệu</a>
+                    <a href="../gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a>
+                    <a href="../gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a>
+                    <a href="../gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a>
+                    <a href="../gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a>
+                </li>
+            </ul>
+            <b>HƯỚNG DẪN</b>
+            <ul>
+                <li>
+                    <a href="../gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a>
+                    <a href="../gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a>
+                    <a href="../gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="noidungvanchuyen">
+            <b>Giao hàng và thanh toán</b>
+            <p>HIỆN ROSIE CÓ 4 HÌNH THỨC THANH TOÁN CHO KHÁCH HÀNG LỰA CHỌN:</p>
+            <ol>
+                <li>
+                    Thanh toán bằng Thẻ quốc tế Visa, Master, JCB qua Cổng thanh toán Onepay (áp dụng cho mọi đơn hàng):
+                    <p>Sau khi khách hàng thanh toán qua cổng Onepay, hệ thống sẽ tự động gởi SMS xác nhận cho khách, đơn hàng sẽ được xử lý và ship đi trong vòng 24h.</p>
+                </li>
+                <li>
+                    Thanh toán Chuyển khoản qua Thẻ ATM nội địa/ Internet Banking (áp dụng cho mọi đơn hàng):
+                    <p>Sau khi khách hàng đặt hàng thành công, hệ thống sẽ gửi SMS và email xác nhận đặt hàng gồm có mã đơn hàng và thông tin chuyển khoản. Khách hàng có thể chuyển qua iBanking, chuyển tiền mặt ở ngân hàng, chuyển qua ATM... Khi chuyển quý khách lưu ý ghi rõ mã đơn hàng để tiện trong việc kiểm tra và cập nhập thanh toán.</p>
+                    <p>Thông tin chuyển khoản của Rosie như sau:</p>
+                    <ul>
+                        <li>Tên người nhận: Công Ty Cổ Phần Sachi</li>
+                        <li>Số tài khoản: 258071699</li>
+                        <li>Tên ngân hàng: Ngân Hàng Á Châu (ACB)</li>
+                        <li>Chi nhánh: Bến Chương Dương</li>
+                        <li>Nội dung chuyển khoản: Mã đơn hàng & Số điện thoại mua hàng</li>
+                    </ul>
+                    <p>Trường hợp quý khách chuyển khoản qua cây ATM không ghi được nội dung, vui lòng giữ lại biên nhận và gọi vào hotline 1800 2040 hoặc gởi tin nhắn vào link facebook <a style="color:var(--color-hongdam); text-decoration:underline" href="https://www.facebook.com/Rosie-101843242352127">facebook Rosie</a> để được hỗ trợ xác nhận thanh toán. Sau khi đơn hàng được cập nhật thanh toán thành công sẽ được xử lý và ship đi trong vòng 24h.</p>
+                </li>
+                <li>
+                    Thanh toán qua ví MoMo:
+                    <p>Quý khách cần tải ứng dụng MoMo về điện thoại, liên kết với ngân hàng và nạp tiền vào ví MoMo sau đó đặt hàng trên Rosie và chọn vào phương thức thanh toán bằng Ví MoMo.</p>
+                </li>
+                <li>
+                    Thanh Toán Tiền Mặt Khi Nhận Hàng - COD (áp dụng cho mọi đơn hàng có địa chỉ nhận hàng tại thành phố Hồ Chí Minh, Hà Nội và các đơn hàng từ 400,000đ trở lên có địa chỉ nhận hàng tại các tỉnh thành khác):
+                    <p>Sau khi quý khách hoàn tất đặt hàng, bộ phận Chăm sóc khách hàng của Rosie sẽ gọi điện cho quý khách để xác nhận. Sau khi xác nhận thành công, đơn hàng sẽ được xử lý và ship đi trong vòng 24h.</p>
+                </li>
+            </ol>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <!--Bắt Đầu Nội Dung Giới Thiệu-->
+            <div class="noi-dung about">
+                <img width="140" height="70" src="../Image/Logo/Logo.png" />
+                <p>
+                    Rosie là kênh mua sắm mỹ phẩm, làm đẹp hàng đầu Việt Nam được các beauty blogger lựa chọn để giới
+                    thiệu sản phẩm họ yêu thích tới khách hàng, người hâm mộ.
+                </p>
+            </div>
+            <!--Kết Thúc Nội Dung Giới Thiệu-->
+            <!--Bắt Đầu Nội Dung Đường Dẫn-->
+            <div class="noi-dung links">
+                <h2>DANH MỤC SẢN PHẨM</h2>
+                <ul>
+                    <li><a href="../Thuonghieu/Avene.html">Thương hiệu</a></li>
+                    <li><a href="../Duongda/suaduongthe.html">Dưỡng da</a></li>
+                    <li><a href="../book.html">Sách</a></li>
+                    <li><a href="../consultation.html">Tư vấn</a></li>
+                    <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+                </ul>
+            </div>
+            <div class="../noi-dung chinhsach">
+                <h2>THÔNG TIN VÀ HƯỚNG DẪN</h2>
+                <ul>
+                    <li><a href="../gioithieu-chinhsach/verosie.html">Về Rosie</a></li>
+                    <li><a href="../Page/cauhoithuonggap1.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="../gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a></li>
+                    <li><a href="../gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="../gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Đường Dẫn-->
+            <!--Bắt Đâu Nội Dung Liên Hệ-->
+            <div class="noi-dung contact">
+                <h2>THÔNG TIN LIÊN HỆ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>
+                            <a href="#">+84 231 677 789</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>
+                            Đường Số 1 Quận 1 <br /> TP. Hồ Chí Minh
+                            Việt Nam
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="#">rosie19411@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <ul class="social-icon">
+                            <li><a href="https://www.facebook.com/Rosie-101843242352127" rel="noreferrer" target="_blank"><img class="fa fa-facebook" src="../Image/Icon/icon-facebook.png" /></a></li>
+                            <li><a href="https://www.instagram.com/rosie_220901/?fbclid=IwAR0mPgy9xpz76xyJcMXziSTPPkFEtbS-OfuL8mxIqId_rseK1PQI1uhjkAI" rel="noreferrer" target="_blank"><img class="fa fa-instagram" src="../Image/Icon/iconinstagram.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Liên Hệ-->
+        </div>
+    </footer>
+
+    <!--Javascript-->
+    <script type="text/javascript" src="../java/mainstyle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".wish-icon i").click(function () {
+                $(this).toggleClass("fa-heart fa-heart-o");
+            });
+        });
+
+    </script>
 
 </body>
 </html>

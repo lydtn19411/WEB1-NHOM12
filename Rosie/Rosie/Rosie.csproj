@@ -2213,16 +2213,51 @@
     <Content Include="Main\ChitietEssteelauder\esla_7.html" />
     <Content Include="Main\ChitietEssteelauder\esla_8.html" />
     <Content Include="Main\ChitietEssteelauder\esla_9.html" />
+    <Content Include="Main\Chitietlarocheposay\NuoctaytrangLRP.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche Posay Soothing Lotion Sensitive Skin.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche Posay Serozinc Zinc Sulfate Solution Cleansing.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche-Posay Uvidea Tone Up Rosy SPF30PLUS.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche-Posay Thermal Spring Water.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche-Posay Toleriane Purifying Foaming Cream.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche-Posay Micellar Water Ultra Sensitive Skin.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche-Posay Micellar Water Ultra Sensitive Skin 200ml.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche-Posay Lipikar Soothing Protecting Hydrating Fluid.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche-Posay Effaclar Purifying Foaming Gel Cleanser For Oily Skin.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche-Posay Effaclar Micellar Water Ultra Oily.html" />
+    <Content Include="Main\Chitietlarocheposay\La Roche-Posay Cicaplast Baume B5.html" />
+    <Content Include="Main\Chitietlarocheposay\kcnLRP2.html" />
+    <Content Include="Main\Chitietlarocheposay\kcnLRP1.html" />
+    <Content Include="Main\Chitietlarocheposay\Gelruamatchodanhaycam.html" />
+    <Content Include="Main\ChitietOhui\OhuiWhiteExtreme3DBlackMask.html" />
+    <Content Include="Main\ChitietOhui\OhuiVitalBobyEnergyzingBodyLotion.html" />
+    <Content Include="Main\ChitietOhui\OhuiTheFirstGenitureAmpouleMask.html" />
+    <Content Include="Main\ChitietOhui\OHuiPrimeAdvancerAmpouleMask3Step.html" />
+    <Content Include="Main\ChitietOhui\OHUIMiracleMoistureSkinSoftener.html" />
+    <Content Include="Main\ChitietOhui\OHuiMiracleMoistureCleansingOil.html" />
+    <Content Include="Main\ChitietOhui\OHUIMiracleMoistureCleansingCream.html" />
+    <Content Include="Main\ChitietOhui\OhuiMiracleAquaGelCream.html" />
+    <Content Include="Main\ChitietOhui\OhuiExtremeWhiteSleepingMask.html" />
+    <Content Include="Main\ChitietOhui\OHUIExtremeWhiteSkinSoftener.html" />
+    <Content Include="Main\ChitietOhui\OhuiDelightTherapyBodyLotion.html" />
+    <Content Include="Main\ChitietOhui\OHuiClinicScienceDeepMediCleansingFoam.html" />
+    <Content Include="Main\ChitietOhui\kcnOHUI.html" />
+    <Content Include="Main\ChitietOhui\Geltaytebaochet.html" />
+    <Content Include="Main\ChitietOhui\Combobosanphanduongtrang.html" />
     <Content Include="Main\ChitietSach\book_biquyetduongdahanquoc.html" />
     <Content Include="Main\Css\maintype_chitietsanpham.css" />
+    <Content Include="Main\Css\maintype_gt_cs.css" />
     <Content Include="Main\Css\maintype_homepage.css" />
     <Content Include="Main\Css\maintype_login.css" />
+    <Content Include="Main\Css\maintype_tb.css" />
     <Content Include="Main\Css\style_blog.css" />
     <Content Include="Main\Fogotpassword\fogotpw_OTP.html" />
+    <Content Include="Main\gioithieu-chinhsach\gioithieurosie.html" />
     <Content Include="Main\Image\Banner\Banner12-12.png" />
     <Content Include="Main\Image\Banner\bannersale.png" />
     <Content Include="Main\Image\Banner\Bannersanphammoii.png" />
     <Content Include="Main\Image\Banner\BannerTet.png" />
+    <Content Include="Main\Image\Banner\bg1.jpg" />
+    <Content Include="Main\Image\Banner\bg2.png" />
     <Content Include="Main\Image\Blog\blogpic1.png" />
     <Content Include="Main\Image\Blog\blogpic2.png" />
     <Content Include="Main\Image\Blog\blogpic3.png" />
@@ -2525,6 +2560,11 @@
     <Content Include="Main\Image\Sản phẩm\ImgSach\Để yên cho da khỏe đẹp.jpg" />
     <Content Include="Main\java\mainstyle.js" />
     <Content Include="Main\Css\maintype_dd.css" />
+    <Content Include="Main\Page\cauhoithuonggap5.html" />
+    <Content Include="Main\Page\cauhoithuonggap4.html" />
+    <Content Include="Main\Page\cauhoithuonggap3.html" />
+    <Content Include="Main\Page\cauhoithuonggap2.html" />
+    <Content Include="Main\Page\cauhoithuonggap1.html" />
     <Content Include="Main\Page\Order.html" />
     <Content Include="Main\Page\Order_Complete.html" />
     <Content Include="Main\Page\register.html" />
@@ -2559,7 +2599,7 @@
     <Content Include="Main\Page\search.html" />
     <Content Include="Main\index.html" />
     <Content Include="Main\Page\makeup.html" />
-    <Content Include="Main\Page\consultation.html" />
+    <Content Include="Main\Thongbao\Capnhatdonhang.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -2807,11 +2847,8 @@
     <Folder Include="Main\ChitietAvene\" />
     <Folder Include="Main\ChitietInnisfree\" />
     <Folder Include="Main\ChitietKiehl%27s\" />
-    <Folder Include="Main\ChitietLareposay\" />
     <Folder Include="Main\ChitietMaybeline\" />
-    <Folder Include="Main\Chitiet_Ohui\" />
     <Folder Include="Main\Taikhoan\" />
-    <Folder Include="Main\Thongbao\" />
     <Folder Include="Main\Tinnhan\" />
   </ItemGroup>
   <ItemGroup>
