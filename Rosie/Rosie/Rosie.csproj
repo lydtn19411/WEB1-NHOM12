@@ -2240,6 +2240,18 @@
     <Content Include="Main\Chitietlarocheposay\kcnLRP2.html" />
     <Content Include="Main\Chitietlarocheposay\kcnLRP1.html" />
     <Content Include="Main\Chitietlarocheposay\Gelruamatchodanhaycam.html" />
+    <Content Include="Main\ChitietMaybeline\kemnen1.html" />
+    <Content Include="Main\ChitietMaybeline\kemnen2.html" />
+    <Content Include="Main\ChitietMaybeline\mahong1.html" />
+    <Content Include="Main\ChitietMaybeline\mahong2.html" />
+    <Content Include="Main\ChitietMaybeline\mascara1.html" />
+    <Content Include="Main\ChitietMaybeline\phan1.html" />
+    <Content Include="Main\ChitietMaybeline\phanmat1.html" />
+    <Content Include="Main\ChitietMaybeline\phanmat3.html" />
+    <Content Include="Main\ChitietMaybeline\son1.html" />
+    <Content Include="Main\ChitietMaybeline\son2.html" />
+    <Content Include="Main\ChitietMaybeline\son3.html" />
+    <Content Include="Main\ChitietMaybeline\taytrang2.html" />
     <Content Include="Main\ChitietOhui\OhuiWhiteExtreme3DBlackMask.html" />
     <Content Include="Main\ChitietOhui\OhuiVitalBobyEnergyzingBodyLotion.html" />
     <Content Include="Main\ChitietOhui\OhuiTheFirstGenitureAmpouleMask.html" />
@@ -2858,7 +2870,6 @@
   <ItemGroup>
     <Folder Include="Main\ChitietAvene\" />
     <Folder Include="Main\ChitietInnisfree\" />
-    <Folder Include="Main\ChitietMaybeline\" />
     <Folder Include="Main\Taikhoan\" />
     <Folder Include="Main\Tinnhan\" />
   </ItemGroup>
