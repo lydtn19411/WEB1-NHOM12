@@ -2,9 +2,291 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Mỹ phẩm Rosie</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
 </head>
 <body>
+    <header>
+        <a><marquee style="font-size:15px" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
+        <i><a href="register.html">Đăng ký</a> &nbsp; <a href="login.html">Đăng nhập</a></i>
+    </header>
+
+    <div class="wrapper">
+        <img src="../Image/Logo/Logo.png" onclick="menu_list('menu_none', this)" />
+        <div class="search">
+            <input type="text" class="input" placeholder="Search...">
+            <a class="searchbtn" href=""><i class="fa fa-search"></i></a>
+        </div>
+        <div class="icons">
+            <a href=""><i class="fa fa-bell"></i></a>
+            <a href=""><i class="fa fa-user-circle"></i></a>
+            <a href="../Page/cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <div class="menu_small" onclick="menu_list('menu', this)"> <i class="fa fa-bars"></i></div>
+        </div>
+    </div>
+
+    <!--Phần menu ngang-->
+    <div class="menu">
+        <ul class="menu_horizontal" id="menu_hor">
+            <li><a href="../index.html">Trang chủ</a></li>
+            <li><a href="makeup.html">Trang điểm</a></li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Thương hiệu</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Thuonghieu/Avene.html">Avène</a>
+                    <a href="../Thuonghieu/cocoon.html">Cocoon</a>
+                    <a href="../Thuonghieu/esteelauder.html">Estee Lauder</a>
+                    <a href="../Thuonghieu/innisfree.html">Innisfree</a>
+                    <a href="../Thuonghieu/kiehl's.html">Kiehl's</a>
+                    <a href="../Thuonghieu/larocheposay.html">La Roche-Posay</a>
+                    <a href="../Thuonghieu/maybeline.html">Maybeline</a>
+                    <a href="../Thuonghieu/ohui.html">Ohui</a>
+                </div>
+            </li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Dưỡng da</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Duongda/kemchongnang.html">Kem chống nắng</a>
+                    <a href="../Duongda/kemduong.html">Kem dưỡng</a>
+                    <a href="../Duongda/matna.html">Mặt nạ</a>
+                    <a href="../Duongda/suaduongthe.html">Sữa dưỡng thể</a>
+                    <a href="../Duongda/suaruamat.html">Sữa rửa mặt</a>
+                    <a href="../Duongda/taytrang.html">Tẩy trang</a>
+                    <a href="../Duongda/toner.html">Toner</a>
+                </div>
+            </li>
+            <li><a href="../Page/book.html">Sách</a></li>
+            <li><a href="../Page/cauhoithuonggap1.html">Tư vấn</a></li>
+            <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+        </ul>
+    </div>
+
+
+
+    <div class="danhmuc">
+        <!--Phần menu dọc-->
+        <div class="menu_vertical">
+            <b>DANH MỤC SẢN PHẨM </b>
+            <div class="multi-level">
+                <div class="item">
+                    <input type="checkbox" id="A" />
+                    <label for="A">Dưỡng da</label>
+                    <ul>
+                        <li><a href="../Duongda/kemchongnang.html">Kem chống nắng</a></li>
+                        <li><a href="../Duongda/kemduong.html">Kem dưỡng</a></li>
+                        <li><a href="../Duongda/matna.html">Mặt nạ</a></li>
+                        <li><a href="../Duongda/suaduongthe.html">Sữa dưỡng thể</a></li>
+                        <li><a href="../Duongda/suaruamat.html">Sữa rửa mặt</a></li>
+                        <li><a href="../Duongda/taytrang.html">Tẩy trang</a></li>
+                        <li><a href="../Duongda/toner.html">Toner</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="B" />
+                    <label for="B"><a href="makeup.html">Trang điểm</a></label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="C" />
+                    <label for="C"><a href="book.html">Sách</a></label>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Danh sách sản phẩm-->
+        <div class="danhmuc_sanpham">
+            <b>DANH MỤC SÁCH</b>
+            <div class="product_list">
+
+                <a class="card" href="../ChitietSach/biquyetddhq.html">
+                    <div class="image"><img src="../image/Sản phẩm/ImgSach/bí quyết dưỡng da hàn quốc.jpg" /></div>
+                    <div class="title">Bí quyết dưỡng da Hàn Quốc</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 117.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../ChitietSach/book_bimatcuanuoc.html">
+                    <div class="image"><img src="../image/Sản phẩm/ImgSach/bimatcuanuoc.jpg" /></div>
+                    <div class="title">Bí mật của nước</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 139.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../ChitietSach/ddkieunhat.html">
+                    <div class="image"><img src="../image/Sản phẩm/ImgSach/Dưỡng da kiểu Nhật.jpg" /></div>
+                    <div class="title">Dưỡng da kiểu Nhật</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 96.750 VNĐ</div>
+
+                </a>
+                <a class="card" href="../ChitietSach/ddtrongoi.html">
+                    <div class="image"><img src="../image/Sản phẩm/ImgSach/dưỡng da trọn gói.jpg" /></div>
+                    <div class="title">Dưỡng da trọn gói</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 99.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../ChitietSach/rattt_ratparis.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgSach/Madame Chic - Rất Thần Thái, Rất Paris.jpg" /></div>
+                    <div class="title">Rất thần thái - rất Paris</div>
+                    <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 71.400 VNĐ</div>
+
+                </a>
+                <a class="card" href="../ChitietSach/phuthuysd.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgSach/phù thủy sắc đẹp.jpg" /></div>
+                    <div class="title">Phù thủy sắc đẹp</div>
+                    <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 156.800 VNĐ </div>
+
+                </a>
+                <a class="card" href="../ChitietSach/phunuphaidep.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgSach/Phụ nữ là phải đẹp.jpg" /></div>
+                    <div class="title">Phụ nữ là phải đẹp</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 135.200 VNĐ</div>
+
+                </a>
+                <a class="card" href="../ChitietSach/skincarecn.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgSach/Skincare Chuyên Nghiệp.jpg" /></div>
+                    <div class="title">Skincare chuyên nghiệp</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 120.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../ChitietSach/thanhkinhdd.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgSach/Thánh kinh dưỡng da.jpg" /></div>
+                    <div class="title">Thánh kinh dưỡng da</div>
+                    <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 84.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../ChitietSach/vudieuld.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgSach/vũ điệu làn da.jpg" /></div>
+                    <div class="title">Vũ điệu làn da</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 86.500 VNĐ</div>
+
+                </a>
+                <a class="card" href="../ChitietSach/deyenchoda.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgSach/Để yên cho da khỏe đẹp.jpg" /></div>
+                    <div class="title">Để yên cho da khỏe</div>
+                    <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 85.400 VNĐ</div>
+
+                </a>
+                <a class="card" href="../ChitietSach/ntchamsocda.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgSach/nghệ thuật chăm sóc làn da.jpg" /></div>
+                    <div class="title">Nghệ thuật chăm sóc làn da</div>
+                    <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 100.000 VNĐ</div>
+
+                </a>
+            </div>
+            <!--Phân trang-->
+            <div class="pagination">
+                <ul>
+                    <li class="btn prev"><a>Prev</a> </li>
+                    <li class="page-item" onclick="changePagination('1', this)"><a href="#">1</a></li>
+                    <li class="page-item" onclick="changePagination('2',this)"><a href="#">2</a></li>
+                    <li class="page-item" onclick="changePagination('3', this)"><a href="#">3</a></li>
+                    <li class="page-item" onclick="changePagination('4', this)"><a href="#">4</a></li>
+                    <li class="page-item" onclick="changePagination('5', this)"><a href="#">5</a></li>
+                    <li class="page-item" onclick="changePagination('6', this)"><a href="#">6</a></li>
+                    <li class="page-item" onclick="changePagination('7', this)"><a href="#">7</a></li>
+                    <li class="btn next"><a>Next</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <!--Bắt Đầu Nội Dung Giới Thiệu-->
+            <div class="noi-dung about">
+                <img width="140" height="70" src="../Image/Logo/Logo.png" />
+                <p>
+                    Rosie là kênh mua sắm mỹ phẩm, làm đẹp hàng đầu Việt Nam được các beauty blogger lựa chọn để giới
+                    thiệu sản phẩm họ yêu thích tới khách hàng, người hâm mộ.
+                </p>
+            </div>
+            <!--Kết Thúc Nội Dung Giới Thiệu-->
+            <!--Bắt Đầu Nội Dung Đường Dẫn-->
+            <div class="noi-dung links">
+                <h2>DANH MỤC SẢN PHẨM</h2>
+                <ul>
+                    <li><a href="../Thuonghieu/Avene.html">Thương hiệu</a></li>
+                    <li><a href="../Duongda/suaduongthe.html">Dưỡng da</a></li>
+                    <li><a href="../Page/book.html">Sách</a></li>
+                    <li><a href="../Page/consultation.html">Tư vấn</a></li>
+                    <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+                </ul>
+            </div>
+            <div class="noi-dung chinhsach">
+                <h2>THÔNG TIN VÀ HƯỚNG DẪN</h2>
+                <ul>
+                    <li><a href="../gioithieu-chinhsach/verosie.html">Về Rosie</a></li>
+                    <li><a href="consultation.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="../gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a></li>
+                    <li><a href="../gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="../gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Đường Dẫn-->
+            <!--Bắt Đâu Nội Dung Liên Hệ-->
+            <div class="noi-dung contact">
+                <h2>THÔNG TIN LIÊN HỆ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>
+                            <a href="#">+84 231 677 789</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>
+                            Đường Số 1 Quận 1 <br /> TP. Hồ Chí Minh
+                            Việt Nam
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="#">rosie19411@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <ul class="social-icon">
+                            <li><a href="https://www.facebook.com/Rosie-101843242352127" rel="noreferrer" target="_blank"><img class="fa fa-facebook" src="../Image/Icon/icon-facebook.png" /></a></li>
+                            <li><a href="https://www.instagram.com/rosie_220901/?fbclid=IwAR0mPgy9xpz76xyJcMXziSTPPkFEtbS-OfuL8mxIqId_rseK1PQI1uhjkAI" rel="noreferrer" target="_blank"><img class="fa fa-instagram" src="../Image/Icon/iconinstagram.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Liên Hệ-->
+        </div>
+    </footer>
+
+
+    <!--Javascript-->
+    <script src="../java/mainstyle.js"></script>
+
 
 </body>
 </html>

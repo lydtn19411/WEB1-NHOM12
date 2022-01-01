@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mỹ phẩm Rosie</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/style_account.css" />
+</head>
+<body>
+    <header>
+        <a><marquee style="font-size:15px" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
+        <i><a href="register.html">Đăng ký</a> &nbsp; <a href="login.html">Đăng nhập</a></i>
+    </header>
+
+    <div class="wrapper">
+        <img src="../Image/Logo/Logo.png" onclick="menu_list('menu_none', this)" />
+        <div class="search">
+            <input type="text" class="input" placeholder="Search...">
+            <a class="searchbtn" href=""><i class="fa fa-search"></i></a>
+        </div>
+        <div class="icons">
+            <a href=""><i class="fa fa-bell"></i></a>
+            <a href=""><i class="fa fa-user-circle"></i></a>
+            <a href="../Page/cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <div class="menu_small" onclick="menu_list('menu', this)"> <i class="fa fa-bars"></i></div>
+        </div>
+    </div>
+
+    <!--Phần menu ngang-->
+    <div class="menu">
+        <ul class="menu_horizontal" id="menu_hor">
+            <li><a href="../index.html">Trang chủ</a></li>
+            <li><a href="makeup.html">Trang điểm</a></li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Thương hiệu</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Thuonghieu/Avene.html">Avène</a>
+                    <a href="../Thuonghieu/cocoon.html">Cocoon</a>
+                    <a href="../Thuonghieu/esteelauder.html">Estee Lauder</a>
+                    <a href="../Thuonghieu/innisfree.html">Innisfree</a>
+                    <a href="../Thuonghieu/kiehl's.html">Kiehl's</a>
+                    <a href="../Thuonghieu/larocheposay.html">La Roche-Posay</a>
+                    <a href="../Thuonghieu/maybeline.html">Maybeline</a>
+                    <a href="../Thuonghieu/ohui.html">Ohui</a>
+                </div>
+            </li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Dưỡng da</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Duongda/kemchongnang.html">Kem chống nắng</a>
+                    <a href="../Duongda/kemduong.html">Kem dưỡng</a>
+                    <a href="../Duongda/matna.html">Mặt nạ</a>
+                    <a href="../Duongda/suaduongthe.html">Sữa dưỡng thể</a>
+                    <a href="../Duongda/suaruamat.html">Sữa rửa mặt</a>
+                    <a href="../Duongda/taytrang.html">Tẩy trang</a>
+                    <a href="../Duongda/toner.html">Toner</a>
+                </div>
+            </li>
+            <li><a href="../Page/book.html">Sách</a></li>
+            <li><a href="../Page/cauhoithuonggap1.html">Tư vấn</a></li>
+            <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+        </ul>
+    </div>
+
+
+    <!--Thông tin tài khoản-->
+    <div class="account">
+        <div class="account_nav">
+            <div class="thumb">
+                <img src="../Image/Icon/ic_taikhoan 2.png" />
+                <h3>MINH ANH</h3>
+                <h4>Member</h4>
+                <div class="currency">
+                    <div class="currency_item">
+                        <img src="../Image/Icon/icon-coin-.png" />
+                        <p>0</p>
+                    </div>
+                    <div class="currency_item">
+                        <img src="../Image/Icon/icon-money.png" />
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_information" style="margin-top: 10px;">
+                <h3>TÀI KHOẢN</h3>
+                <ul>
+                    <li><a href="account.html">Thông tin cá nhân</a></li>
+                    <li><a href="account_donhangcuatoi.html">Đơn hàng của tôi</a></li>
+                    <li><a href="account_magiamgia.html">Mã giảm giá</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_information" style="margin-top: 10px;">
+                <h3>THÔNG TIN</h3>
+                <ul>
+                    <li><a>Khuyến mãi</a></li>
+                    <li><a>Thông tin về Rosie</a></li>
+                    <li><a>Cửa hàng của Rosie</a></li>
+                    <li><a>Hỗ trợ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="acc_container">
+            <div class="menu_donhang">
+                <ul>
+                    <li class="tab-item" onclick=" changeaccDonhang('chuathanhtoan', this)">Chưa thanh toán</li>
+                    <li class="tab-item" onclick=" changeaccDonhang('daxacnhan', this)">Đã xác nhận</li>
+                    <li class="tab-item" onclick=" changeaccDonhang('danggiao', this)">Đang giao</li>
+                    <li class="tab-item" onclick=" changeaccDonhang('dagiao', this)">Đã giao</li>
+                    <li class="tab-item" onclick=" changeaccDonhang('dahuy', this)">Đã hủy</li>
+                </ul>
+                <hr />
+            </div>
+
+
+
+            <!--Chưa thanh toán-->
+            <div id="chuathanhtoan" class="acc_chuathanhtoan">
+                <div class="acc_product">
+                    <div class="item_ac_product" >
+                        <img src="../Image/acc_product/La Roche Posay Soothing Lotion Sensitive Skin.png" />
+                        <div class="acc_description">
+                            <h3>
+                                La Roche-Posay Effaclar Micellar Water Ultra Oily Skin 200ml
+                            </h3>
+                            <h4>Giá: 328.000 VNĐ</h4>
+                            <h4>SL: 2</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc_product"  style="margin-top: 40px">
+                    <div class="item_ac_product">
+                        <img src="../Image/acc_product/La Roche-Posay Toleriane Purifying Foaming Cream_ccexpress.png" />
+                        <div class="acc_description">
+                            <h3>
+                                La Roche-Posay Toleriane Purifying Foaming Cream 50ml
+                            </h3>
+                            <h4>Giá: 225.000 VNĐ</h4>
+                            <h4>SL: 1</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc_total" style="margin-top: 40px">
+                    <h4>Tổng:</h4> &nbsp  &nbsp
+                    <h4>881.000 VNĐ</h4>
+                </div>
+            </div>
+
+            <!--Đã xác nhận-->
+            <div id="daxacnhan" class="acc_daxacnhan">
+                <div class="acc_product">
+                    <div class="item_ac_product">
+                        <img src="../Image/acc_product/OHui Clinic Science Deep Medi Cleansing Foam_ccexpress.png" />
+                        <div class="acc_description">
+                            <h3>OHUI Clinic Science Deep Medi-Cleansing Foam 200ml</h3>
+                            <h4>Giá: 600.000 VNĐ</h4>
+                            <h4>SL: 2</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc_product" style="margin-top: 40px">
+                    <div class="item_ac_product">
+                        <img src="../Image/acc_product/kemnen2_ccexpress.png" />
+                        <div class="acc_description">
+                            <h3>Kem nền Mịn Nhẹ Kiềm Dầu Fit Me Maybelline New York Matte Poreless Foundation 30ml</h3>
+                            <h4>Giá: 165.000 VNĐ</h4>
+                            <h4>SL: 2</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc_total" style="margin-top: 40px">
+                    <h4>Tổng:</h4> &nbsp  &nbsp
+                    <h4>1.365.000 VNĐ</h4>
+                </div>
+            </div>
+
+
+            <!--Đang giao-->
+            <div id="danggiao" class="acc_danggiao">
+                <div class="acc_product">
+                    <div class="item_ac_product">
+                        <img src="../Image/acc_product/kcn2_ccexpress.png" />
+                        <div class="acc_description">
+                            <h3> Ultra Light Daily UV Defense CC Cream</h3>
+                            <h4>Giá: 1,000,000 VNĐ</h4>
+                            <h4>SL: 1</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc_product" style="margin-top: 40px">
+                    <div class="item_ac_product">
+                        <img src="../Image/acc_product/OHUI Extreme White Skin Softener_ccexpress.png" />
+                        <div class="acc_description">
+                            <h3>OHUI Extreme White Skin Softener 150ml</h3>
+                            <h4>Giá: 1.200.000 VNĐ</h4>
+                            <h4>SL: 1</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc_total" style="margin-top: 40px">
+                    <h4>Tổng:</h4> &nbsp  &nbsp
+                    <h4>2.200.000 VNĐ</h4>
+                </div>
+            </div>
+
+
+            <!--Đã giao-->
+            <div id="dagiao" class="acc_dagiao">
+                <div class="acc_product">
+                    <div class="item_ac_product">
+                        <img src="../Image/acc_product/Estee Lauder Crescent White Cleanser_ccexpress.png" />
+                        <div class="acc_description">
+                            <h3>Estée Lauder Crescent White Full Cycle Brightening Cleanser 125ml </h3>
+                            <h4>Giá: 1.200.000 VNĐ</h4>
+                            <h4>SL: 1</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc_product" style="margin-top: 40px">
+                    <div class="item_ac_product">
+                        <img src="../Image/acc_product/Estee Lauder Take It Away Makeup Remover Lotion_ccexpress.png" />
+                        <div class="acc_description">
+                            <h3>Estée Lauder Take It Away Makeup Remover Lotion 200ml</h3>
+                            <h4>Giá: 1.100.000 VNĐ</h4>
+                            <h4>SL: 1</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc_total" style="margin-top: 40px">
+                    <h4>Tổng:</h4> &nbsp  &nbsp
+                    <h4>2.300.000 VNĐ</h4>
+                </div>
+            </div>
+
+
+            <!--Đã hủy-->
+            <div id="dahuy" class="acc_dahuy">
+                <div class="acc_product" style="margin-top: 40px">
+                    <div class="item_ac_product">
+                        <img src="../Image/acc_product/OHUI Extreme White Skin Softener_ccexpress.png" />
+                        <div class="acc_description">
+                            <h3>OHUI Extreme White Skin Softener 150ml</h3>
+                            <h4>Giá: 1.200.000 VNĐ</h4>
+                            <h4>SL: 1</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc_product" style="margin-top: 40px">
+                    <div class="item_ac_product">
+                        <img src="../Image/acc_product/La Roche-Posay Toleriane Purifying Foaming Cream_ccexpress.png" />
+                        <div class="acc_description">
+                            <h3>
+                                La Roche-Posay Toleriane Purifying Foaming Cream 50ml
+                            </h3>
+                            <h4>Giá: 225.000 VNĐ</h4>
+                            <h4>SL: 1</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc_total" style="margin-top: 40px">
+                    <h4>Tổng:</h4> &nbsp  &nbsp
+                    <h4>1.425.000 VNĐ</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <!--Bắt Đầu Nội Dung Giới Thiệu-->
+            <div class="noi-dung about">
+                <img width="140" height="70" src="../Image/Logo/Logo.png" />
+                <p>
+                    Rosie là kênh mua sắm mỹ phẩm, làm đẹp hàng đầu Việt Nam được các beauty blogger lựa chọn để giới
+                    thiệu sản phẩm họ yêu thích tới khách hàng, người hâm mộ.
+                </p>
+            </div>
+            <!--Kết Thúc Nội Dung Giới Thiệu-->
+            <!--Bắt Đầu Nội Dung Đường Dẫn-->
+            <div class="noi-dung links">
+                <h2>DANH MỤC SẢN PHẨM</h2>
+                <ul>
+                    <li><a href="../Thuonghieu/Avene.html">Thương hiệu</a></li>
+                    <li><a href="../Duongda/suaduongthe.html">Dưỡng da</a></li>
+                    <li><a href="../Page/book.html">Sách</a></li>
+                    <li><a href="../Page/cauhoithuonggap1.html">Tư vấn</a></li>
+                    <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+                </ul>
+            </div>
+            <div class="noi-dung chinhsach">
+                <h2>THÔNG TIN VÀ HƯỚNG DẪN</h2>
+                <ul>
+                    <li><a href="../gioithieu-chinhsach/verosie.html">Về Rosie</a></li>
+                    <li><a href="../Page/cauhoithuonggap1.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="../gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a></li>
+                    <li><a href="../gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="../gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Đường Dẫn-->
+            <!--Bắt Đâu Nội Dung Liên Hệ-->
+            <div class="noi-dung contact">
+                <h2>THÔNG TIN LIÊN HỆ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>
+                            <a href="#">+84 231 677 789</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>
+                            Đường Số 1 Quận 1 <br /> TP. Hồ Chí Minh
+                            Việt Nam
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="#">rosie19411@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <ul class="social-icon">
+                            <li><a href="https://www.facebook.com/Rosie-101843242352127" rel="noreferrer" target="_blank"><img class="fa fa-facebook" src="../Image/Icon/icon-facebook.png" /></a></li>
+                            <li><a href="https://www.instagram.com/rosie_220901/?fbclid=IwAR0mPgy9xpz76xyJcMXziSTPPkFEtbS-OfuL8mxIqId_rseK1PQI1uhjkAI" rel="noreferrer" target="_blank"><img class="fa fa-instagram" src="../Image/Icon/iconinstagram.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Liên Hệ-->
+        </div>
+    </footer>
+
+
+    <!--Javascript-->
+    <script src="../java/mainstyle.js"></script>
+
+
+</body>
+</html>

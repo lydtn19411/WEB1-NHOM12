@@ -2296,9 +2296,18 @@
     <Content Include="Main\Css\maintype_homepage.css" />
     <Content Include="Main\Css\maintype_login.css" />
     <Content Include="Main\Css\maintype_tb.css" />
+    <Content Include="Main\Css\style_account.css" />
     <Content Include="Main\Css\style_blog.css" />
     <Content Include="Main\Fogotpassword\fogotpw_OTP.html" />
     <Content Include="Main\gioithieu-chinhsach\gioithieurosie.html" />
+    <Content Include="Main\Image\acc_product\Estee Lauder Crescent White Cleanser_ccexpress.png" />
+    <Content Include="Main\Image\acc_product\Estee Lauder Take It Away Makeup Remover Lotion_ccexpress.png" />
+    <Content Include="Main\Image\acc_product\kcn2_ccexpress.png" />
+    <Content Include="Main\Image\acc_product\kemnen2_ccexpress.png" />
+    <Content Include="Main\Image\acc_product\La Roche Posay Soothing Lotion Sensitive Skin.png" />
+    <Content Include="Main\Image\acc_product\La Roche-Posay Toleriane Purifying Foaming Cream_ccexpress.png" />
+    <Content Include="Main\Image\acc_product\OHui Clinic Science Deep Medi Cleansing Foam_ccexpress.png" />
+    <Content Include="Main\Image\acc_product\OHUI Extreme White Skin Softener_ccexpress.png" />
     <Content Include="Main\Image\Banner\Banner12-12.png" />
     <Content Include="Main\Image\Banner\bannersale.png" />
     <Content Include="Main\Image\Banner\Bannersanphammoii.png" />
@@ -2337,7 +2346,10 @@
     <Content Include="Main\Image\Icon\5_sao_danh_gia.png" />
     <Content Include="Main\Image\Icon\discount.png" />
     <Content Include="Main\Image\Icon\gift.png" />
+    <Content Include="Main\Image\Icon\icon-coin-.png" />
+    <Content Include="Main\Image\Icon\icon-discount-.png" />
     <Content Include="Main\Image\Icon\icon-facebook.png" />
+    <Content Include="Main\Image\Icon\icon-money.png" />
     <Content Include="Main\Image\Icon\iconinstagram.png" />
     <Content Include="Main\Image\Icon\iconmail.png" />
     <Content Include="Main\Image\Icon\iconmessenger.png" />
@@ -2601,7 +2613,6 @@
     <Content Include="Main\Image\Sản phẩm\ImgSach\Skincare Chuyên Nghiệp.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgSach\Thánh kinh dưỡng da.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgSach\vũ điệu làn da.jpg" />
-    <Content Include="Main\Page\campaigns.html" />
     <Content Include="Main\Chuongtrinhnoibat\chuongtrinhsach.html" />
     <Content Include="Main\Chuongtrinhnoibat\chuongtrinhsanphamduongda.html" />
     <Content Include="Main\Chuongtrinhnoibat\chuongtrinhsanphamtrangdiem.html" />
@@ -2637,6 +2648,9 @@
     <Content Include="Main\Css\maintype.css" />
     <Content Include="Main\Fogotpassword\fogotpw.html" />
     <Content Include="Main\Page\book.html" />
+    <Content Include="Main\Taikhoan\account.html" />
+    <Content Include="Main\Taikhoan\account_donhangcuatoi.html" />
+    <Content Include="Main\Taikhoan\account_magiamgia.html" />
     <Content Include="Main\Thuonghieu\Avene.html" />
     <Content Include="Main\Thuonghieu\cocoon.html" />
     <Content Include="Main\Thuonghieu\esteelauder.html" />
@@ -2894,7 +2908,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Main\ChitietInnisfree\" />
-    <Folder Include="Main\Taikhoan\" />
     <Folder Include="Main\Tinnhan\" />
   </ItemGroup>
   <ItemGroup>

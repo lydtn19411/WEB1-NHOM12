@@ -40,7 +40,49 @@ function menu_list(type, element) {
 
 }
 
+function changeaccDonhang(type, element) {
+    let pages = document.getElementsByClassName('tab-item');
+    for (i = 0; i < pages.length; i++) {
+        pages[i].style.color = "#000000";
+    }
+    element.style.color = "#8B3A62";
 
+    document.getElementById(type).style.display = 'block';
+    switch (type) {
+        case 'chuathanhtoan':
+            document.getElementById('daxacnhan').style.display = 'none';
+            document.getElementById('danggiao').style.display = 'none';
+            document.getElementById('dagiao').style.display = 'none';
+            document.getElementById('dahuy').style.display = 'none';
+            break;
+        case 'daxacnhan':
+            document.getElementById('chuathanhtoan').style.display = 'none';
+            document.getElementById('danggiao').style.display = 'none';
+            document.getElementById('dagiao').style.display = 'none';
+            document.getElementById('dahuy').style.display = 'none';
+            break;
+        case 'danggiao':
+            document.getElementById('daxacnhan').style.display = 'none';
+            document.getElementById('chuathanhtoan').style.display = 'none';
+            document.getElementById('dagiao').style.display = 'none';
+            document.getElementById('dahuy').style.display = 'none';
+            break;
+        case 'dagiao':
+            document.getElementById('daxacnhan').style.display = 'none';
+            document.getElementById('danggiao').style.display = 'none';
+            document.getElementById('chuathanhtoan').style.display = 'none';
+            document.getElementById('dahuy').style.display = 'none';
+            break;
+        case 'dahuy':
+            document.getElementById('daxacnhan').style.display = 'none';
+            document.getElementById('danggiao').style.display = 'none';
+            document.getElementById('chuathanhtoan').style.display = 'none';
+            document.getElementById('dagiao').style.display = 'none';
+            break;
+
+    }
+
+}
 
 
 

@@ -1,0 +1,248 @@
+﻿/*Khai báo mã màu*/
+:root {
+    --color-hongdam: #8B3A62;
+    --color-hongnhat: #FFE4E1;
+    --color-hotpink3: #CD8c95;
+    --color-pink: #FFC0CB;
+    --color-pink2: #EEA9B8;
+    --color-hoaoaihuong: #E6E6FA;
+    --color-xam: #C4C4C4;
+}
+
+/*Thông tin khách hàng*/
+.account{
+    display: flex;
+    width: 90%;
+    margin: 7rem auto;
+}
+.account .account_nav{
+    display: block;
+    height: 100%;
+}
+    .account .account_nav .thumb {
+        display: block;
+        width: 120%;
+        padding: 2rem;
+        background-color: var(--color-hongnhat);
+        text-align: center;
+        border-radius: 10px;
+    }
+        .account .account_nav .thumb h3{
+            font-size: 20px;
+            margin: 10px 0 2px;
+        }
+        .account .account_nav .thumb .currency {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+            .account .account_nav .thumb .currency .currency_item{
+                display: block;
+                padding: 10px;
+                text-align: center;
+            }
+            .account .account_nav .thumb .currency .currency_item img{
+                width: 3rem;
+            }
+    .account .account_nav .nav_information {
+        display: block;
+        width: 120%;
+        padding: 2rem;
+        background-color: var(--color-hongnhat);
+        border-radius: 10px;
+    }
+        .account .account_nav .nav_information h3{
+            font-size: 20px;
+        }
+        .account .account_nav .nav_information ul {
+            list-style-type: none;
+            font-size: 20px;
+        }
+        .account .account_nav .nav_information ul li{
+            padding: 15px;
+            border-bottom: 0.5px solid var(--color-xam);
+        }
+            .account .account_nav .nav_information ul li a{
+                color:black;
+            }
+            .account .account_nav .nav_information ul li a:hover {
+                color: var(--color-hongdam);
+            }
+    .account .acc_container {
+        width: 100%;
+        background: var(--color-hongnhat);
+        border-radius: 5px;
+        margin-left: 5rem;
+        text-align: center;
+        display: block;
+    }
+    .account .acc_container h2{
+        font-size: 28px;
+        padding: 15px;
+    }
+        .account .acc_container hr {
+            background-color: black;
+            font-size: 2px;
+            margin-bottom: 30px
+        }
+        .account .acc_container img {
+            width: 15%;
+        }
+        .account .acc_container .thongtincanhan{
+            text-align: left;
+            display: block;
+            margin-top: 100px;
+            width: 80%;
+            margin: 10px auto 20px auto;
+        }
+            .account .acc_container .thongtincanhan .item_thongtincanhan{
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            .account .acc_container .thongtincanhan .item_thongtincanhan h5{
+                font-size: 20px;
+                font-weight: 500;
+                color: #808080;
+                margin: 0 0 5px 0;
+            }
+                .account .acc_container .thongtincanhan .item_thongtincanhan h6 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding: 5px;
+                    width: 100%;
+                    border: 1px solid black;
+                    border-radius: 7px;
+                }
+
+
+/*Thông tin đơn hàng*/
+.account .acc_container .menu_donhang ul{
+    list-style-type: none;
+    width: 80%;
+    display: flex;
+    padding: 15px 0;
+    font-size: 20px;
+    margin: auto;
+}
+        .account .acc_container hr {
+            background-color: black;
+            font-size: 2px;
+            margin-bottom: 30px
+        }
+        .account .acc_container .menu_donhang ul li{
+            padding: 0 4%;
+            font-weight: 600;
+        }
+            .account .acc_container .menu_donhang ul li:hover{
+                color: var(--color-hongdam);
+            }
+            #daxacnhan, #danggiao, #dagiao, #dahuy {
+                display: none;
+            }
+
+
+
+.acc_product {
+    width: 90%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1.5px solid var(--color-hongdam);
+}
+    .acc_product .item_ac_product{
+        display: flex;
+    }
+    .acc_product .item_ac_product img{
+        width: 15%;
+    }
+    .acc_product .item_ac_product .acc_description{
+        text-align: left;
+        margin: auto 0;
+    }
+        .acc_product .item_ac_product .acc_description h3{
+            font-size: 20px;
+            padding: 5px;
+        }
+        .acc_product .item_ac_product .acc_description h4 {
+            font-size: 15px;
+            font-weight: 300;
+            padding: 5px;
+        }
+.acc_total {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content:end;
+    margin: 15px auto;
+}
+.acc_total h4{
+    font-size: 20px;
+}
+
+/*Mã giảm giá*/
+.acc_discount {
+    width: 100%;
+    background: var(--color-hongnhat);
+    border-radius: 5px;
+    margin-left: 5rem;
+    text-align: center;
+    display: block;
+}
+
+    .acc_discount h2 {
+        font-size: 28px;
+        padding: 15px;
+    }
+
+    .acc_discount hr {
+        background-color: black;
+        font-size: 2px;
+        margin-bottom: 30px
+    }
+.wrapper_discount {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+.item_discount {
+    display: flex;
+    float: left;
+    border: 5px solid var(--color-hongdam);
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 10px;
+}
+    .item_discount img{
+        width:10%;
+        height: 40%;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .item_discount .item_discount_des {
+        display: block;
+        text-align: left;
+    }
+        .item_discount .item_discount_des h3 {
+            font-size: 20px;
+            padding: 5px;
+        }
+        .item_discount .item_discount_des h4 {
+            font-size: 20px;
+            width: 70%;
+            color: white;
+            border-radius: 5px;
+            background-color: var(--color-hotpink3);
+            padding: 5px;
+        }
+
+/*CCHUYỂN MÀN HÌNH*/
+@media (max-width: 768px) {
+    .item_discount img {
+       display: none;
+    }
+    
+}

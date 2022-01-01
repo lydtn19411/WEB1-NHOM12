@@ -2,16 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Mỹ phẩm Rosie</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
-    <link rel="stylesheet" type="text/css" href="../Css/maintype_login.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/style_account.css"/>
 </head>
 <body>
     <header>
         <a><marquee style="font-size:15px" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
-        <i><a href="../Page/register.html">Đăng ký</a> &nbsp; <a href="../Page/login.html">Đăng nhập</a></i>
+        <i><a href="register.html">Đăng ký</a> &nbsp; <a href="login.html">Đăng nhập</a></i>
     </header>
 
     <div class="wrapper">
@@ -65,36 +65,88 @@
     </div>
 
 
-    <section>
-        <div class="container_form">
-            <div class="form_content">
-                <h2>Quên mật khẩu</h2>
-                <p>
-                    Đăng nhập để mua hàng và sử dụng những tiện ích mới nhất từ Rosie.
-                </p>
-                <button class="signup-social-gg">
-                    <i class="fa fa-google signup-social-gg-icon-gg"></i>
-                    <span class="signup-social-text">Đăng nhập bằng Google</span>
-                </button>
-                <button class="signup-social-fb">
-                    <i class="fa fa-facebook signup-social-fb-icon-fb"></i>
-                    <span class="signup-social-text">Đăng nhập bằng Facebook</span>
-                </button>
-                <p class="text-register">
-                    Bạn đã có mật khẩu? &nbsp;
-                    <a href="../Page/login.html"><i>Đăng nhập</i></a>
-                </p>
+    <!--Thông tin tài khoản-->
+    <div class="account">
+        <div class="account_nav">
+            <div class="thumb">
+                <img src="../Image/Icon/ic_taikhoan 2.png" />
+                <h3>MINH ANH</h3>
+                <h4>Member</h4>
+                <div class="currency">
+                    <div class="currency_item">
+                        <img src="../Image/Icon/icon-coin-.png" />
+                        <p>0</p>
+                    </div>
+                    <div class="currency_item">
+                        <img src="../Image/Icon/icon-money.png" />
+                        <p>0</p>
+                    </div>
+                </div>
             </div>
-            <div class="login_form">
-                <form action="../Page/login.html">
-                    <input type="text" name="" required="" placeholder="Mã OTP">
-                    <input type="text" name="" required="" placeholder="Mật khẩu mới">
-                    <input type="text" name="" required="" placeholder="Xác nhận mật khẩu">
-                    <input type="submit" name="" value="Cập nhật mật khẩu">
-                </form>
+            <div class="nav_information" style="margin-top: 18px;">
+                <h3>TÀI KHOẢN</h3>
+                <ul>
+                    <li><a href="account.html">Thông tin cá nhân</a></li>
+                    <li><a href="account_donhangcuatoi.html">Đơn hàng của tôi</a></li>
+                    <li><a href="account_magiamgia.html">Mã giảm giá</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_information" style="margin-top: 18px;">
+                <h3>THÔNG TIN</h3>
+                <ul>
+                    <li><a>Khuyến mãi</a></li>
+                    <li><a>Thông tin về Rosie</a></li>
+                    <li><a>Cửa hàng của Rosie</a></li>
+                    <li><a>Hỗ trợ</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="acc_container">
+            <h2>THÔNG TIN CÁ NHÂN</h2>
+            <hr />
+            <img src="../Image/Icon/ic_taikhoan 2.png"/>
+            <div class="thongtincanhan">
+                <div class="item_thongtincanhan">
+                    <h5>Họ và tên:</h5>
+                    <h6> MINH ANH </h6>
+                </div>
+                <div class="item_thongtincanhan">
+                    <h5>Số điện thoại:</h5>
+                    <h6> 098764345 </h6>
+                </div>
+                <div class="item_thongtincanhan">
+                    <h5>Địa chỉ:</h5>
+                    <h6>Số nhà 45, Đinh Tiên Hoàng, P.4, quận Bình Thạnh, Tp.HCM </h6>
+                </div>
+                <div class="item_thongtincanhan">
+                    <h5>Địa chỉ email:</h5>
+                    <h6>minhanh10@gmail.com</h6>
+                </div>
+                <div class="item_thongtincanhan">
+                    <h5>Giới tính:</h5>
+                    <h6>Nữ</h6>
+                </div>
+                <div class="item_thongtincanhan">
+                    <h5>Ngày sinh:</h5>
+                    <h6>25/10/2001</h6>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+
+
+   
+  
+
+
+
+
+
+
 
 
 
@@ -113,7 +165,7 @@
             <div class="noi-dung links">
                 <h2>DANH MỤC SẢN PHẨM</h2>
                 <ul>
-                    <li><a href="T../huonghieu/Avene.html">Thương hiệu</a></li>
+                    <li><a href="../Thuonghieu/Avene.html">Thương hiệu</a></li>
                     <li><a href="../Duongda/suaduongthe.html">Dưỡng da</a></li>
                     <li><a href="../Page/book.html">Sách</a></li>
                     <li><a href="../Page/cauhoithuonggap1.html">Tư vấn</a></li>
@@ -154,7 +206,7 @@
                     </li>
                     <li>
                         <span><i class="fa fa-envelope"></i></span>
-                        <p><a href="#">Rosie@gmail.com</a></p>
+                        <p><a href="#">rosie19411@gmail.com</a></p>
                     </li>
                     <li>
                         <ul class="social-icon">
@@ -168,6 +220,9 @@
         </div>
     </footer>
 
+
+    <!--Javascript-->
+    <script src="../java/mainstyle.js"></script>
 
 
 </body>
