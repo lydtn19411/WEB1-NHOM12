@@ -186,8 +186,8 @@
 
 .thongtin {
     display: flex;
-    margin-top: 60px;
     width: 100%;
+    padding:60px;
 }
 
 
@@ -196,10 +196,8 @@
     width: 50%px;
     height: fit-content;
     margin-left: 125px;
-    margin-right: 30px;
     text-transform: none;
-    border-right: 1px solid var(--color-hongdam);
-    padding: 10px;
+    padding: 30px;
 }
 
     .menuthongtin b {
@@ -239,15 +237,14 @@
         display: inline-block;
         text-align: left;
     }
+    .menuthongtin a:hover{
+        color:var(--color-hongdam);
+    }
+    .menuthongtin a:active{
+        color:var(--color-hongnhat);
+    }
 
-        .menuthongtin a:hover {
-            background-color: var(--color-hongnhat);
-        }
-
-        .menuthongtin a:active {
-            opacity: 70%;
-            background-color: var(--color-hongnhat);
-        }
+       
 
 
 
@@ -402,20 +399,21 @@
     margin-right: 155px;
     margin-bottom: 150px;
     width: 60%;
+    margin-left: 40px;
+    padding:30px;
+    border-left: 1px solid var(--color-hongdam);
 }
 
     .noidungdathang p {
         font-family: Roboto;
         font-size: 23px;
         font: bold;
-        margin-left: 40px;
         margin-top: 30px;
         text-transform: none;
         padding: 10px;
     }
 
     .noidungdathang b {
-        margin-left: 50px;
         font-weight: 400;
         font-size: 30px;
         text-transform: none;
@@ -428,7 +426,7 @@
         margin-top: 30px;
         text-transform: none;
         margin-bottom: 10px;
-        margin-left: 40px;
+        margin-left: 10px;
         opacity: 90%;
     }
 
@@ -438,7 +436,7 @@
             margin-bottom: 10px;
             font: bold;
             text-transform: none;
-            margin-left: 40px;
+
         }
 
         .noidungdathang ol p {
@@ -446,18 +444,17 @@
             font-size: 20px;
             margin-top: 10px;
             text-transform: none;
-            margin-left: 40px;
         }
 
     .noidungdathang ul {
         list-style-type: disc;
+        margin-left: 15px;
     }
 
         .noidungdathang ul li {
             font-family: Roboto;
             font-size: 20px;
             text-transform: none;
-            margin-left: 40px;
             margin-bottom: 20px;
         }
 
@@ -468,6 +465,8 @@
     margin-left: 40px;
     margin-bottom: 150px;
     width: 60%;
+    padding:30px;
+    border-left: 1px solid var(--color-hongdam);
 }
 
     .noidunggioithieu b {
@@ -499,10 +498,13 @@
     margin-right: 135px;
     margin-bottom: 150px;
     width: 60%;
+    margin-left:40px;
+    padding: 30px;
+    border-left: 1px solid var(--color-hongdam);
 }
 
     .noidungdoitra b {
-        margin-left: 65px;
+        margin-left: 0px;
         font-weight: 400;
         font-size: 30px;
         text-transform: none;
@@ -514,23 +516,26 @@
         margin-top: 30px;
         margin-bottom: 50px;
         text-transform: none;
-        margin-left: 90px
     }
 
         .noidungdoitra ol li {
             font-family: Roboto;
             font-size: 20px;
             text-transform: none;
+            margin-left: 35px;
         }
 
         .noidungdoitra ol p {
             font-family: Roboto;
             font-size: 20px;
             text-transform: none;
+            margin-bottom:10px;
+            margin-top:10px;
         }
 
     .noidungdoitra ul {
         list-style-type: disc;
+        margin-top:10px;
     }
 
         .noidungdoitra ul li {
@@ -545,6 +550,9 @@
     margin-left: 40px;
     margin-bottom: 150px;
     width: 60%;
+    margin-left:40px;
+    padding: 30px;
+    border-left: 1px solid var(--color-hongdam);
 }
 
     .noidungbaomat b {
@@ -569,6 +577,7 @@
             font-family: Roboto;
             font-size: 20px;
             text-transform: none;
+            margin-left:40px;
         }
 
 
@@ -578,13 +587,15 @@
     margin-right: 100px;
     margin-bottom: 150px;
     width: 60%;
+    margin-left:40px;
+    padding: 30px;
+    border-left: 1px solid var(--color-hongdam);
 }
 
     .noidungsudung b {
         font-weight: 400;
         font-size: 30px;
         text-transform: none;
-        margin-left: 70px;
     }
 
     .noidungsudung ol {
@@ -594,7 +605,7 @@
         margin-bottom: 50px;
         text-transform: none;
         opacity: 90%;
-        margin-left: 90px;
+        margin-left:10px;
     }
 
         .noidungsudung ol li p {
@@ -622,20 +633,21 @@
     margin-right: 100px;
     margin-bottom: 150px;
     width: 60%;
+    margin-left:40px;
+    padding: 30px;
+    border-left: 1px solid var(--color-hongdam);
 }
 
     .noidungvanchuyen b {
         font-weight: 400;
         font-size: 30px;
         text-transform: none;
-        margin-left: 70px;
     }
 
     .noidungvanchuyen p {
         font-family: Roboto;
         font-size: 20px;
         margin-top: 30px;
-        margin-left: 70px;
     }
 
     .noidungvanchuyen ol {
@@ -645,7 +657,7 @@
         margin-bottom: 30px;
         text-transform: none;
         opacity: 90%;
-        margin-left: 90px;
+        margin-left: 10px;
     }
 
         .noidungvanchuyen ol li p {
@@ -658,6 +670,7 @@
 
     .noidungvanchuyen ul {
         list-style-type: disc;
+        margin-left:20px;
     }
 
         .noidungvanchuyen ul li {

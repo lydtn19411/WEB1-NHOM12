@@ -2,9 +2,306 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Mỹ phẩm Rosie</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/maintype_dd.css" />
 </head>
 <body>
+    <header>
+        <a><marquee style="font-size:15px" width="26%">[Chương trình ưu đãi sale off 30% vào ngày 12.12]</marquee></a>
+        <i><a href="register.html">Đăng ký</a> &nbsp; <a href="login.html">Đăng nhập</a></i>
+    </header>
+
+    <div class="wrapper">
+        <img src="../Image/Logo/Logo.png" onclick="menu_list('menu_none', this)" />
+        <div class="search">
+            <input type="text" class="input" placeholder="Search...">
+            <a class="searchbtn" href=""><i class="fa fa-search"></i></a>
+        </div>
+        <div class="icons">
+            <a href=""><i class="fa fa-bell"></i></a>
+            <a href=""><i class="fa fa-user-circle"></i></a>
+            <a href="../Page/cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <div class="menu_small" onclick="menu_list('menu', this)"> <i class="fa fa-bars"></i></div>
+        </div>
+    </div>
+
+    <!--Phần menu ngang-->
+    <div class="menu">
+        <ul class="menu_horizontal" id="menu_hor">
+            <li><a href="../index.html">Trang chủ</a></li>
+            <li><a href="makeup.html">Trang điểm</a></li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Thương hiệu</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Thuonghieu/Avene.html">Avène</a>
+                    <a href="../Thuonghieu/cocoon.html">Cocoon</a>
+                    <a href="../Thuonghieu/esteelauder.html">Estee Lauder</a>
+                    <a href="../Thuonghieu/innisfree.html">Innisfree</a>
+                    <a href="../Thuonghieu/kiehl's.html">Kiehl's</a>
+                    <a href="../Thuonghieu/larocheposay.html">La Roche-Posay</a>
+                    <a href="../Thuonghieu/maybeline.html">Maybeline</a>
+                    <a href="../Thuonghieu/ohui.html">Ohui</a>
+                </div>
+            </li>
+            <li class="mn_dropdown">
+                <a class="mn_dropbtn">Dưỡng da</a>
+                <div class="mn_dropdown-content">
+                    <a href="../Duongda/kemchongnang.html">Kem chống nắng</a>
+                    <a href="../Duongda/kemduong.html">Kem dưỡng</a>
+                    <a href="../Duongda/matna.html">Mặt nạ</a>
+                    <a href="../Duongda/suaduongthe.html">Sữa dưỡng thể</a>
+                    <a href="../Duongda/suaruamat.html">Sữa rửa mặt</a>
+                    <a href="../Duongda/taytrang.html">Tẩy trang</a>
+                    <a href="../Duongda/toner.html">Toner</a>
+                </div>
+            </li>
+            <li><a href="../Page/book.html">Sách</a></li>
+            <li><a href="../Page/cauhoithuonggap1.html">Tư vấn</a></li>
+            <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <div class="danhmuc">
+        <!--Phần menu dọc-->
+        <div class="menu_vertical">
+            <b>DANH MỤC SẢN PHẨM </b>
+            <div class="multi-level">
+                <div class="item">
+                    <input type="checkbox" id="A" />
+                    <label for="A">Dưỡng da</label>
+                    <ul>
+                        <li><a href="../Duongda/kemchongnang.html">Kem chống nắng</a></li>
+                        <li><a href="../Duongda/kemduong.html">Kem dưỡng</a></li>
+                        <li><a href="../Duongda/matna.html">Mặt nạ</a></li>
+                        <li><a href="../Duongda/suaduongthe.html">Sữa dưỡng thể</a></li>
+                        <li><a href="../Duongda/suaruamat.html">Sữa rửa mặt</a></li>
+                        <li><a href="../Duongda/taytrang.html">Tẩy trang</a></li>
+                        <li><a href="../Duongda/toner.html">Toner</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="B" />
+                    <label for="B"><a href="../Page/makeup.html">Trang điểm</a></label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="C" />
+                    <label for="C"><a href="../Page/book.html">Sách</a></label>
+                </div>
+            </div>
+
+        </div>
+        <!--Danh sách sản phẩm-->
+        <div class="danhmuc_sanpham">
+            <b>Thương hiệu: #La Roche Posay</b>
+            <div class="product_list">
+
+                <a class="card" href="../Chitietlarocheposay/kcnLRP1.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/kcnLRP1.png" /></div>
+                    <div class="title">La Roche-Posay Anthelios Anti-Imperfections Corrective SPF50+ 50ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 450.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/kcnLRP2.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/kcnLRP2.png" /></div>
+                    <div class="title">La Roche-Posay Anthelios Xl SPF50+ Dry Touch Gel-Cream Anti-Shine 50ml</div>
+                    <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 475.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche Posay Soothing Lotion Sensitive Skin.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/La Roche Posay Soothing Lotion Sensitive Skin.jpeg" /></div>
+                    <div class="title">La Roche-Posay Soothing Lotion Sensitive Skin 200ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 394.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/NuoctaytrangLRP.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/SP_Bosung/76.png" /></div>
+                    <div class="title">Nước Tẩy Trang La Roche Posay Eau Micellaire Ultra 400ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 450.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/Gelruamatchodanhaycam.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/SP_Bosung/81.png" /></div>
+                    <div class="title">Gel rửa mặt tạo bọt cho da dầu nhạy cảm La Roche-Posay 400ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 475.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche-Posay Cicaplast Baume B5.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/La Roche-Posay Cicaplast Baume B5.png" /></div>
+                    <div class="title">La Roche-Posay Cicaplast Baume B5 40ml</div>
+                    <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 332.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche-Posay Effaclar Micellar Water Ultra Oily.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/La Roche-Posay Effaclar Micellar Water Ultra Oily.jpeg" /></div>
+                    <div class="title">La Roche-Posay Effaclar Micellar Water Ultra Oily Skin 200ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 358.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche-Posay Effaclar Purifying Foaming Gel Cleanser For Oily Skin.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/La Roche-Posay Effaclar Purifying Foaming Gel Cleanser For Oily Skin.jpeg" /></div>
+                    <div class="title">La Roche-Posay Effaclar Purifying Foaming Gel Cleanser For Oily Skin 200ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 329.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche Posay Soothing Lotion Sensitive Skin.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/SP_Bosung/71.png" /></div>
+                    <div class="title"> La Roche-Posay Micellar Water Ultra Sensitive Skin 100ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 250.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche-Posay Lipikar Soothing Protecting Hydrating Fluid.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/La Roche-Posay Lipikar Soothing Protecting Hydrating Fluid.png" /></div>
+                    <div class="title">La Roche-Posay Lipikar Soothing Protecting Hydrating Fluid 200ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 435.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche-Posay Micellar Water Ultra Sensitive Skin 200ml.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/La Roche-Posay Micellar Water Ultra Sensitive Skin.jpeg" /></div>
+                    <div class="title">La Roche-Posay Micellar Water Ultra Sensitive Skin 200ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 318.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche-Posay Toleriane Purifying Foaming Cream.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/La Roche-Posay Toleriane Purifying Foaming Cream.png" /></div>
+                    <div class="title">La Roche-Posay Toleriane Purifying Foaming Cream 50ml</div>
+                    <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 225.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche-Posay Uvidea Tone Up Rosy SPF30PLUS.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/La Roche-Posay Uvidea Tone Up Rosy SPF30PLUS.png" /></div>
+                    <div class="title">La Roche-Posay Uvidea Tone Up Rosy SPF30+ 30ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 584.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche-Posay Thermal Spring Water.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/SP_Bosung/73.png" /></div>
+                    <div class="title">La Roche-Posay Thermal Spring Water 300ml</div>
+                    <div class="image_star"><img src="../image/Icon/5_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 385.000 VNĐ</div>
+
+                </a>
+                <a class="card" href="../Chitietlarocheposay/La Roche Posay Serozinc Zinc Sulfate Solution Cleansing.html">
+                    <div class="image"><img src="../Image/Sản phẩm/ImgLareposay/SP_Bosung/78.png" /></div>
+                    <div class="title">La Roche Posay Serozinc Zinc Sulfate Solution Cleansing, Soothing 300ml</div>
+                    <div class="image_star"><img src="../image/Icon/4_sao_danh_gia.png" /></div>
+                    <div class="text">Giá: 395.000 VNĐ</div>
+
+                </a>
+            </div>
+            <!--Phân trang-->
+            <div class="pagination">
+                <ul>
+                    <li class="btn prev"><a>Prev</a> </li>
+                    <li class="page-item" onclick="changePagination('1', this)"><a href="#">1</a></li>
+                    <li class="page-item" onclick="changePagination('2',this)"><a href="#">2</a></li>
+                    <li class="page-item" onclick="changePagination('3', this)"><a href="#">3</a></li>
+                    <li class="page-item" onclick="changePagination('4', this)"><a href="#">4</a></li>
+                    <li class="page-item" onclick="changePagination('5', this)"><a href="#">5</a></li>
+                    <li class="page-item" onclick="changePagination('6', this)"><a href="#">6</a></li>
+                    <li class="page-item" onclick="changePagination('7', this)"><a href="#">7</a></li>
+                    <li class="btn next"><a>Next</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <!--Bắt Đầu Nội Dung Giới Thiệu-->
+            <div class="noi-dung about">
+                <img width="140" height="70" src="../Image/Logo/Logo.png" />
+                <p>
+                    Rosie là kênh mua sắm mỹ phẩm, làm đẹp hàng đầu Việt Nam được các beauty blogger lựa chọn để giới
+                    thiệu sản phẩm họ yêu thích tới khách hàng, người hâm mộ.
+                </p>
+            </div>
+            <!--Kết Thúc Nội Dung Giới Thiệu-->
+            <!--Bắt Đầu Nội Dung Đường Dẫn-->
+            <div class="noi-dung links">
+                <h2>DANH MỤC SẢN PHẨM</h2>
+                <ul>
+                    <li><a href="../Thuonghieu/Avene.html">Thương hiệu</a></li>
+                    <li><a href="../Duongda/suaduongthe.html">Dưỡng da</a></li>
+                    <li><a href="../Page/book.html">Sách</a></li>
+                    <li><a href="../Page/consultation.html">Tư vấn</a></li>
+                    <li><a href="../Beauty blog/blog.html">Beauty blog</a></li>
+                </ul>
+            </div>
+            <div class="../noi-dung chinhsach">
+                <h2>THÔNG TIN VÀ HƯỚNG DẪN</h2>
+                <ul>
+                    <li><a href="../gioithieu-chinhsach/verosie.html">Về Rosie</a></li>
+                    <li><a href="../Page/cauhoithuonggap1.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="../gioithieu-chinhsach/hotrodonhang.html">Hỗ trợ đơn hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/cuahangcuarosie.html">Cửa hàng của Rosie</a></li>
+                    <li><a href="../gioithieu-chinhsach/huongdandathang.html">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="../gioithieu-chinhsach/phuongthucvanchuyen.html">Phương thức vận chuyển</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachdoitra.html">Chính sách đổi trả</a></li>
+                    <li><a href="../gioithieu-chinhsach/chinsachbaomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="../gioithieu-chinhsach/dieukhoansudung.html">Điều khoản sử dụng</a></li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Đường Dẫn-->
+            <!--Bắt Đâu Nội Dung Liên Hệ-->
+            <div class="noi-dung contact">
+                <h2>THÔNG TIN LIÊN HỆ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p>
+                            <a href="#">+84 231 677 789</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>
+                            Đường Số 1 Quận 1 <br /> TP. Hồ Chí Minh
+                            Việt Nam
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="#">rosie19411@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <ul class="social-icon">
+                            <li><a href="https://www.facebook.com/Rosie-101843242352127" rel="noreferrer" target="_blank"><img class="fa fa-facebook" src="../Image/Icon/icon-facebook.png" /></a></li>
+                            <li><a href="https://www.instagram.com/rosie_220901/?fbclid=IwAR0mPgy9xpz76xyJcMXziSTPPkFEtbS-OfuL8mxIqId_rseK1PQI1uhjkAI" rel="noreferrer" target="_blank"><img class="fa fa-instagram" src="../Image/Icon/iconinstagram.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--Kết Thúc Nội Dung Liên Hệ-->
+        </div>
+    </footer>
+
+
+    <!--Javascript-->
+    <script src="../java/mainstyle.js"></script>
+
 
 </body>
 </html>

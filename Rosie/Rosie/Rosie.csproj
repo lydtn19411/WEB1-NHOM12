@@ -2342,11 +2342,13 @@
     <Content Include="Main\Image\Icon\iconmail.png" />
     <Content Include="Main\Image\Icon\iconmessenger.png" />
     <Content Include="Main\Image\Icon\iconphnne.png" />
+    <Content Include="Main\Image\Icon\icon_bag.png" />
     <Content Include="Main\Image\Icon\icon_map.png" />
     <Content Include="Main\Image\Icon\icon_search.png" />
     <Content Include="Main\Image\Icon\icon_thongbao.png" />
     <Content Include="Main\Image\Icon\ic_giỏ hàng.png" />
     <Content Include="Main\Image\Icon\ic_taikhoan 2.png" />
+    <Content Include="Main\Image\Icon\icon_shop.png" />
     <Content Include="Main\Image\Icon\line.png" />
     <Content Include="Main\Image\Icon\location.png" />
     <Content Include="Main\Image\Icon\minus.png" />
