@@ -782,25 +782,25 @@ footer {
                 font-size: 16px;
                 border-radius: 8px;
             }
-.cart_pagination {
+.cart_slide {
     
 }
 
-    .cart_pagination ul {
+    .cart_slide ul {
         list-style: none;
         padding: 5px 5px;
         display: flex;
     }
 
-        .cart_pagination ul li {
+        .cart_slide ul li {
             cursor: pointer;
             text-align: center;
         }
 
-            .cart_pagination ul li:hover {
+            .cart_slide ul li:hover {
             }
 
-            .cart_pagination ul li a {
+            .cart_slide ul li a {
                 text-decoration: none;
                 color: black;
             }
