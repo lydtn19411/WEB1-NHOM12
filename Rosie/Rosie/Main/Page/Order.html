@@ -2,136 +2,134 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đặt hàng</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mỹ phẩm Rosie</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="../Css/maintype.css" />
+    <link rel="stylesheet" type="text/css" href="../Css/style_cart.css" />
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <!--header giỏ hàng-->
-    <div class="cartheader">
-        <div>
-            <ul>
-                <li><img src="../Image/Logo/Logo.png" width="150" /></li>
-                <li style="padding-left: 710px">1. GIỎ HÀNG</li>
-                <li><b>2. THANH TOÁN</b></li>
-                <li>3. HOÀN TẤT</li>
-            </ul>
+    <header>
+        <div class="cart_logo">
+            <img src="../Image/Logo/Logo.png" />
         </div>
-    </div>
+        <ul>
+            <li> <img src="../Image/Icon/ic_giỏ hàng.png" /> </li>
+            <li>1. Giỏ hàng</li>
+            <li class="active"><img src="../Image/Icon/ic_thanhtoan.png" /></li>
+            <li><b>2. Thanh toán</b></li>
+            <li><img src="../Image/Icon/ic_hoantat.png" /></li>
+            <li>3. Hoàn tất</li>
+        </ul>
+    </header>
 
-    <!--Đặt hàng-->
-    <table class="cart_table" width="100%">
-        <tr>
-
-            <!--Thông tin người nhận-->
-            <td style=" text-align: left;">
-                <h4>
-                    <img src="../Image/Icon/location.png" width="50" />
-                    Thông tin người nhận
-                </h4>
-                <div style="padding-left: 30px">
-                    <i id="nameCus">Minh Anh</i> <br />
-                    <i id="phoneCus">03xxxxxxxx</i> <br />
-                    <i id="addressCus">Thôn 1, xã A, huyện B, tỉnh C</i>
+    <div class="container_cart">
+        <div class="cart_col1">
+            <div class="item_infor">
+                <img src="../Image/Icon/location.png" />
+                <div class="title_infor">
+                    <h2>Thông tin người nhận:</h2>
+                    <p>Minh Anh, 0367456770 <br /> xóm A, thôn B, tỉnh C</p>
                 </div>
-            </td>
-
-            <!--2 Button-->
-            <th style="background-color: #ffffff; text-align: center">
-                <button>QUAY LẠI</button>
-            </th>
-            <th style="background-color: #ffffff; text-align: center">
-                <button style="background-color: #8B3A62; color: #ffffff; ">ĐẶT HÀNG</button>
-            </th>
-
-        </tr>
-
-        <tr>
-
-            <!--Phương thức giao hàng-->
-            <td style=" text-align: left;">
-                <h4>
-                    <img src="../Image/Icon/ship.png" width="50" />
-                    Phương thức giao hàng
-                </h4>
-                <div style="padding-left: 30px">
-                    <i id="shipMethod">Giao hàng tiêu chuẩn</i> <br />
-                    <i>Thời gian dự kiến: <b id="deliveryTime">17/11 - 19/11</b></i>
+            </div>
+            <div class="item_infor" style="margin-top: 40px">
+                <img src="../Image/Icon/ship.png" />
+                <div class="title_infor">
+                    <h2>Phương thức giao hàng:</h2>
+                    <p>Giao hàng tiêu chuẩn <br /> Thời gian dự kiến từ ngày 10/12 - 14/12</p>
                 </div>
-            </td>
-
-            <!--Thông tin đơn hàng-->
-            <td colspan="2" rowspan="2" style=" text-align: left;">
-                <div style="vertical-align:top; text-align:left">
-                    <img src="../image/Icon/ic_giỏ hàng.png" style="float:left; padding-right: 10px" ; width="40" />
-                    <h4 style="text-align: left"><i>Thông tin đơn hàng</i></h4>
+            </div>
+            <div class="item_infor" style="margin-top: 40px">
+                <img src="../Image/Icon/payment.png" />
+                <div class="title_infor">
+                    <h2>Phương thức thanh toán :</h2>
+                    <p>Thanh toán bằng ví momo</p>
                 </div>
-                <div>
-                    <img src="../Image/Sản phẩm/ImgCocoon/serum hh.png" width="100" />
-                    <h4 id="pName">Gel rửa mặt hoa hồng CoCoon</h4> <br />
-                    <b id="orderQuantity">2x</b><i>198.000 VNĐ</i>
+            </div>
+            <div class="item_infor" style="margin-top: 40px">
+                <img src="../Image/Icon/note.png" />
+                <div class="title_infor">
+                    <h2>Ghi chú :</h2>
+                    <input type="text" placeholder="Nhập nội dung ghi chú" />
                 </div>
-                <br />
-                <div>
-                    <img style="text-align: left" src="../Image/Sản phẩm/ImgCocoon/combo body.png" width="100" />
-                    <h4>Combo body CoCoon</h4> <br />
-                    <b>1x</b><i>280.000 VNĐ</i>
+               
+            </div>
+
+        </div>
+        <div class="cart_col2">
+            <div class="purchase" style="margin-top: 20px">
+                <a href="cart.html">
+                    <button type="button" class="btn_1">
+                        QUAY LẠI
+                    </button>
+                </a>
+                <a href="Order_Complete.html">
+                    <button type="button" class="btn_2">
+                        THANH TOÁN
+                    </button>
+                </a>
+
+            </div>
+            <div class="product_order">
+                <div class="order">
+                    <div class="item_order">
+                        <img src="../Image/acc_product/La Roche Posay Soothing Lotion Sensitive Skin.png" />
+                        <div class="order_description">
+                            <h3>
+                                La Roche-Posay Effaclar Micellar Water Ultra Oily Skin 200ml
+                            </h3>
+                            <h4>1x 328.000 VNĐ </h4>
+
+                        </div>
+                    </div>
                 </div>
-            </td>
-
-        </tr>
-
-        <tr>
-            <!--Phương thức thanh toán-->
-            <td style=" text-align: left;">
-                <h4>
-                    <img src="../Image/Icon/payment.png" width="50" />
-                    Phương thức thanh toán
-                </h4>
-                <div style="padding-left: 30px">
-                    <i id="payMethod">Thanh toán bằng Momo</i> <br />
+                <div class="order">
+                    <div class="item_order">
+                        <img src="../Image/acc_product/La Roche-Posay Toleriane Purifying Foaming Cream_ccexpress.png" />
+                        <div class="order_description">
+                            <h3>
+                                La Roche-Posay Toleriane Purifying Foaming Cream 50ml
+                            </h3>
+                            <h4>1x 225.000 VNĐ</h4>
+                        </div>
+                    </div>
                 </div>
-            </td>
 
-        </tr>
-
-        <tr>
-
-            <!--Ghi chú-->
-            <td style=" text-align: left;">
-                <h4>
-                    <img src="../Image/Icon/note.png" width="50" />
-                    Ghi chú
-                </h4> <br />
-                <p style="padding: 30px">
-                    <input id="note" style="border-radius: 4px; padding: 10px;" type="text" class="input" placeholder="Nhập nội dung ghi chú" size="50" />
-                </p>
-            </td>
-
-
-            <!--Hóa đơn-->
-            <td colspan="2" style=" text-align: left;">
-                <div style="font-size: 20px; ">
-                    Tiền hàng:
-                    <b id="tienHang" style="float: right;">478.000 VNĐ</b>
-                    <br />
-                    Phí giao hàng:
-                    <b id="deliCharge" style="float: right;">15.000 VNĐ</b>
-                    <br />
-                    Giảm giá:
-                    <b id="discount" style="float: right;">0 VNĐ</b>
-                    <br />
+            </div>
+            <div class="order_total">
+                <div class="item_ordertotal">
+                    <h2>Tiền hàng:</h2>
+                    <h2><b>553.000 VNĐ</b></h2>
+                </div>
+                <div class="item_ordertotal">
+                    <h2>Phí giao hàng:</h2>
+                    <h2><b>15.000 VNĐ</b></h2>
+                </div>
+                <div class="item_ordertotal">
+                    <h2>Giảm giá:</h2>
+                    <h2><b>0 VNĐ</b></h2>
                 </div>
                 <hr />
-                <div style="font-size: 25px;">
-                    Tạm tính:
-                    <b id="totalBill" style="float: right; font-size: 25px">483.000 VNĐ</b>
-                    <br />
+                <div class="item_ordertotal">
+                    <h2>Tổng tiền:</h2>
+                    <h2><b>568.000 VNĐ</b></h2>
                 </div>
-            </td>
-        </tr>
-    </table>
+
+            </div>
+
+        </div>
+        </div>
+
+
+
+
 
     <footer>
         <div class="container">
@@ -204,13 +202,10 @@
     </footer>
 
 
-    <!--lỗi-->
-        <script type="text/javascript">
-            var tienhang = document.getElementById('tienHang');
-            var phiship = document.getElementById('deliCharge');
-            var totalBill = tienhang + phiship;
-            totalBill.innerHTML = totalBill;
-        </script>
+    <script type="text/javascript" src="../java/mainstyle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    </body>
-    </html>
+   
+
+</body>
+</html>

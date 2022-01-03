@@ -685,7 +685,7 @@ footer {
                 transition: 0.6s ease;
             }
 
-/*Phần giỏ hàng*/
+/*Order_complete*/
 .cartheader {
     background: #FFF1F0;
     float: left;
@@ -717,93 +717,18 @@ footer {
     .carttitle i {
         font-size: 20px;
     }
-
-
-.cart_table {
-    width: 100%;
-    border-spacing: 20px;
-    padding: 30px;
-    border-radius: 10%;
-    font-size: 15px;
+.cartheader ul .logo {
+    width: 25%;
+}
+.cartheader ul .active {
+    width: 5%;
+    border-radius: 50px;
+    background-color: var(--color-hongdam);
+}
+.cartheader ul li img{
+    width: 60%;
 }
 
-    .cart_table tr {
-        background-color: #FFF1F0;
-    }
-
-        .cart_table tr th {
-            background-color: #FFF1F0;
-            vertical-align: middle;
-            padding: 15px;
-            text-align: left;
-            border-radius: 20px;
-        }
-
-            .cart_table tr th img {
-                float: left;
-                padding-right: 20px;
-            }
-
-            .cart_table tr th button {
-                border: initial;
-                padding: 15px 32px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                border-radius: 8px;
-                width: 200px;
-                height: 50px;
-            }
-
-        .cart_table tr td {
-            background-color: #FFF1F0;
-            vertical-align: middle;
-            padding: 10px;
-            border-radius: 20px;
-            text-align: center;
-        }
-
-            .cart_table tr td img {
-                float: left;
-                padding-right: 20px;
-            }
-
-            .cart_table tr td div {
-                padding: 20px;
-            }
-
-            .cart_table tr td button {
-                border: initial;
-                padding: 15px 32px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                border-radius: 8px;
-            }
-.cart_slide {
-    
-}
-
-    .cart_slide ul {
-        list-style: none;
-        padding: 5px 5px;
-        display: flex;
-    }
-
-        .cart_slide ul li {
-            cursor: pointer;
-            text-align: center;
-        }
-
-            .cart_slide ul li:hover {
-            }
-
-            .cart_slide ul li a {
-                text-decoration: none;
-                color: black;
-            }
 .order_table {
     padding: 5px;
     margin-bottom: 15px;
@@ -836,7 +761,8 @@ footer {
 .product_detail {
         max-width: 1000px;
         margin-left: 15rem;
-        margin-bottom: 10px;
+        margin-bottom: 0;
+        margin-top: 50px;
         height: 100%;
         max-height: 600px;
     }
@@ -1081,6 +1007,9 @@ a .box {
     }
 
 
+
+
+
 /*CCHUYỂN MÀN HÌNH*/
 @media (max-width: 768px) {
     html {
@@ -1159,6 +1088,11 @@ a .box {
         margin: 5rem 20rem;
     }
 
+
+    /*order_complete*/
+    .cartheader ul li img {
+        display: none;
+    }
     /*Footer*/
     footer .container .noi-dung.about {
         width: 20rem;
