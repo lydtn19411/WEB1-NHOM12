@@ -102,3 +102,28 @@
                 text-transform: none;
                 text-align: center;
             }
+
+
+
+
+/*CCHUYỂN MÀN HÌNH*/
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    .menuthongbao{
+        margin-left:1em;
+        width: 40%;
+    }
+    .tablethongbao{
+       margin-right: 1em;
+       margin-left: 2px;
+    }
+    .tablethongbao table tr td img{
+        width: 7em;
+    }
+        .tablethongbao p a {
+            margin-right: 1em;
+        }
+}

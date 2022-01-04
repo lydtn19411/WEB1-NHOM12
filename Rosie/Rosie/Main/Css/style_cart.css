@@ -420,6 +420,7 @@ header ul li img{
     .item_infor .title_infor input{
         width:500px ;
         font-size: 20px;
+        margin-bottom: 20px;
     }
     .item_infor .title_infor p {
         font-size: 18px;

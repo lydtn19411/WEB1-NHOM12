@@ -234,7 +234,7 @@
 /*DANH MỤC SẢN PHẨM TRONG HOMEPAGE*/
 
 .main_danhmuc_sanpham {
-    width: 150vh;
+    width: 80%;
     position: relative;
     margin: auto;
 }
@@ -368,9 +368,8 @@
 
 @media (max-width: 768px) {
     .danhmuc_sanpham {
-        width: 50%;
-        margin-left: 10rem;
-        text-align: center;
+        width: 95%;
+        margin-left: 2rem;
     }
 
     .product_list_home {
@@ -381,9 +380,9 @@
     }
 
     .timkiemgannhat {
-        width: 50%;
+        width: 95%;
         text-align: center;
-        margin-left: 10rem;
+        margin-left: 2rem;
     }
 
         .timkiemgannhat .text_timkiemgannhat {

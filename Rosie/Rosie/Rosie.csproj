@@ -2249,9 +2249,6 @@
     <Content Include="Main\ChitietMaybeline\son2.html" />
     <Content Include="Main\ChitietMaybeline\son3.html" />
     <Content Include="Main\ChitietMaybeline\taytrang2.html" />
-    <Content Include="Main\ChitietOhui\OhuiWhiteExtreme3DBlackMask.html" />
-    <Content Include="Main\ChitietOhui\OhuiVitalBobyEnergyzingBodyLotion.html" />
-    <Content Include="Main\ChitietOhui\OhuiTheFirstGenitureAmpouleMask.html" />
     <Content Include="Main\ChitietOhui\OHuiPrimeAdvancerAmpouleMask3Step.html" />
     <Content Include="Main\ChitietOhui\OHUIMiracleMoistureSkinSoftener.html" />
     <Content Include="Main\ChitietOhui\OHuiMiracleMoistureCleansingOil.html" />
@@ -2264,6 +2261,9 @@
     <Content Include="Main\ChitietOhui\kcnOHUI.html" />
     <Content Include="Main\ChitietOhui\Geltaytebaochet.html" />
     <Content Include="Main\ChitietOhui\Combobosanphanduongtrang.html" />
+    <Content Include="Main\ChitietOhui\OhuiTheFirstGenitureAmpouleMask.html" />
+    <Content Include="Main\ChitietOhui\OhuiVitalBobyEnergyzingBodyLotion.html" />
+    <Content Include="Main\ChitietOhui\OhuiWhiteExtreme3DBlackMask.html" />
     <Content Include="Main\ChitietSach\biquyetddhq.html" />
     <Content Include="Main\ChitietSach\book_bimatcuanuoc.html" />
     <Content Include="Main\ChitietSach\ddkieunhat.html" />
@@ -2286,6 +2286,10 @@
     <Content Include="Main\Css\style_cart.css" />
     <Content Include="Main\Image\Icon\ic_hoantat.png" />
     <Content Include="Main\Image\Icon\ic_thanhtoan.png" />
+    <Content Include="Main\Image\Team_sang_lap\Ly.png" />
+    <Content Include="Main\Image\Team_sang_lap\MAnh.png" />
+    <Content Include="Main\Image\Team_sang_lap\NgocMinh.png" />
+    <Content Include="Main\Image\Team_sang_lap\Thao.png" />
     <Content Include="Main\Page\fogotpw.html" />
     <Content Include="Main\gioithieu-chinhsach\gioithieurosie.html" />
     <Content Include="Main\Image\acc_product\Estee Lauder Crescent White Cleanser_ccexpress.png" />

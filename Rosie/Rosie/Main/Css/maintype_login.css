@@ -19,8 +19,8 @@ section {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
-    height: 350px;
+    width: 50%;
+    height: 46.7%;
     background: #8B3A62;
 }
 
@@ -34,6 +34,7 @@ section {
 
     .container_form .form_content {
         padding: 30px 20px;
+        font-size: 20px;
         color: white;
         box-shadow: -10px -8px 15px rgba(0, 0, 0, 0.2);
     }
@@ -180,3 +181,23 @@ section {
             .container_form .login_form a:hover {
                 color: #8B3A62;
             }
+
+
+
+
+
+/*CCHUYỂN MÀN HÌNH*/
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+    .container_form {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        width: 90%;
+        height: 46.7%;
+        background: #8B3A62;
+    }
+
+}

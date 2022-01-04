@@ -193,9 +193,9 @@
 
 .menuthongtin {
     display: flow;
-    width: 50%px;
+    width: 20%;
     height: fit-content;
-    margin-left: 125px;
+    margin-left: 80px;
     text-transform: none;
     padding: 30px;
 }
@@ -483,6 +483,12 @@
         margin-bottom: 10px;
         text-transform: none;
     }
+    .noidunggioithieu h5 {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
 
     .noidunggioithieu p {
         font-family: Roboto;
@@ -490,18 +496,37 @@
         text-align: justify;
         text-transform: none;
     }
-
-
-.noidungdoitra {
-    display: flow;
-    text-align: justify;
-    margin-right: 135px;
-    margin-bottom: 150px;
-    width: 60%;
-    margin-left:40px;
-    padding: 30px;
-    border-left: 1px solid var(--color-hongdam);
+.team{
+    display: flex;
+    padding: 2em;
+    width:100%;
 }
+.item_team{
+    text-align: center;
+    margin-left: 2em;
+}
+    .item_team h2{
+        font-size: 20px;
+        margin-top: 2px;
+    }
+    .item_team h3{
+        font-size: 20px;
+        margin-top:-1px;
+    }
+    .item_team a{
+        font-size: 15px;
+    }
+
+    .noidungdoitra {
+        display: flow;
+        text-align: justify;
+        margin-right: 135px;
+        margin-bottom: 150px;
+        width: 60%;
+        margin-left: 40px;
+        padding: 30px;
+        border-left: 1px solid var(--color-hongdam);
+    }
 
     .noidungdoitra b {
         margin-left: 0px;
@@ -679,3 +704,94 @@
             text-transform: none;
             margin-left: 65px;
         }
+
+
+/*CCHUYỂN MÀN HÌNH*/
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    /*Giới thiệu về Rosie*/
+    .menuthongtin{
+        display: none;
+    }
+    .noidunggioithieu{
+        border-left: none;
+        width: 100%;
+        margin: 0;
+    }
+    .team {
+        display: grid;
+        margin-left: -2em;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+
+    /*Điều khoản sử dụng*/
+    .noidungsudung {
+        border-left: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    /*Chính sách bảo mật*/
+    .noidungbaomat {
+        border-left: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    /*Chính sách đổi trả*/
+    .noidungdoitra {
+        border-left: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    /*Phương thức vận chuyển*/
+    .noidungvanchuyen {
+        border-left: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    /*Hướng dẫn đặt hàng*/
+    .noidungdathang{
+        border-left: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    /*Hỗ trợ đơn hàng*/
+    .noidunghotrodonhang{
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+    .table_hotrodonhang{
+        width: 170%;
+        margin-left: -10em;
+        
+    }
+
+    /*Câu hỏi thường gặp*/
+    .cauhoithuonggap_duoi{
+        width: 100%;
+        display: block;
+        margin: 100px 0;
+    }
+    .cauhoithuonggap_duoi_trai{
+        width: 70%;
+        margin:auto;
+    }
+    .cauhoithuonggap_duoi_phai {
+        width: 70%;
+        height: 55vh;
+        margin: 10px auto auto;
+    }
+
+    
+}

@@ -1082,10 +1082,11 @@ a .box {
         grid-column-gap: 40px;
         grid-row-gap: 40px;
         margin-top: 30px;
+        margin-bottom: 1rem;
     }
 
     .pagination {
-        margin: 5rem 20rem;
+       display: none;
     }
 
 

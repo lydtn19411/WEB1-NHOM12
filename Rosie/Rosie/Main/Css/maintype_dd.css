@@ -828,6 +828,8 @@ footer {
     .danhmuc_sanpham {
         width: 90%;
         text-align: center;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
     }
 
     .product_list {
@@ -838,7 +840,7 @@ footer {
     }
 
     .pagination {
-        margin: 5rem 20rem;
+        display: none;
     }
 
     /*Footer*/
