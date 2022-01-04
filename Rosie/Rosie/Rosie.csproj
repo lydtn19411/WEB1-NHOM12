@@ -2649,7 +2649,7 @@
     <Content Include="Main\Thuonghieu\maybeline.html" />
     <Content Include="Main\Thuonghieu\ohui.html" />
     <Content Include="Main\Page\search.html" />
-    <Content Include="Main\index.html" />
+    <Content Include="index.html" />
     <Content Include="Main\Page\makeup.html" />
     <Content Include="Main\Thongbao\Capnhatdonhang.html" />
     <Content Include="Web.config" />
