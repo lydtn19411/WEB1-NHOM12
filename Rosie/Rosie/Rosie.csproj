@@ -2643,9 +2643,7 @@
     <Content Include="Main\Taikhoan\account_donhangcuatoi.html" />
     <Content Include="Main\Taikhoan\account_magiamgia.html" />
     <Content Include="Main\Thuonghieu\Avene.html" />
-    <Content Include="Main\Thuonghieu\cocoon.html" />
     <Content Include="Main\Thuonghieu\esteelauder.html" />
-    <Content Include="Main\Thuonghieu\innisfree.html" />
     <Content Include="Main\Thuonghieu\kiehl%27s.html" />
     <Content Include="Main\Thuonghieu\larocheposay.html" />
     <Content Include="Main\Thuonghieu\maybeline.html" />

@@ -14,6 +14,7 @@
     --color-xam: #C4C4C4;
 }
 
+/*Câu hỏi thường gặp*/
 .cauhoithuonggap_tren {
     background-image: url("../Image/Banner/bg2.png");
     background-repeat: no-repeat;
@@ -183,7 +184,7 @@
 
 
 
-
+/*Menu phần chính sách và giới thiệu*/
 .thongtin {
     display: flex;
     width: 100%;
@@ -248,7 +249,7 @@
 
 
 
-
+/* Về Rosie*/
 .verosie_tren {
     font-family: Roboto;
     background-image: url("../Image/Banner/bg1.jpg");
@@ -392,7 +393,7 @@
         }
 
 
-
+/*Hướng dẫn đặt hàng*/
 .noidungdathang {
     display: flow;
     text-align: justify;
@@ -458,6 +459,8 @@
             margin-bottom: 20px;
         }
 
+
+/*Giới thiệu về Rosie*/
 .noidunggioithieu {
     display: flow;
     text-align: justify;
@@ -517,6 +520,8 @@
         font-size: 15px;
     }
 
+
+/*Hướng dẫn đổi trả*/
     .noidungdoitra {
         display: flow;
         text-align: justify;
@@ -569,6 +574,8 @@
             text-transform: none;
         }
 
+
+/* Chính sách bảo mật*/
 .noidungbaomat {
     display: flow;
     text-align: justify;
@@ -606,6 +613,8 @@
         }
 
 
+
+/*Hướng dẫn sử dụng*/
 .noidungsudung {
     display: flow;
     text-align: justify;
@@ -652,6 +661,8 @@
         }
 
 
+
+/*Phương thức vận chuyển*/
 .noidungvanchuyen {
     display: flow;
     text-align: justify;
@@ -793,5 +804,27 @@
         margin: 10px auto auto;
     }
 
-    
+    /*Về Rosie*/
+
+    .searchrosie{
+        width: 80%;
+        margin: auto;
+    }
+    .verosie_duoi{
+        display: block;
+        position: relative;
+        margin: 0 20em 50em;
+    }
+    .verosie_noidungduoi1 a img , .verosie_noidungduoi2 a img{
+        width: 80%;
+    }
+    .verosie_noidungduoi2 a img{
+        margin-left: -1px;
+    }
+    .verosie_noidungduoi2 p {
+        width: 120%;
+    }
+    .verosie_noidungduoi1 p, .verosie_noidungduoi2 p{
+        margin-left: -20px;
+    }
 }
