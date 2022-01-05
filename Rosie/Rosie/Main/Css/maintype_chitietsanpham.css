@@ -233,6 +233,7 @@ h1 {
 
     .product_detail {
         display: block;
+        margin-left: 10em;
     }
 
     .product_card {
@@ -242,16 +243,23 @@ h1 {
     .product_imgs {
         width: 50%;
     }
+    .product_content{
+        width: 80%;
+    }
 
     .product_information {
-        width: 50%;
+        width: 80%;
     }
 
     .product_item_infor {
         display: block;
         position: relative;
-        margin-top: 63rem;
+        margin-top: 62rem;
         margin-left: 10rem;
         width: 90%;
+        margin-left: -1em;
+    }
+    .purchase{
+        width: 60%;
     }
 }
