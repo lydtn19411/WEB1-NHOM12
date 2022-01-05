@@ -1,5 +1,6 @@
 ﻿/*Khai báo mã màu*/
 :root {
+    --color-hong: #FFF1F0;
     --color-hongdam: #8B3A62;
     --color-hongnhat: #FFE4E1;
     --color-hotpink3: #CD8c95;
@@ -23,7 +24,7 @@
         display: block;
         width: 120%;
         padding: 2rem;
-        background-color: var(--color-hongnhat);
+        background-color: var(--color-hong);
         text-align: center;
         border-radius: 10px;
     }
@@ -48,7 +49,7 @@
         display: block;
         width: 120%;
         padding: 2rem;
-        background-color: var(--color-hongnhat);
+        background-color: var(--color-hong);
         border-radius: 10px;
     }
         .account .account_nav .nav_information h3{
@@ -70,7 +71,7 @@
             }
     .account .acc_container {
         width: 100%;
-        background: var(--color-hongnhat);
+        background: var(--color-hong);
         border-radius: 5px;
         margin-left: 5rem;
         text-align: center;
@@ -182,7 +183,7 @@
 /*Mã giảm giá*/
 .acc_discount {
     width: 100%;
-    background: var(--color-hongnhat);
+    background: var(--color-hong);
     border-radius: 5px;
     margin-left: 5rem;
     text-align: center;
