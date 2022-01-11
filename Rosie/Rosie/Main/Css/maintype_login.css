@@ -176,6 +176,7 @@ section {
             align-items: center;
             justify-content: center;
             color: #CD8C95;
+            font-size: 15px;
         }
 
             .container_form .login_form a:hover {
