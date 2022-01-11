@@ -2286,6 +2286,10 @@
     <Content Include="Main\Css\style_cart.css" />
     <Content Include="Main\Image\Icon\ic_hoantat.png" />
     <Content Include="Main\Image\Icon\ic_thanhtoan.png" />
+    <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estee Lauder Crescent White Cleanser.png" />
+    <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estee Lauder Take It Away Makeup Remover Lotion.png" />
+    <Content Include="Main\Image\Sản phẩm\ImgLareposay\La Roche-Posay Toleriane Purifying Foaming Cream.png" />
+    <Content Include="Main\Image\Sản phẩm\ImgOhui\OHUI Extreme White Skin Softener.jpg" />
     <Content Include="Main\Image\Team_sang_lap\Ly.png" />
     <Content Include="Main\Image\Team_sang_lap\MAnh.png" />
     <Content Include="Main\Image\Team_sang_lap\NgocMinh.png" />
@@ -2414,12 +2418,10 @@
     <Content Include="Main\Image\Sản phẩm\ImgCocoon\Thạch hh dưỡng ẩm.png" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\esla_6.png" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\esla_7.png" />
-    <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estee Lauder Crescent White Cleanser.png" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estee Lauder Micro Essence Infusion Mask.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\ESTEE LAUDER PERFECTLY CLEAN MULTI-ACTION.png" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estee Lauder Revitalizing Supreme+ Global Anti - Aging Power Soft Crème.png" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\ESTEE LAUDER REVITALIZING SUPREME+ NIGHT INTENSIVE.png" />
-    <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estee Lauder Take It Away Makeup Remover Lotion.png" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estée Lauder Crescent White Full Cycle Brightening Ultra-Light SPF 45_PA%284PLUS%29.png" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estée Lauder Micro Essence Skin Activtion Treatment.png" />
     <Content Include="Main\Image\Sản phẩm\ImgEssteelauder\Estée Lauder Re-Nutriv Ultimate Lift Age-Correcting Lotion.jpeg" />
@@ -2504,7 +2506,6 @@
     <Content Include="Main\Image\Sản phẩm\ImgLareposay\La Roche-Posay Lipikar Baume AP+.jpeg" />
     <Content Include="Main\Image\Sản phẩm\ImgLareposay\La Roche-Posay Lipikar Soothing Protecting Hydrating Fluid.png" />
     <Content Include="Main\Image\Sản phẩm\ImgLareposay\La Roche-Posay Micellar Water Ultra Sensitive Skin.jpeg" />
-    <Content Include="Main\Image\Sản phẩm\ImgLareposay\La Roche-Posay Toleriane Purifying Foaming Cream.png" />
     <Content Include="Main\Image\Sản phẩm\ImgLareposay\La Roche-Posay Uvidea Tone Up Rosy SPF30PLUS.png" />
     <Content Include="Main\Image\Sản phẩm\ImgLareposay\SP_Bosung\70.png" />
     <Content Include="Main\Image\Sản phẩm\ImgLareposay\SP_Bosung\71.png" />
@@ -2571,7 +2572,6 @@
     <Content Include="Main\Image\Sản phẩm\ImgOhui\OHui Clinic Science Deep Medi Cleansing Foam.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgOhui\OHUI DAY SHIELD PERFECT SUN RED SPF50+ 50ML.png" />
     <Content Include="Main\Image\Sản phẩm\ImgOhui\Ohui Delight Therapy Body Lotion.jpg" />
-    <Content Include="Main\Image\Sản phẩm\ImgOhui\OHUI Extreme White Skin Softener.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgOhui\Ohui Extreme White Sleeping Mask.png" />
     <Content Include="Main\Image\Sản phẩm\ImgOhui\Ohui Miracle Aqua Gel Cream.jpg" />
     <Content Include="Main\Image\Sản phẩm\ImgOhui\OHUI Miracle Moisture Cleansing Cream.png" />
@@ -2895,9 +2895,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Main\Tinnhan\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="Main\Admin\web\node_modules\dom-serializer\index.d.ts" />
     <TypeScriptCompile Include="Main\Admin\web\node_modules\dom-serializer\node_modules\domelementtype\lib\index.d.ts" />
