@@ -263,3 +263,9 @@ h1 {
         width: 60%;
     }
 }
+
+@media (max-width: 600px){
+    .product_item_infor{
+        margin-top: 70rem;
+    }
+}

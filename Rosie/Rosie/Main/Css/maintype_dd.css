@@ -68,6 +68,7 @@ header {
     width: 100%;
     padding: 1.5rem;
     z-index: 1000;
+    margin-left: 10px;
 }
 
     .wrapper img {
