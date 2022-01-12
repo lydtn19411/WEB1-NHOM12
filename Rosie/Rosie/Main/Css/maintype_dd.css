@@ -157,6 +157,7 @@ header {
 
         .menu ul.menu_horizontal li {
             float: left;
+            margin-left: 33px;
         }
 
             .menu ul.menu_horizontal li a {
@@ -164,7 +165,7 @@ header {
                 display: block;
                 color: black;
                 text-align: left;
-                padding: 14px 50px;
+                padding: 10px 20px;
                 text-decoration: none;
             }
 
@@ -771,6 +772,9 @@ footer {
     }
 
     /*Thanh công cụ và menu ngang*/
+    .wrapper{
+        margin-left: -10px;
+    }
     .search {
         margin-left: 20px;
         margin-right: 50px;
@@ -805,7 +809,7 @@ footer {
         position: absolute;
         display: block;
         width: 30rem;
-        height: 45rem;
+        height: 50rem;
         top: 12.5rem;
         left: 70%;
         z-index: 500;
@@ -816,6 +820,9 @@ footer {
     .menu ul.menu_horizontal {
         background-color: var(--color-hotpink3);
     }
+        .menu ul.menu_horizontal li a{
+            padding: 20px 30px 10px 20px;
+        }
 
         .menu ul.menu_horizontal li:hover .mn_dropdown-content {
             display: none;
